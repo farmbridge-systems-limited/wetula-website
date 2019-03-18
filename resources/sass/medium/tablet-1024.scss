@@ -136,6 +136,7 @@ div#our-founder{
         }
 
         div.img-container{
+            display: block;
             background-image: url("../images/nabin_founder.jpg");
             background-size: cover;
             background-repeat: no-repeat;
@@ -150,6 +151,7 @@ div#our-founder{
 
         .founder-name{
             z-index: 400;
+            display: block;
 
         }
     }

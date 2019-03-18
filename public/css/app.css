@@ -1119,6 +1119,7 @@
   }
 
   div#our-founder div.founder-photo div.img-container {
+    display: block;
     background-image: url(/images/nabin_founder.jpg?7a8a735ad7f56cf989bc5d0e47db0ab2);
     background-size: cover;
     background-repeat: no-repeat;
@@ -1133,6 +1134,7 @@
 
   div#our-founder div.founder-photo .founder-name {
     z-index: 400;
+    display: block;
   }
 
   div#our-founder div.founder-content {
