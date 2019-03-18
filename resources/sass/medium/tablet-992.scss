@@ -1,0 +1,122 @@
+header{
+    display: grid;
+    grid-template-areas:
+        "app_bar_container"
+        "brand_image_container"
+        "nav_bar_container"
+    ;
+    grid-template-columns: 100%;
+    grid-template-rows: auto 130px auto;
+
+
+    div#app-bar-container{
+        grid-area: app_bar_container;
+        background-color: $orange;
+        display: none;
+
+        .mobile-tab-app-bar{
+            display: flex;
+            flex-wrap: nowrap;
+            flex-direction: row;
+            justify-content: space-between;
+
+            .geo-container{
+                background-image: url("../images/arrow_like_background.png");
+                background-size: 100% 100%;
+                background-repeat: no-repeat;
+                flex-grow: 4;
+
+                #geoSettingsToggleBtn,#geoSettingsToggleBtn:active{
+                    color: $green;
+                    margin-left: 4%;
+                    display: none;
+                }
+
+                a#language, a#continent, a#appbar_contact{
+                    margin-right: 0.4rem;
+                    display: inline-block;
+                }
+
+
+            }
+
+
+            .auth-container{
+                flex-grow: 2;
+                color: #ffffff;
+                background-color: $orange;
+            }
+
+            .menu-container{
+                min-width: 100px;
+                background: $green;
+                button{
+                    background: $green;
+                    color: #fff;
+                }
+
+                #menuToggleBtn{
+                    display: none;
+
+
+                }
+
+                #joinBtn{
+                    display: block;
+                }
+            }
+        }
+    }
+
+    div#brand-container{
+        grid-area: brand_image_container;
+        div.container{
+            display: flex;
+            justify-content: space-between;
+            div.logo-container{
+                width: 100%;
+                img{
+                    min-width: 300px;
+                    margin: 0;
+                }
+            }
+            div#wetula_info{
+                padding-right: 2%;
+                align-self: end;
+                display: block;
+                min-width: 400px;
+            }
+        }
+
+    }
+
+    div#nav-container{
+        grid-area: nav_bar_container;
+        background: $green;
+        display: block;
+
+        ul li a span{
+            display: inline;
+        }
+
+        ul li.active{
+            background: white;
+            color: $darkGreen;
+            padding-bottom: 1px;
+        }
+
+        #join-nav-item{
+            display: inline-block;
+        }
+        #login-nav-item{
+            display: inline-block;
+            background: $orange;
+        }
+        #register-nav-item{
+            display: inline-block;
+            color: #ffffff;
+            background: $darkGray;
+        }
+    }
+}
+

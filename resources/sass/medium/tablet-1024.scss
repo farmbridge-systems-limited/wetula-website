@@ -1,0 +1,186 @@
+div#featured-product{
+    div{
+        display: flex;
+        flex-direction: row-reverse;
+
+        div#intro{
+            color: $pink;
+            padding-bottom: 50px;
+            padding-top: 50px;
+            width: 38%;
+            display: flex;
+            flex-direction: column;
+            h2,h3,h1{
+                text-align: center;
+            }
+            hr{
+                width: 20%;
+                height:8px;
+                display: none;
+            }
+            h2{
+                border-left: 8px solid $orange;
+                padding-left: 4px;
+                text-align: left;
+                margin-bottom: 30px;
+            }
+            h3,h1{
+                display: none;
+            }
+
+            div.img-container{
+                display: block;
+                margin-left: -120px;
+                width: 680px;
+                z-index: 400;
+                background: #ffffff;
+                background-image: url("../images/scale_1.png");
+                background-size: contain;
+                background-repeat: no-repeat;
+                min-height: 500px;
+                img{
+                    width: 100%;
+                    display: none;
+                }
+            }
+
+
+        }
+
+        div#content{
+            background-color: $pink;
+
+            div.content-container{
+                display: flex;
+                flex-direction: column;
+
+                padding-left: 10%;
+                padding-right: 20%;
+                color: #ffffff;
+
+                div.img-container{
+                    margin-top: -100px;
+                    display: none;
+                }
+                p{
+                    color: #ffffff;
+                    line-height: 2.2rem;
+                }
+
+                h3,h1{
+                    display: block;
+                }
+
+                button{
+                    margin-top: 50px;
+                    background: $orange;
+                }
+            }
+        }
+    }
+}
+
+
+div#developer-portal{
+    color: $darkGray;
+
+    h2{
+        color: $orange;
+    }
+
+    div.feature-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .feature-item{
+            margin-bottom: 0;
+            margin-left: 10px;
+            margin-right: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            p.text-leader2{
+                color: $orange;
+            }
+
+            p.subtext{
+                text-align: center;
+            }
+
+        }
+    }
+
+    div.portal-call-action-container{
+        display: flex;
+        justify-content: center;
+        button{
+            background: $orange;
+        }
+    }
+}
+
+
+div#our-founder{
+    display: flex;
+    flex-direction: row-reverse;
+    div.founder-photo{
+
+        background: $darkRed;
+        padding-bottom: 20px;
+        h2{
+            color: $orange;
+            text-align: center;
+            display: none;
+        }
+
+        div.img-container{
+            background-image: url("../images/nabin_founder.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position-x: 50%;
+
+            height: 90%;
+            min-width: 350px;
+            img{
+                display: none;
+            }
+        }
+
+        .founder-name{
+            z-index: 400;
+
+        }
+    }
+
+    div.founder-content{
+        background: $darkRed;
+
+        div.container{
+            padding-left: 10%;
+            padding-right: 5%;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            h2{
+                color: $orange;
+                text-align: left;
+            }
+
+            .founder-name{
+                display: none;
+            }
+
+            div.img-container{
+                display: none;
+                img{
+                    margin-top: -150px;
+                }
+
+            }
+            p{
+                color: #ffffff;
+            }
+        }
+    }
+}

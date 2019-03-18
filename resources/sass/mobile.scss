@@ -1,0 +1,295 @@
+header{
+    display: grid;
+    position: relative;
+    width: 100%;
+    z-index: 500;
+
+    grid-template-areas:
+        "app_bar_container"
+        "brand_image_container"
+        "nav_bar_container"
+    ;
+    grid-template-columns: 100%;
+    grid-template-rows: auto 120px auto;
+
+
+    div#app-bar-container{
+        grid-area: app_bar_container;
+        background-color: $orange;
+
+        .mobile-tab-app-bar{
+            display: flex;
+            flex-wrap: nowrap;
+            flex-direction: row;
+            justify-content: space-between;
+
+            .geo-container{
+                background-image: url("images/arrow_like_background.png");
+                background-size: 100% 100%;
+                background-repeat: no-repeat;
+                flex-grow: 4;
+
+                #geoSettingsToggleBtn,#geoSettingsToggleBtn:active{
+                    display: block;
+                    color: $green;
+                    margin-left: 4%;
+
+                    #btnText{
+                        display: none;
+                    }
+                }
+
+                a#language, a#continent, a#appbar_contact{
+                    display: none;
+                }
+
+
+            }
+
+
+            .auth-container{
+                color: #ffffff;
+                background-color: $orange;
+            }
+
+            .menu-container{
+                min-width: 70px;
+                background: $green;
+                button,a{
+                    background: $green;
+                    color: #fff;
+                }
+
+                #menuToggleBtn{
+                    display: block;
+                    font-size: 1.3rem;
+                    span.btnText{
+                        display: none;
+                    }
+                }
+
+                #joinBtn{
+                    display: none;
+                }
+            }
+        }
+    }
+
+    div#brand-container{
+        grid-area: brand_image_container;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        img{
+            width: 300px;
+            margin:  0 auto;
+        }
+
+        div#wetula_info{
+            display: none;
+        }
+    }
+
+    div#nav-container{
+        grid-area: nav_bar_container;
+        display: none;
+        ul li a span{
+            display: none;
+        }
+        #join-nav-item,#register-nav-item,#login-nav-item{
+            display: none
+        }
+    }
+}
+
+div#carousel{
+    padding-top: 0px;
+    .carousel-title{
+        font-size: 2.4rem;
+    }
+    .carousel-text{
+        font-size: 1.6rem;
+    }
+}
+
+div#opening-message{
+    background: $skyGradient;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h2,p{
+        color: $darkGray;
+    }
+
+}
+
+div#customer-segments-overview{
+    h2{
+        color: $orange;
+    }
+    p{
+        color: $darkGray;
+    }
+
+    div.customers-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .customer-item{
+            padding: 10px;
+            width: 130px;
+            margin: 16px;
+            border: 2px solid $orange;
+            border-radius: 16px;
+            transition: background-color 0.3s ease-in;
+            img{
+                margin-left: 2px;
+            }
+            p{
+                text-align: center;
+
+            }
+        }
+
+        .customer-item:hover, .customer-item:active{
+            cursor: pointer;
+            background: $lightGray;
+            border-color: $lightGray;
+        }
+    }
+}
+
+div#join-platform-call{
+    background: $darkGray;
+
+    div.container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        p{
+            color: $lightGray;
+        }
+
+        button{
+            background: $orange;
+        }
+    }
+}
+
+div#featured-product{
+    div{
+        display: flex;
+        flex-direction: column;
+
+        div#intro{
+            color: $pink;
+            padding-bottom: 100px;
+            h2,h3,h1{
+                text-align: center;
+            }
+            hr{
+                width: 20%;
+                height:8px;
+            }
+            h2{
+                text-align: center;
+            }
+
+            div.img-container{
+                display: none;
+            }
+        }
+
+        div#content{
+            background-color: $pink;
+
+            div.content-container{
+                div.img-container{
+                    margin-top: -100px;
+
+                }
+                p{
+                    color: #ffffff;
+                }
+
+                button{
+                 background: $orange;
+                }
+
+                h3, h1{
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+
+div#developer-portal{
+    color: $darkGray;
+
+    h2{
+        color: $orange;
+    }
+
+    div.feature-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .feature-item{
+            margin-bottom: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            p.text-leader2{
+                color: $orange;
+            }
+
+            p.subtext{
+                text-align: center;
+            }
+
+        }
+    }
+
+    div.portal-call-action-container{
+        display: flex;
+        justify-content: center;
+        button{
+            background: $orange;
+        }
+    }
+}
+
+div#our-founder{
+    div.founder-photo{
+        background: #ffffff;
+        padding-bottom: 200px;
+        h2{
+            color: $orange;
+            text-align: center;
+        }
+    }
+
+    div.founder-content{
+        background: $darkRed;
+
+        div.container{
+
+            div.img-container{
+                img{
+                    margin-top: -150px;
+                }
+
+            }
+            p{
+                color: #ffffff;
+            }
+        }
+    }
+}
+

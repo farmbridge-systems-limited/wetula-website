@@ -1,0 +1,176 @@
+header{
+    display: grid;
+    position: fixed;
+    width: 100%;
+    z-index: 500;
+    grid-template-areas:
+        "app_bar_container"
+        "brand_image_container"
+        "nav_bar_container"
+    ;
+    grid-template-columns: 100%;
+    grid-template-rows: auto 120px auto;
+
+
+    div#app-bar-container{
+        grid-area: app_bar_container;
+        background-color: $orange;
+        display: none;
+
+        .mobile-tab-app-bar{
+            display: flex;
+            flex-wrap: nowrap;
+            flex-direction: row;
+            justify-content: space-between;
+
+            .geo-container{
+                background-image: url("../images/arrow_like_background.png");
+                background-size: 100% 100%;
+                background-repeat: no-repeat;
+                flex-grow: 4;
+
+                #geoSettingsToggleBtn,#geoSettingsToggleBtn:active{
+                    color: $green;
+                    margin-left: 4%;
+                    display: none;
+                }
+
+                a#language, a#continent, a#appbar_contact{
+                    margin-right: 0.4rem;
+                    display: inline-block;
+                }
+
+
+            }
+
+
+            .auth-container{
+                flex-grow: 2;
+                color: #ffffff;
+                background-color: $orange;
+            }
+
+            .menu-container{
+                min-width: 100px;
+                background: $green;
+                button{
+                    background: $green;
+                    color: #fff;
+                }
+
+                #menuToggleBtn{
+                    display: none;
+
+
+                }
+
+                #joinBtn{
+                    display: block;
+                }
+            }
+        }
+    }
+
+    div#brand-container{
+        grid-area: brand_image_container;
+        div.container{
+            display: flex;
+            justify-content: space-between;
+            div.logo-container{
+                width: 100%;
+                img{
+                    min-width: 300px;
+                    margin: 0;
+                }
+            }
+            div#wetula_info{
+                padding-right: 2%;
+                align-self: end;
+                display: block;
+                min-width: 400px;
+            }
+        }
+
+    }
+
+    div#nav-container{
+        grid-area: nav_bar_container;
+        background: $green;
+        display: block;
+
+        #join-nav-item{
+            display: inline-block;
+        }
+        #login-nav-item{
+            display: inline-block;
+            background: $orange;
+        }
+        #register-nav-item{
+            display: none;
+            color: $pink;
+            background: #ffffff;
+        }
+    }
+}
+
+
+div#carousel{
+    padding-top: 150px;
+    .carousel-title{
+        font-size: 2.4rem;
+    }
+    .carousel-text{
+        font-size: 1.6rem;
+    }
+}
+
+div#featured-product{
+    div{
+        display: flex;
+        flex-direction: column;
+
+        div#intro{
+            color: $pink;
+            padding-bottom: 200px;
+            h2,h3,h1{
+                text-align: center;
+            }
+            hr{
+                width: 20%;
+                height:8px;
+            }
+            h2{
+                text-align: center;
+            }
+
+            div.img-container{
+                display: none;
+            }
+        }
+
+        div#content{
+            background-color: $pink;
+
+            div.content-container{
+                div.img-container{
+                    margin-top: -200px;
+                    width: 60%;
+                    margin-left: 20%;
+
+                }
+                p{
+                    color: #ffffff;
+                }
+
+                button{
+                    background: $orange;
+                }
+
+                h3, h1{
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
