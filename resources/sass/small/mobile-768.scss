@@ -174,3 +174,50 @@ div#featured-product{
     }
 }
 
+footer {
+    background: $darkGreen;
+
+
+    div#logo-plus-settings-container {
+        display: flex;
+
+        div.language-setting {
+
+            .settings-container {
+
+                align-self: end;
+                padding-left: 100px;
+                padding-top: 80px;
+                display: flex;
+                flex-direction: row;
+                justify-content: end;
+                float: right !important;
+            }
+        }
+    }
+
+    div#site-links {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-left: 0;
+
+
+        .linkset {
+            width: 50%;
+        }
+
+        #major-links ul {
+            display: block;
+
+            li {
+                margin-top: 24px;
+
+            }
+        }
+
+
+    }
+}

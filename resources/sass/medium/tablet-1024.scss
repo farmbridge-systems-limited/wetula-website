@@ -186,3 +186,37 @@ div#our-founder{
         }
     }
 }
+
+
+footer {
+    background: $darkGreen;
+
+
+    div#logo-plus-settings-container {
+    }
+
+    div#site-links {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-left: 0;
+
+
+        .linkset {
+            width: 25%;
+        }
+
+        #major-links ul {
+            display: block;
+
+            li {
+                margin-top: 24px;
+
+            }
+        }
+
+
+    }
+}

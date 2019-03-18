@@ -320,6 +320,40 @@
     background: #F66F0E;
     width: 300px;
   }
+
+  footer {
+    background: #397200;
+  }
+
+  footer a:hover {
+    color: #F66F0E;
+  }
+
+  footer div#logo-plus-settings-container div.language-setting .settings-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  footer div#site-links {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    width: 70%;
+    margin-left: 15%;
+  }
+
+  footer div#site-links .linkset {
+    width: 100%;
+  }
+
+  footer div#site-links #major-links ul {
+    display: block;
+  }
+
+  footer div#site-links #major-links ul li {
+    margin-top: 24px;
+  }
 }
 
 @media only screen and (min-width: 380px) {
@@ -849,6 +883,45 @@
   div#featured-product div div#content div.content-container h1 {
     display: none;
   }
+
+  footer {
+    background: #397200;
+  }
+
+  footer div#logo-plus-settings-container {
+    display: flex;
+  }
+
+  footer div#logo-plus-settings-container div.language-setting .settings-container {
+    align-self: end;
+    padding-left: 100px;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    float: right !important;
+  }
+
+  footer div#site-links {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  footer div#site-links .linkset {
+    width: 50%;
+  }
+
+  footer div#site-links #major-links ul {
+    display: block;
+  }
+
+  footer div#site-links #major-links ul li {
+    margin-top: 24px;
+  }
 }
 
 @media only screen and (min-width: 992px) {
@@ -1167,6 +1240,31 @@
 
   div#our-founder div.founder-content div.container p {
     color: #ffffff;
+  }
+
+  footer {
+    background: #397200;
+  }
+
+  footer div#site-links {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  footer div#site-links .linkset {
+    width: 25%;
+  }
+
+  footer div#site-links #major-links ul {
+    display: block;
+  }
+
+  footer div#site-links #major-links ul li {
+    margin-top: 24px;
   }
 }
 
