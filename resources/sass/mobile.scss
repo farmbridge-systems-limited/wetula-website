@@ -273,10 +273,14 @@ div#our-founder{
             color: $orange;
             text-align: center;
         }
+        div.img-container, .founder-name{
+            display: none;
+        }
     }
 
     div.founder-content{
         background: $darkRed;
+        padding-bottom: 50px;
 
         div.container{
 
@@ -293,3 +297,20 @@ div#our-founder{
     }
 }
 
+div#contact-us-call{
+    background: $lightGray;
+    div.container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        h3{
+            color: $pink;
+        }
+
+        button{
+            background: $orange;
+            width: 300px;
+        }
+    }
+}

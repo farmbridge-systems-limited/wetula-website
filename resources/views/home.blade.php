@@ -366,6 +366,21 @@
                 </div>
             </div>
 
+            {{--Contact Us Call-to-Action--}}
+            <div id="contact-us-call">
+                <div class="container pt-15 pb-20">
+                    <h3 class="text-bold text-center">How can we help you?</h3>
+                    <p class="text-leader2 text-center">
+                        It's likely you might have some questions or might need to clarify certain things . <br>
+                        Feel free to contact our support team for immediate assistance
+                        <br>
+                        <button class="button mt-10 large rounded fg-white text-upper">Contact Us Today</button>
+                    </p>
+
+
+                </div>
+            </div>
+
         </div>
 
 

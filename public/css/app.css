@@ -284,8 +284,14 @@
     text-align: center;
   }
 
+  div#our-founder div.founder-photo div.img-container,
+  div#our-founder div.founder-photo .founder-name {
+    display: none;
+  }
+
   div#our-founder div.founder-content {
     background: #7A201F;
+    padding-bottom: 50px;
   }
 
   div#our-founder div.founder-content div.container div.img-container img {
@@ -294,6 +300,25 @@
 
   div#our-founder div.founder-content div.container p {
     color: #ffffff;
+  }
+
+  div#contact-us-call {
+    background: #BFBFBF;
+  }
+
+  div#contact-us-call div.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  div#contact-us-call div.container h3 {
+    color: #6E44B8;
+  }
+
+  div#contact-us-call div.container button {
+    background: #F66F0E;
+    width: 300px;
   }
 }
 
