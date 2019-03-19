@@ -13,3 +13,4 @@
 
 Route::get('/', 'SiteController@getHomepage');
 Route::get('/about', 'SiteController@getAboutPage');
+Route::get('/sector', 'SiteController@getSectorPage');

@@ -94,14 +94,14 @@
                     <li class=" pt-1 pb-1"><a href="{{url('/')}}">Home</a></li>
                     <li class="active pt-1 pb-1"><a href="{{url('/about')}}">About <span>Us</span></a></li>
                     <li class="pt-1 pb-1">
-                        <a href="#" class="dropdown-toggle">Sectors</a>
+                        <a href="#" class="dropdown-toggle">Sectors </a>
                         <ul class="d-menu" data-role="dropdown">
                             <li>
-                                <a href="#">Cocoa</a>
+                                <a href="{{url('/sector')}}">Cocoa</a>
                             </li>
-                            <li><a href="#">Cashew</a></li>
+                            <li><a href="{{url('/sector')}}">Cashew</a></li>
                             <li class="divider"></li>
-                            <li><a href="#">Maize</a></li>
+                            <li><a href="{{url('/sector')}}">Maize</a></li>
                         </ul>
                     </li>
                     <li class="pt-1 pb-1"><a href="#">Products</a></li>

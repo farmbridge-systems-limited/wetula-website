@@ -117,3 +117,23 @@ div#our-team{
         }
     }
 }
+
+
+/**
+    SECTORS
+ */
+div#sector-landing{
+    background-image: url("../images/tree_crops_featured.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 380px;
+    padding-top: 170px;
+
+    .sector-title-widget{
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        padding: 20px;
+        padding-left: 10%;
+        width: 60%;
+    }
+}

@@ -12,4 +12,10 @@ class SiteController extends Controller
     {
         return view('about');
     }
+
+    public function getSectorPage(){
+        return view('sector');
+    }
+
+
 }

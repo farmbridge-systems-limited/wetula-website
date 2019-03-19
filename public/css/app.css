@@ -454,6 +454,25 @@
   div#aboutpage-call-to-action {
     background: #44B867;
   }
+
+  /**
+      SECTORS
+   */
+
+  div#sector-landing {
+    background-image: url(/images/tree_crops_featured.jpg?5803e4901fc4ec692b1ffa6aaa568dfa);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 380px;
+    padding-top: 170px;
+  }
+
+  div#sector-landing .sector-title-widget {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 20px;
+    width: 80%;
+  }
 }
 
 @media only screen and (min-width: 380px) {
@@ -826,6 +845,26 @@
     width: 40%;
     margin: 16px;
   }
+
+  /**
+      SECTORS
+   */
+
+  div#sector-landing {
+    background-image: url(/images/tree_crops_featured.jpg?5803e4901fc4ec692b1ffa6aaa568dfa);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 380px;
+    padding-top: 170px;
+  }
+
+  div#sector-landing .sector-title-widget {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 20px;
+    padding-left: 10%;
+    width: 60%;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -1110,6 +1149,26 @@
   div#values-container .value-item {
     margin-bottom: 20px;
     padding: 20px;
+  }
+
+  /**
+      SECTORS
+   */
+
+  div#sector-landing {
+    background-image: url(/images/tree_crops_featured.jpg?5803e4901fc4ec692b1ffa6aaa568dfa);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    padding-top: 400px;
+  }
+
+  div#sector-landing .sector-title-widget {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 20px;
+    padding-left: 10%;
+    width: 60%;
   }
 }
 
@@ -1548,6 +1607,26 @@
   div#our-team div.members .member-card {
     width: 20%;
     margin: 16px;
+  }
+
+  /**
+      SECTORS
+   */
+
+  div#sector-landing {
+    background-image: url(/images/tree_crops_featured.jpg?5803e4901fc4ec692b1ffa6aaa568dfa);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 620px;
+    padding-top: 350px;
+  }
+
+  div#sector-landing .sector-title-widget {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 20px;
+    padding-left: 10%;
+    width: 40%;
   }
 }
 
