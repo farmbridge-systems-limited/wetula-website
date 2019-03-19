@@ -1,14 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dac5accc-343c-4c1b-b4a9-10df175403e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/wetula_logo_dark.svg" afterDir="false" />
+    <list default="true" id="dac5accc-343c-4c1b-b4a9-10df175403e7" name="Default Changelist" comment="implemented about page landing section and mission vision section">
+      <change afterPath="$PROJECT_DIR$/public/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/about_featured.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/company_picture_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/images/about_featured.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/images/branded_lines.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/images/company_picture_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/about.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/components/footer.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SiteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SiteController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/_variables.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/sass/medium/tablet-1024.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/medium/tablet-1024.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/sass/mobile.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/mobile.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/small/mobile-576.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/small/mobile-576.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/sass/small/mobile-768.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/small/mobile-768.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,14 +31,14 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.72617245">
+    <splitter split-orientation="horizontal" split-proportion="0.539726">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="185">
-                  <caret line="568" column="88" lean-forward="true" selection-start-line="568" selection-start-column="88" selection-end-line="568" selection-end-column="88" />
+                <state relative-caret-position="-439">
+                  <caret line="338" column="56" lean-forward="true" selection-start-line="338" selection-start-column="56" selection-end-line="338" selection-end-column="56" />
                   <folding>
                     <element signature="n#div#0;n#div#1;n#div#0;n#div#1;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -37,15 +48,52 @@
                     <element signature="n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#style#0;n#p#0;n#div#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#0;n#div#0;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#ul#0;n#div#1;n#div#1;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#ul#0;n#div#2;n#div#1;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#ul#0;n#div#3;n#div#1;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/node_modules/metro4-dist/css/metro.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="149">
+                  <caret line="1727" column="1" lean-forward="true" selection-start-line="1727" selection-start-column="1" selection-end-line="1727" selection-end-column="1" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/resources/views/about.blade.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="233">
+                  <caret line="175" column="40" lean-forward="true" selection-start-line="175" selection-start-column="40" selection-end-line="175" selection-end-column="40" />
+                  <folding>
+                    <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#style#0;n#span#1;n#button#0;n#div#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#ul#0;n#div#0;n#div#2;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#h1#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/routes/web.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="288">
+                  <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+                  <folding>
+                    <element signature="e#7#389#0#PHP" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SiteController.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="336">
+                  <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
                 </state>
               </provider>
             </entry>
@@ -54,11 +102,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/resources/sass/mobile.scss">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/resources/sass/_variables.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="288">
-                  <caret line="321" column="5" lean-forward="true" selection-start-line="321" selection-start-column="5" selection-end-line="321" selection-end-column="5" />
+                <state relative-caret-position="113">
+                  <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
                 </state>
               </provider>
             </entry>
@@ -66,17 +114,35 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/resources/sass/app.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-456">
-                  <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+                <state relative-caret-position="240">
+                  <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/resources/sass/small/mobile-768.scss">
+            <entry file="file://$PROJECT_DIR$/resources/sass/mobile.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="38">
-                  <caret line="176" column="7" lean-forward="true" selection-start-line="176" selection-start-column="7" selection-end-line="176" selection-end-column="7" />
+                <state relative-caret-position="62">
+                  <caret line="446" lean-forward="true" selection-start-line="446" selection-end-line="446" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/resources/sass/small/mobile-576.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="86">
+                  <caret line="95" column="22" lean-forward="true" selection-start-line="95" selection-start-column="22" selection-end-line="95" selection-end-column="22" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/resources/sass/medium/tablet-1024.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="278">
+                  <caret line="304" column="29" lean-forward="true" selection-start-line="304" selection-start-column="29" selection-end-line="304" selection-end-column="29" />
                 </state>
               </provider>
             </entry>
@@ -93,6 +159,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>hr</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -102,8 +173,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/routes/web.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/SiteController.php" />
         <option value="$PROJECT_DIR$/resources/views/home.php" />
         <option value="$PROJECT_DIR$/resources/js/bootstrap.js" />
         <option value="$PROJECT_DIR$/resources/sass/mobile.css" />
@@ -118,15 +187,19 @@
         <option value="$PROJECT_DIR$/resources/js/app.js" />
         <option value="$PROJECT_DIR$/resources/sass/medium/tablet-992.scss" />
         <option value="$PROJECT_DIR$/resources/sass/small/mobile-425.scss" />
-        <option value="$PROJECT_DIR$/resources/sass/small/mobile-576.scss" />
         <option value="$PROJECT_DIR$/resources/sass/small/mobile-380.scss" />
-        <option value="$PROJECT_DIR$/resources/sass/_variables.scss" />
         <option value="$PROJECT_DIR$/resources/sass/large/desktop-1280.scss" />
         <option value="$PROJECT_DIR$/resources/sass/app.scss" />
-        <option value="$PROJECT_DIR$/resources/sass/medium/tablet-1024.scss" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/SiteController.php" />
+        <option value="$PROJECT_DIR$/resources/views/home.blade.php" />
+        <option value="$PROJECT_DIR$/resources/sass/_variables.scss" />
+        <option value="$PROJECT_DIR$/resources/views/components/footer.blade.php" />
         <option value="$PROJECT_DIR$/resources/sass/small/mobile-768.scss" />
         <option value="$PROJECT_DIR$/resources/sass/mobile.scss" />
-        <option value="$PROJECT_DIR$/resources/views/home.blade.php" />
+        <option value="$PROJECT_DIR$/resources/sass/small/mobile-576.scss" />
+        <option value="$PROJECT_DIR$/resources/sass/medium/tablet-1024.scss" />
+        <option value="$PROJECT_DIR$/resources/views/about.blade.php" />
       </list>
     </option>
   </component>
@@ -212,10 +285,10 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="382" />
+    <option name="y" value="85" />
+    <option name="width" value="819" />
+    <option name="height" value="558" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -271,28 +344,14 @@
               <item name="wetula" type="b2602c69:ProjectViewProjectNode" />
               <item name="wetula" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="sass" type="462c0819:PsiDirectoryNode" />
-              <item name="large" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wetula" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wetula" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="sass" type="462c0819:PsiDirectoryNode" />
-              <item name="medium" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wetula" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wetula" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="sass" type="462c0819:PsiDirectoryNode" />
-              <item name="small" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="wetula" type="b2602c69:ProjectViewProjectNode" />
               <item name="wetula" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -313,11 +372,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\projects\WETULA\wetula\public\images" />
       <recent name="C:\projects\WETULA\wetula\resources\sass\images" />
+      <recent name="C:\projects\WETULA\wetula\public\images" />
+      <recent name="C:\projects\WETULA\wetula\resources\views" />
+      <recent name="C:\projects\WETULA\wetula\public" />
       <recent name="C:\projects\WETULA\wetula\public\images\scale" />
-      <recent name="C:\projects\WETULA\wetula\public\images\customers" />
-      <recent name="C:\projects\WETULA\wetula\resources\sass\medium" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\projects\WETULA\wetula\resources\sass\images" />
@@ -383,7 +442,7 @@
       <option name="presentableId" value="Default" />
       <updated>1552740627855</updated>
       <workItem from="1552740629808" duration="46425000" />
-      <workItem from="1552895186077" duration="24385000" />
+      <workItem from="1552895186077" duration="40677000" />
     </task>
     <task id="LOCAL-00001" summary="Implemented homepage -&gt; Contact Us Call to Action">
       <created>1552912287155</created>
@@ -399,11 +458,18 @@
       <option name="project" value="LOCAL" />
       <updated>1552912441528</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Designed Footer">
+      <created>1552919678580</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1552919678580</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70810000" />
+    <option name="totallyTimeSpent" value="87102000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -441,29 +507,14 @@
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="Implemented homepage -&gt; Contact Us Call to Action" />
     <MESSAGE value="Fixed our Founder section responsive bugs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed our Founder section responsive bugs" />
+    <MESSAGE value="Designed Footer" />
+    <MESSAGE value="implemented about page landing section and mission vision section" />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented about page landing section and mission vision section" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#7#389#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SiteController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/popper.js/index.d.ts" />
     <entry file="file://$PROJECT_DIR$/resources/sass/desktop.css" />
     <entry file="file://$PROJECT_DIR$/public/css/app.css">
@@ -497,13 +548,6 @@
     <entry file="file://$PROJECT_DIR$/resources/sass/tablet.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/small/mobile-576.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/sass/medium/tablet-992.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
@@ -535,20 +579,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/metro4-dist/css/metro.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="17469" column="3" selection-start-line="17469" selection-start-column="3" selection-end-line="17469" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/images/wetula_logo_dark.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -556,16 +586,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="341">
           <caret line="19640" column="26" lean-forward="true" selection-start-line="19640" selection-start-column="1" selection-end-line="19640" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/medium/tablet-1024.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="207" column="21" selection-start-line="207" selection-start-column="21" selection-end-line="207" selection-end-column="21" />
-          <folding>
-            <element signature="e#4404#4509#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -583,31 +603,148 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/app.scss">
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-456">
-          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+        <state relative-caret-position="288">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#7#389#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SiteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/about_featured.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/images/about_featured.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/images/branded_lines.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/components/footer.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1577">
+          <caret line="231" column="196" selection-start-line="231" selection-start-column="196" selection-end-line="231" selection-end-column="196" />
+          <folding>
+            <element signature="e#11288#11294#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/metro4-dist/css/metro.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret column="27011" selection-start-column="27011" selection-end-column="27011" />
+          <folding>
+            <element signature="e#428359#430402#1" expanded="true" />
+            <element signature="e#539244#539675#2" expanded="true" />
+            <element signature="e#539726#540105#2" expanded="true" />
+            <element signature="e#540157#540549#2" expanded="true" />
+            <element signature="e#540600#540973#2" expanded="true" />
+            <element signature="e#541024#541908#2" expanded="true" />
+            <element signature="e#541965#542939#2" expanded="true" />
+            <element signature="e#542999#544277#2" expanded="true" />
+            <element signature="e#544335#545941#2" expanded="true" />
+            <element signature="e#545995#546700#2" expanded="true" />
+            <element signature="e#546753#547461#2" expanded="true" />
+            <element signature="e#547516#547968#2" expanded="true" />
+            <element signature="e#548019#548418#2" expanded="true" />
+            <element signature="e#548469#548865#2" expanded="true" />
+            <element signature="e#548917#549328#2" expanded="true" />
+            <element signature="e#549379#549802#2" expanded="true" />
+            <element signature="e#549856#550261#2" expanded="true" />
+            <element signature="e#550316#550713#2" expanded="true" />
+            <element signature="e#550765#551664#2" expanded="true" />
+            <element signature="e#551720#552665#2" expanded="true" />
+            <element signature="e#552717#553110#2" expanded="true" />
+            <element signature="e#553164#553831#2" expanded="true" />
+            <element signature="e#553884#554912#2" expanded="true" />
+            <element signature="e#555268#555677#2" expanded="true" />
+            <element signature="e#555734#556090#2" expanded="true" />
+            <element signature="e#556148#556517#2" expanded="true" />
+            <element signature="e#556574#556924#2" expanded="true" />
+            <element signature="e#556981#557820#2" expanded="true" />
+            <element signature="e#557883#558813#2" expanded="true" />
+            <element signature="e#558879#560113#2" expanded="true" />
+            <element signature="e#560177#561739#2" expanded="true" />
+            <element signature="e#561799#562416#2" expanded="true" />
+            <element signature="e#562475#563095#2" expanded="true" />
+            <element signature="e#563156#563586#2" expanded="true" />
+            <element signature="e#563643#564019#2" expanded="true" />
+            <element signature="e#564076#564445#2" expanded="true" />
+            <element signature="e#564503#564892#2" expanded="true" />
+            <element signature="e#564949#565350#2" expanded="true" />
+            <element signature="e#565410#565792#2" expanded="true" />
+            <element signature="e#565853#566228#2" expanded="true" />
+            <element signature="e#566286#567162#2" expanded="true" />
+            <element signature="e#567224#568147#2" expanded="true" />
+            <element signature="e#568205#568576#2" expanded="true" />
+            <element signature="e#568636#569281#2" expanded="true" />
+            <element signature="e#569340#570346#2" expanded="true" />
+            <element signature="e#787825#788208#2" expanded="true" />
+            <element signature="e#788251#788922#2" expanded="true" />
+            <element signature="e#788966#789636#2" expanded="true" />
+            <element signature="e#789673#790910#2" expanded="true" />
+            <element signature="e#790949#791703#2" expanded="true" />
+            <element signature="e#791741#793063#2" expanded="true" />
+            <element signature="e#793099#794098#2" expanded="true" />
+            <element signature="e#794135#794544#2" expanded="true" />
+            <element signature="e#794581#794937#2" expanded="true" />
+            <element signature="e#794975#795344#2" expanded="true" />
+            <element signature="e#795381#795731#2" expanded="true" />
+            <element signature="e#795768#796607#2" expanded="true" />
+            <element signature="e#796650#797580#2" expanded="true" />
+            <element signature="e#797626#798860#2" expanded="true" />
+            <element signature="e#798904#800466#2" expanded="true" />
+            <element signature="e#800506#801123#2" expanded="true" />
+            <element signature="e#801162#801782#2" expanded="true" />
+            <element signature="e#801823#802253#2" expanded="true" />
+            <element signature="e#802290#802666#2" expanded="true" />
+            <element signature="e#802703#803072#2" expanded="true" />
+            <element signature="e#803110#803499#2" expanded="true" />
+            <element signature="e#803536#803937#2" expanded="true" />
+            <element signature="e#803977#804359#2" expanded="true" />
+            <element signature="e#804400#804775#2" expanded="true" />
+            <element signature="e#804813#805689#2" expanded="true" />
+            <element signature="e#805731#806654#2" expanded="true" />
+            <element signature="e#806692#807063#2" expanded="true" />
+            <element signature="e#807103#807748#2" expanded="true" />
+            <element signature="e#807787#808793#2" expanded="true" />
+            <element signature="e#808834#809396#2" expanded="true" />
+            <element signature="e#809434#810025#2" expanded="true" />
+            <element signature="e#810062#810445#2" expanded="true" />
+            <element signature="e#810482#811157#2" expanded="true" />
+            <element signature="e#811195#811719#2" expanded="true" />
+            <element signature="e#811758#812315#2" expanded="true" />
+            <element signature="e#812354#813006#2" expanded="true" />
+            <element signature="e#813051#813515#2" expanded="true" />
+            <element signature="e#813561#814031#2" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/sass/small/mobile-768.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="176" column="7" lean-forward="true" selection-start-line="176" selection-start-column="7" selection-end-line="176" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/mobile.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="321" column="5" lean-forward="true" selection-start-line="321" selection-start-column="5" selection-end-line="321" selection-end-column="5" />
+        <state relative-caret-position="326">
+          <caret line="280" selection-start-line="280" selection-end-line="290" selection-end-column="1" />
+          <folding>
+            <element signature="e#5866#6034#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="568" column="88" lean-forward="true" selection-start-line="568" selection-start-column="88" selection-end-line="568" selection-end-column="88" />
+        <state relative-caret-position="-439">
+          <caret line="338" column="56" lean-forward="true" selection-start-line="338" selection-start-column="56" selection-end-line="338" selection-end-column="56" />
           <folding>
             <element signature="n#div#0;n#div#1;n#div#0;n#div#1;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -617,14 +754,61 @@
             <element signature="n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#p#0;n#div#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#div#1;n#div#1;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#div#2;n#div#1;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#div#3;n#div#1;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/metro4-dist/css/metro.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="1727" column="1" lean-forward="true" selection-start-line="1727" selection-start-column="1" selection-end-line="1727" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/mobile.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="446" lean-forward="true" selection-start-line="446" selection-end-line="446" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/small/mobile-576.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="95" column="22" lean-forward="true" selection-start-line="95" selection-start-column="22" selection-end-line="95" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/medium/tablet-1024.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="304" column="29" lean-forward="true" selection-start-line="304" selection-start-column="29" selection-end-line="304" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/about.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="175" column="40" lean-forward="true" selection-start-line="175" selection-start-column="40" selection-end-line="175" selection-end-column="40" />
+          <folding>
+            <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#span#1;n#button#0;n#div#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#div#0;n#div#2;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

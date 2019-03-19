@@ -88,3 +88,19 @@ header{
         }
     }
 
+
+/**
+    ABOUT PAGE
+ */
+div#company-overview {
+    .container {
+        .img-container {
+
+            height: 250px;
+            background-image: url("../images/company_picture_1.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position-y: 50%;
+        }
+    }
+}

@@ -1,3 +1,8 @@
+hr {
+    width: 20%;
+    height: 8px;
+}
+
 header{
     display: grid;
     position: relative;
@@ -315,6 +320,7 @@ div#contact-us-call{
     }
 }
 
+
 footer {
     background: $darkGreen;
 
@@ -354,5 +360,101 @@ footer {
         }
 
 
+    }
+}
+
+
+/**
+    ABOUT PAGE
+ */
+
+div#about-landing {
+    background: #ffffff;
+    height: 400px;
+    padding-top: 50px;
+
+    div#featured-background {
+        height: 100%;
+        background-size: 120% 160%;
+        background-image: url("images/about_featured.svg");
+        background-repeat: no-repeat;
+        background-position-x: -120%;
+        background: transparent;
+
+        div.container {
+            padding-top: 0px;
+
+            h2 {
+                margin-top: 0px;
+                color: $darkGray;
+                text-align: center;
+            }
+
+            h1 {
+                color: $orange;
+                font-size: 3rem;
+                text-align: center;
+            }
+
+            blockquote {
+                color: $darkGray;
+                text-align: center;
+                margin-top: 30px;
+            }
+
+            h1.symb-direct {
+                margin-top: 16px;
+                width: 50%;
+                display: none;
+            }
+        }
+    }
+
+    div#branded-lines {
+        margin-top: -30px;
+        background-image: url("images/branded_lines.svg");
+        background-repeat: no-repeat;
+        background-size: 120% 120%;
+        height: 50px;
+        z-index: 301;
+        margin-left: -1%;
+    }
+}
+
+div#values-container {
+    margin-top: -120px;
+    display: flex;
+    flex-direction: column;
+    z-index: 300;
+
+    .value-item {
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+
+    #mission {
+        p.title-text {
+            margin-top: 64px;
+        }
+    }
+
+    #vision, #values {
+        p.title-text {
+            margin-top: 16px;
+        }
+    }
+}
+
+
+div#company-overview {
+    .container {
+        .img-container {
+
+            height: 150px;
+            background-image: url("images/company_picture_1.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position-y: 50%;
+        }
     }
 }

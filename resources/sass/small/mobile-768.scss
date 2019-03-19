@@ -221,3 +221,71 @@ footer {
 
     }
 }
+
+
+/**
+    ABOUT PAGE
+ */
+
+div#about-landing {
+    background: $greenGradient;
+    height: 650px;
+    padding-top: 150px;
+
+    div#featured-background {
+        height: 100%;
+        background-size: 120% 120%;
+        background-image: url("../images/about_featured.svg");
+        background-repeat: no-repeat;
+        background-position-x: -160%;
+
+        div.container {
+            padding-top: 80px;
+
+            h2 {
+                margin-top: 80px;
+                text-align: left;
+                color: #fff;
+            }
+
+            h1 {
+                color: $orange;
+                font-size: 4rem;
+                text-align: left;
+            }
+
+            blockquote {
+                text-align: left;
+                max-width: 50%;
+
+            }
+
+            h1.symb-direct {
+                margin-top: 16px;
+                width: 50%;
+            }
+        }
+
+        div#branded-lines {
+            margin-top: -30px;
+            background-image: url("../images/branded_lines.svg");
+            background-repeat: no-repeat;
+            background-size: 120% 120%;
+            height: 50px;
+            z-index: 301;
+            margin-left: -1%;
+        }
+    }
+}
+
+div#values-container {
+    margin-top: -100px;
+    display: flex;
+    flex-direction: column;
+    z-index: 300;
+
+    .value-item {
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+}
