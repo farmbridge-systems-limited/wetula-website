@@ -104,3 +104,16 @@ div#company-overview {
         }
     }
 }
+
+
+div#our-team{
+    div.members{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        .member-card{
+            width: 40%;
+            margin: 16px;
+        }
+    }
+}

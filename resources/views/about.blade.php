@@ -167,7 +167,7 @@
         <div class="container pt-10 pb-10">
             <hr class="bg-orange w-25">
             <h3 class="text-center mb-10">Company Overview</h3>
-            <div class="img-container rounded"></div>
+            <div class="img-container thumbnail rounded"></div>
 
             <section class="pt-4 pb-4">
                 <figure class="float-right mr-8 " data-aos="zoom-in-right">
@@ -209,6 +209,132 @@
                     comprehensively innovative product portfolios, including solutions for all value chains.
                 </p>
             </section>
+        </div>
+    </div>
+
+
+    {{--Our Team--}}
+
+    <div id="our-team">
+        <div class="container pt-10 pb-10">
+            <hr class="bg-orange w-25">
+            <h3 class="text-center mb-10">Our Team</h3>
+
+            <div class="members">
+                <div class="member-card img-container thumbnail">
+                    <img src="{{asset('images/team/joe_nabin.jpg')}}" alt="Joe Nabin">
+                    <div class="image-overlay op-green d-flex flex-column flex-justify-center">
+                        <h4>Joseph N. Nabin</h4>
+                        <p class="text-leader2">Chief Executive Officer</p>
+                        <ul class="mt-8 inline-list">
+                            <li><a href="#"><span class="mif-facebook mif-3x"></span></a></li>
+                            <li><a href="#"><span class="mif-twitter mif-3x"></span></a></li>
+                            <li><a href="#"><span class="mif-linkedin mif-3x"></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="member-card img-container thumbnail">
+                    <img src="{{asset('images/team/joe_nabin.jpg')}}" alt="Joe Nabin">
+                    <div class="image-overlay op-green d-flex flex-column flex-justify-center">
+                        <h4>Joseph N. Nabin</h4>
+                        <p class="text-leader2">Chief Executive Officer</p>
+                        <ul class="mt-8 inline-list">
+                            <li><a href="#"><span class="mif-facebook mif-3x"></span></a></li>
+                            <li><a href="#"><span class="mif-twitter mif-3x"></span></a></li>
+                            <li><a href="#"><span class="mif-linkedin mif-3x"></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="member-card img-container thumbnail">
+                    <img src="{{asset('images/team/joe_nabin.jpg')}}" alt="Joe Nabin">
+                    <div class="image-overlay op-green d-flex flex-column flex-justify-center">
+                        <h4>Joseph N. Nabin</h4>
+                        <p class="text-leader2">Chief Executive Officer</p>
+                        <ul class="mt-8 inline-list">
+                            <li><a href="#"><span class="mif-facebook mif-3x"></span></a></li>
+                            <li><a href="#"><span class="mif-twitter mif-3x"></span></a></li>
+                            <li><a href="#"><span class="mif-linkedin mif-3x"></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="member-card img-container thumbnail">
+                    <img src="{{asset('images/team/joe_nabin.jpg')}}" alt="Joe Nabin">
+                    <div class="image-overlay op-green d-flex flex-column flex-justify-center">
+                        <h4>Joseph N. Nabin</h4>
+                        <p class="text-leader2">Chief Executive Officer</p>
+                        <ul class="mt-8 inline-list">
+                            <li><a href="#"><span class="mif-facebook mif-3x"></span></a></li>
+                            <li><a href="#"><span class="mif-twitter mif-3x"></span></a></li>
+                            <li><a href="#"><span class="mif-linkedin mif-3x"></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="member-card img-container thumbnail">
+                    <img src="{{asset('images/team/joe_nabin.jpg')}}" alt="Joe Nabin">
+                    <div class="image-overlay op-green d-flex flex-column flex-justify-center">
+                        <h4>Joseph N. Nabin</h4>
+                        <p class="text-leader2">Chief Executive Officer</p>
+                        <ul class="mt-8 inline-list">
+                            <li><a href="#"><span class="mif-facebook mif-3x"></span></a></li>
+                            <li><a href="#"><span class="mif-twitter mif-3x"></span></a></li>
+                            <li><a href="#"><span class="mif-linkedin mif-3x"></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="member-card img-container thumbnail">
+                    <img src="{{asset('images/team/joe_nabin.jpg')}}" alt="Joe Nabin">
+                    <div class="image-overlay op-green d-flex flex-column flex-justify-center">
+                        <h4>Joseph N. Nabin</h4>
+                        <p class="text-leader2">Chief Executive Officer</p>
+                        <ul class="mt-8 inline-list">
+                            <li><a href="#"><span class="mif-facebook mif-3x"></span></a></li>
+                            <li><a href="#"><span class="mif-twitter mif-3x"></span></a></li>
+                            <li><a href="#"><span class="mif-linkedin mif-3x"></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="member-card img-container thumbnail">
+                    <img src="{{asset('images/team/joe_nabin.jpg')}}" alt="Joe Nabin">
+                    <div class="image-overlay op-green d-flex flex-column flex-justify-center">
+                        <h4>Joseph N. Nabin</h4>
+                        <p class="text-leader2">Chief Executive Officer</p>
+                        <ul class="mt-8 inline-list">
+                            <li><a href="#"><span class="mif-facebook mif-3x"></span></a></li>
+                            <li><a href="#"><span class="mif-twitter mif-3x"></span></a></li>
+                            <li><a href="#"><span class="mif-linkedin mif-3x"></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="member-card img-container thumbnail">
+                    <img src="{{asset('images/team/joe_nabin.jpg')}}" alt="Joe Nabin">
+                    <div class="image-overlay op-green d-flex flex-column flex-justify-center">
+                        <h4>Joseph N. Nabin</h4>
+                        <p class="text-leader2">Chief Executive Officer</p>
+                        <ul class="mt-8 inline-list">
+                            <li><a href="#"><span class="mif-facebook mif-3x"></span></a></li>
+                            <li><a href="#"><span class="mif-twitter mif-3x"></span></a></li>
+                            <li><a href="#"><span class="mif-linkedin mif-3x"></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {{--Call to Action--}}
+
+    <div id="aboutpage-call-to-action">
+        <div class="container pt-10 pb-10">
+            <p class="text-leader2 text-center text-bold text-upper fg-white">Learn more about </p>
+            <h2 class="text-center fg-white mt-2">Our Customer Segments</h2>
+
+            <p class="text-leader2 fg-white pl-4 pr-4 text-center">
+                Whilst we will be working with farmers and other stakeholder institutions and individuals in the agricultural sector, we have analyzed the various small holder agriculture value chains. And we have determined that, of the 500 million small holder households in Africa, our innovative technology would generate the most value in the loose and or tight commercial agriculture value chains.
+
+                <br><br>
+
+                <button class="button large rounded fg-white bg-orange text-upper">Learn more...</button>
+            </p>
         </div>
     </div>
     {{--Footer--}}

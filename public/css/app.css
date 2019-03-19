@@ -445,6 +445,15 @@
     background-repeat: no-repeat;
     background-position-y: 50%;
   }
+
+  div#our-team div.members .member-card {
+    width: 90%;
+    margin: 16px;
+  }
+
+  div#aboutpage-call-to-action {
+    background: #44B867;
+  }
 }
 
 @media only screen and (min-width: 380px) {
@@ -805,6 +814,17 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position-y: 50%;
+  }
+
+  div#our-team div.members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  div#our-team div.members .member-card {
+    width: 40%;
+    margin: 16px;
   }
 }
 
@@ -1517,6 +1537,17 @@
   div#company-overview .container section figure img {
     -webkit-clip-path: circle(50% at 50% 50%);
     clip-path: circle(50% at 50% 50%);
+  }
+
+  div#our-team div.members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  div#our-team div.members .member-card {
+    width: 20%;
+    margin: 16px;
   }
 }
 
