@@ -125,6 +125,63 @@
            </div>
        </div>
 
+       <div id="sector-content">
+           <div class="container pt-10 pb-10">
+               <hr class="bg-green ">
+               <h2 class="text-center text-bold fg-orange mt-8 mb-8">Tree Crops</h2>
+
+               <p class="text-leader2 text-center ">
+                   Tree Crops are blah blah and lorem iposium and Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aut autem eaque enim esse explicabo iusto, minus mollitia obcaecati odit omnis pariatur quas saepe sapiente veritatis? Aspernatur iure officia quos! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+               </p>
+
+               <div class="sectors-container mt-8">
+                    <div class="sector-item drop-shadow ">
+                        <div class="sector-image"></div>
+                        <h3 class="fg-green text-center">Cocoa Production</h3>
+                        <p class="">
+                            Tree Crops are blah blah and lorem iposium and Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aut autem eaque enim esse explicabo iusto, minus mollitia obcaecati odit omnis pariatur quas saepe sapiente veritatis? Aspernatur iure officia quos! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus animi autem corporis dicta eaque expedita, fugiat in ipsum itaque labore pariatur, perferendis possimus quae quidem quis sapiente tempore veritatis!
+                        </p>
+                    </div>
+                   <div class="sector-item drop-shadow">
+                       <div class="sector-image"></div>
+                       <h3 class="fg-green text-center">Cocoa Production</h3>
+                       <p class="">
+                           Tree Crops are blah blah and lorem iposium and Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aut autem eaque enim esse explicabo iusto, minus mollitia obcaecati odit omnis pariatur quas saepe sapiente veritatis? Aspernatur iure officia quos! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus animi autem corporis dicta eaque expedita, fugiat in ipsum itaque labore pariatur, perferendis possimus quae quidem quis sapiente tempore veritatis!
+                       </p>
+                   </div>
+                   <div class="sector-item drop-shadow ">
+                       <div class="sector-image"></div>
+                       <h3 class="fg-green text-center">Cocoa Production</h3>
+                       <p class="">
+                           Tree Crops are blah blah and lorem iposium and Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aut autem eaque enim esse explicabo iusto, minus mollitia obcaecati odit omnis pariatur quas saepe sapiente veritatis? Aspernatur iure officia quos! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus animi autem corporis dicta eaque expedita, fugiat in ipsum itaque labore pariatur, perferendis possimus quae quidem quis sapiente tempore veritatis!
+                       </p>
+                   </div>
+                   <div class="sector-item drop-shadow">
+                       <div class="sector-image"></div>
+                       <h3 class="fg-green text-center">Cocoa Production</h3>
+                       <p class="">
+                           Tree Crops are blah blah and lorem iposium and Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aut autem eaque enim esse explicabo iusto, minus mollitia obcaecati odit omnis pariatur quas saepe sapiente veritatis? Aspernatur iure officia quos! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus animi autem corporis dicta eaque expedita, fugiat in ipsum itaque labore pariatur, perferendis possimus quae quidem quis sapiente tempore veritatis!
+                       </p>
+                   </div>
+                   <div class="sector-item drop-shadow ">
+                       <div class="sector-image"></div>
+                       <h3 class="fg-green text-center">Cocoa Production</h3>
+                       <p class="">
+                           Tree Crops are blah blah and lorem iposium and Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aut autem eaque enim esse explicabo iusto, minus mollitia obcaecati odit omnis pariatur quas saepe sapiente veritatis? Aspernatur iure officia quos! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus animi autem corporis dicta eaque expedita, fugiat in ipsum itaque labore pariatur, perferendis possimus quae quidem quis sapiente tempore veritatis!
+                       </p>
+                   </div>
+                   <div class="sector-item drop-shadow">
+                       <div class="sector-image"></div>
+                       <h3 class="fg-green text-center">Cocoa Production</h3>
+                       <p class="">
+                           Tree Crops are blah blah and lorem iposium and Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aut autem eaque enim esse explicabo iusto, minus mollitia obcaecati odit omnis pariatur quas saepe sapiente veritatis? Aspernatur iure officia quos! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus animi autem corporis dicta eaque expedita, fugiat in ipsum itaque labore pariatur, perferendis possimus quae quidem quis sapiente tempore veritatis!
+                       </p>
+                   </div>
+               </div>
+
+           </div>
+       </div>
+
    </div>
 
 

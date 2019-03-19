@@ -473,6 +473,41 @@
     padding: 20px;
     width: 80%;
   }
+
+  div#sector-content .sectors-container .sector-item {
+    display: grid;
+    border-radius: 16px;
+    margin: 16px;
+  }
+
+  div#sector-content .sectors-container .sector-item .sector-image {
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+    height: 150px;
+    background-image: url(/images/cocoa_production.jpg?57f085b5930e5091d979bafeb9d9fd80);
+    background-position-y: 20%;
+    background-repeat: no-repeat;
+  }
+
+  div#sector-content .sectors-container .sector-item h3 {
+    padding-top: 12px;
+  }
+
+  div#sector-content .sectors-container .sector-item p {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    max-height: 100px;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+
+  div#sector-content .sectors-container .sector-item:hover,
+  div#sector-content .sectors-container .sector-item:active {
+    cursor: pointer;
+    box-shadow: 0 8px 8px 0 rgba(246, 111, 14, 0.42), 0 8px 8px 0 rgba(246, 111, 14, 0.4);
+  }
 }
 
 @media only screen and (min-width: 380px) {
@@ -1170,6 +1205,48 @@
     padding-left: 10%;
     width: 60%;
   }
+
+  div#sector-content .sectors-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  div#sector-content .sectors-container .sector-item {
+    display: grid;
+    border-radius: 16px;
+    margin: 20px;
+    width: 44%;
+  }
+
+  div#sector-content .sectors-container .sector-item .sector-image {
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+    height: 150px;
+    background-image: url(/images/cocoa_production.jpg?57f085b5930e5091d979bafeb9d9fd80);
+    background-position-y: 20%;
+    background-repeat: no-repeat;
+  }
+
+  div#sector-content .sectors-container .sector-item h3 {
+    padding-top: 12px;
+  }
+
+  div#sector-content .sectors-container .sector-item p {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    max-height: 100px;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+
+  div#sector-content .sectors-container .sector-item:hover,
+  div#sector-content .sectors-container .sector-item:active {
+    cursor: pointer;
+    box-shadow: 0 8px 8px 0 rgba(246, 111, 14, 0.42), 0 8px 8px 0 rgba(246, 111, 14, 0.4);
+  }
 }
 
 @media only screen and (min-width: 992px) {
@@ -1627,6 +1704,48 @@
     padding: 20px;
     padding-left: 10%;
     width: 40%;
+  }
+
+  div#sector-content .sectors-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  div#sector-content .sectors-container .sector-item {
+    display: grid;
+    border-radius: 16px;
+    margin: 12px;
+    width: 30%;
+  }
+
+  div#sector-content .sectors-container .sector-item .sector-image {
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+    height: 150px;
+    background-image: url(/images/cocoa_production.jpg?57f085b5930e5091d979bafeb9d9fd80);
+    background-position-y: 20%;
+    background-repeat: no-repeat;
+  }
+
+  div#sector-content .sectors-container .sector-item h3 {
+    padding-top: 12px;
+  }
+
+  div#sector-content .sectors-container .sector-item p {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    max-height: 100px;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+
+  div#sector-content .sectors-container .sector-item:hover,
+  div#sector-content .sectors-container .sector-item:active {
+    cursor: pointer;
+    box-shadow: 0 8px 8px 0 rgba(246, 111, 14, 0.42), 0 8px 8px 0 rgba(246, 111, 14, 0.4);
   }
 }
 

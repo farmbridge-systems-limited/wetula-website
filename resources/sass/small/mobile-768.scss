@@ -309,3 +309,48 @@ div#sector-landing{
         width: 60%;
     }
 }
+
+div#sector-content{
+    .sectors-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .sector-item{
+            display: grid;
+            border-radius: 16px;
+            margin: 20px;
+            width: 44%;
+
+
+            .sector-image{
+                border-top-right-radius: 16px;
+                border-top-left-radius: 16px;
+                height: 150px;
+                background-image: url("../images/cocoa_production.jpg");
+                background-position-y: 20%;
+                background-repeat: no-repeat;
+
+            }
+            h3{
+                padding-top: 12px;
+            }
+
+            p{
+                text-align: center;
+                padding-left: 20px;
+                padding-right: 20px;
+                padding-bottom: 20px;
+                max-height: 100px;
+                overflow: hidden;
+                margin-bottom: 20px;
+            }
+        }
+
+        .sector-item:hover, .sector-item:active{
+            cursor: pointer;
+            -webkit-box-shadow: 0 8px 8px 0 rgba(246, 111, 14, 0.42), 0 8px 8px 0 rgba(246, 111, 14, 0.4);
+            box-shadow: 0 8px 8px 0 rgba(246, 111, 14, 0.42), 0 8px 8px 0 rgba(246, 111, 14, 0.4);
+        }
+    }
+}
