@@ -575,6 +575,53 @@
     margin-left: 20px;
     margin-right: 20px;
   }
+
+  div#product-feature #why_use .punchlines-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  div#product-feature #why_use .punchlines-container .punchline-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  div#product-feature #why_use .punchlines-container .punchline-item .item-icon {
+    display: flex;
+    justify-content: center;
+  }
+
+  div#product-feature #why_use .punchlines-container .punchline-item .item-icon img.container {
+    width: 60% !important;
+    margin-left: 20%;
+  }
+
+  div#product-feature #why_use .punchlines-container .punchline-item ul.punchstatments {
+    color: #474747;
+  }
+
+  div#product-feature #why_use .punchlines-container .punchline-item ul.punchstatments li:first-child {
+    margin-top: 12px;
+  }
+
+  div#product-feature #why_use .punchlines-container .punchline-item ul.punchstatments li {
+    margin-bottom: 12px;
+  }
+
+  div#product-feature #why_use .punchlines-container .punchline-item ul.punchstatments li span {
+    margin-right: 6px;
+    color: #60A917;
+  }
+
+  div#product-feature #why_use .punchlines-container img {
+    margin: 0 auto;
+    max-width: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 }
 
 @media only screen and (min-width: 380px) {
@@ -1385,6 +1432,62 @@
   div#product-landing .container .action-call button {
     margin-right: 8px;
   }
+
+  div#product-feature #why_use .punchlines-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  div#product-feature #why_use .punchlines-container .punchline-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  div#product-feature #why_use .punchlines-container .punchline-item .item-icon {
+    display: flex;
+    justify-content: center;
+    justify-self: start;
+    width: 300px;
+    height: 250px;
+    margin-right: 20px;
+  }
+
+  div#product-feature #why_use .punchlines-container .punchline-item .item-icon p {
+    text-align: center;
+  }
+
+  div#product-feature #why_use .punchlines-container .punchline-item .item-icon img.container {
+    width: 60% !important;
+    margin-left: 20%;
+  }
+
+  div#product-feature #why_use .punchlines-container .punchline-item ul.punchstatments {
+    width: 100%;
+    color: #474747;
+  }
+
+  div#product-feature #why_use .punchlines-container .punchline-item ul.punchstatments li:first-child {
+    margin-top: 12px;
+  }
+
+  div#product-feature #why_use .punchlines-container .punchline-item ul.punchstatments li {
+    margin-bottom: 12px;
+  }
+
+  div#product-feature #why_use .punchlines-container .punchline-item ul.punchstatments li span {
+    margin-right: 6px;
+    color: #60A917;
+  }
+
+  div#product-feature #why_use .punchlines-container img {
+    margin: 0 auto;
+    max-width: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 }
 
 @media only screen and (min-width: 992px) {
@@ -1972,6 +2075,62 @@
     margin-left: 20px;
     margin-right: 20px;
   }
+
+  div#product-feature #why_use .punchlines-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  div#product-feature #why_use .punchlines-container .punchline-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  div#product-feature #why_use .punchlines-container .punchline-item .item-icon {
+    display: flex;
+    justify-content: center;
+    justify-self: start;
+    width: 400px;
+    height: 250px;
+    margin-right: 40px;
+  }
+
+  div#product-feature #why_use .punchlines-container .punchline-item .item-icon p {
+    text-align: center;
+  }
+
+  div#product-feature #why_use .punchlines-container .punchline-item .item-icon img.container {
+    width: 60% !important;
+    margin-left: 20%;
+  }
+
+  div#product-feature #why_use .punchlines-container .punchline-item ul.punchstatments {
+    width: 80%;
+    color: #474747;
+  }
+
+  div#product-feature #why_use .punchlines-container .punchline-item ul.punchstatments li:first-child {
+    margin-top: 12px;
+  }
+
+  div#product-feature #why_use .punchlines-container .punchline-item ul.punchstatments li {
+    margin-bottom: 24px;
+  }
+
+  div#product-feature #why_use .punchlines-container .punchline-item ul.punchstatments li span {
+    margin-right: 6px;
+    color: #60A917;
+  }
+
+  div#product-feature #why_use .punchlines-container img {
+    margin: 0 auto;
+    max-width: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 }
 
 @media only screen and (min-width: 1280px) {
@@ -2051,6 +2210,65 @@
 
   div#product-landing .container .action-call button {
     margin-right: 8px;
+  }
+
+  div#product-feature #why_use .punchlines-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  div#product-feature #why_use .punchlines-container .punchline-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  div#product-feature #why_use .punchlines-container .punchline-item .item-icon {
+    display: flex;
+    justify-content: center;
+    justify-self: start;
+    width: 400px;
+    height: 250px;
+    margin-right: 40px;
+  }
+
+  div#product-feature #why_use .punchlines-container .punchline-item .item-icon p {
+    text-align: center;
+  }
+
+  div#product-feature #why_use .punchlines-container .punchline-item .item-icon img.container {
+    width: 60% !important;
+    margin-left: 20%;
+  }
+
+  div#product-feature #why_use .punchlines-container .punchline-item ul.punchstatments {
+    width: 60%;
+    color: #474747;
+    font-weight: 300;
+  }
+
+  div#product-feature #why_use .punchlines-container .punchline-item ul.punchstatments li:first-child {
+    margin-top: 12px;
+  }
+
+  div#product-feature #why_use .punchlines-container .punchline-item ul.punchstatments li {
+    margin-bottom: 24px;
+    line-height: 1.8rem;
+    font-size: 1.2rem;
+  }
+
+  div#product-feature #why_use .punchlines-container .punchline-item ul.punchstatments li span {
+    margin-right: 16px;
+    color: #60A917;
+  }
+
+  div#product-feature #why_use .punchlines-container img {
+    margin: 0 auto;
+    max-width: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 }
 

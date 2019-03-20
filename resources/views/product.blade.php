@@ -225,7 +225,124 @@
                             </div>
                         </div>
                     </div>
-                    <div id="why_use">Applications</div>
+                    <div id="why_use" class="pt-12">
+                        <h3 class="fg-orange text-bold text-center">Why use Wetula Faire Scale</h3>
+                        <hr class="bg-green">
+                        <div class="punchlines-container pt-16">
+                            <div class="punchline-item">
+                                <div class="item-icon">
+                                    <div
+                                        class="img-container d-flex flex-column flex-align-center  border border-1 bd-orange p-8">
+                                        <img src="{{asset('images/punchlines/sell.png')}}" alt="">
+                                        <p class="text-leader2 text-bold fg-green">Easy to Sell</p>
+                                    </div>
+
+                                </div>
+                                <ul class="punchstatments unstyled-list">
+                                    <li><span class="mif-stop"></span>Shorter sales cycles-do not have to test
+                                        extensively in a customer's environment.
+                                    </li>
+                                    <li><span class="mif-stop"></span>Lends itself to tele sales, can demo over phone
+                                        and Web, do not need a huge sales infrastructure to close deals (just need quote
+                                        bearing reps without a huge staff of sales engineers and professional services
+                                        guys to get the job done).
+                                    </li>
+                                    <li><span class="mif-stop"></span>Not a capital expense, usually sold as monthly or
+                                        annual subscription which can many times be taken out of business budget as
+                                        opposed to IT budget.
+                                    </li>
+
+                                </ul>
+                            </div>
+
+                            <div class="punchline-item">
+                                <div class="item-icon">
+                                    <div
+                                        class="img-container d-flex flex-column flex-align-center  border border-1 bd-orange p-8">
+                                        <img src="{{asset('images/punchlines/installer.png')}}" alt="">
+                                        <p class="text-leader2 text-bold fg-green">Easy to Install</p>
+                                    </div>
+
+                                </div>
+                                <ul class="punchstatments unstyled-list">
+                                    <li><span class="mif-stop"></span>No messy installation process, long testing
+                                        process, or fast hardware delivered to customer.
+                                    </li>
+                                    <li><span class="mif-stop"></span>Can leave a customer and simply point them to a
+                                        URL, train them over the phone, and get them up and running.
+                                    </li>
+                                    <li><span class="mif-stop"></span>All of this means that the business can scale
+                                        rapidly.
+                                    </li>
+
+                                </ul>
+                            </div>
+
+
+                            <div class="punchline-item">
+                                <div class="item-icon">
+                                    <div
+                                        class="img-container d-flex flex-column flex-align-center  border border-1 bd-orange p-8">
+                                        <img src="{{asset('images/punchlines/support.png')}}" alt="">
+                                        <p class="text-leader2 text-bold fg-green">Cheap Support</p>
+                                    </div>
+
+                                </div>
+                                <ul class="punchstatments unstyled-list">
+                                    <li><span class="mif-stop"></span>Browser-based delivery and richer client
+                                        interfaces like DHTML make it easy to use for the customer - less training -
+                                        less customer support costs.
+                                    </li>
+
+
+                                </ul>
+                            </div>
+
+                            <div class="punchline-item">
+                                <div class="item-icon">
+                                    <div
+                                        class="img-container d-flex flex-column flex-align-center  border border-1 bd-orange p-8">
+                                        <img src="{{asset('images/punchlines/integration.png')}}" alt="">
+                                        <p class="text-leader2 text-bold fg-green">Easy Integration</p>
+                                    </div>
+
+                                </div>
+                                <ul class="punchstatments unstyled-list">
+                                    <li><span class="mif-stop"></span>Our standard APIs makes it easier for software
+                                        delivered as a service to integrate disparate systems.
+                                    </li>
+                                    <li><span class="mif-stop"></span>Once again, reduces costs to deliver product to
+                                        customers and also removes obstacles to getting customers.
+                                    </li>
+
+                                </ul>
+                            </div>
+
+                            <div class="punchline-item">
+                                <div class="item-icon">
+                                    <div
+                                        class="img-container d-flex flex-column flex-align-center  border border-1 bd-orange p-8">
+                                        <img src="{{asset('images/punchlines/apis.png')}}" alt="">
+                                        <p class="text-leader2 text-bold fg-green">APIs & SDKs</p>
+                                    </div>
+
+                                </div>
+                                <ul class="punchstatments  unstyled-list">
+                                    <li><span class="mif-stop"></span>Versus a few years ago, bandwidth, storage,
+                                        servers, and software are much cheaper now.
+                                    </li>
+                                    <li><span class="mif-stop"></span>Think Linux, Intel boxes, cheap bandwidth,
+                                        commodity software stacks, and smarter entrepreneurs changing the economics of
+                                        building and delivering software as a service.
+
+                                    </li>
+                                    <li><span class="mif-stop"></span>The economics speak for themselves.</li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
                     <div id="pricing_model">Music</div>
                 </div>
             </div>

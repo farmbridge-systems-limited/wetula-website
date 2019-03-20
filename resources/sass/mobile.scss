@@ -625,4 +625,56 @@ div#product-feature {
             }
         }
     }
+
+    #why_use {
+        .punchlines-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            .punchline-item {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                margin-bottom: 20px;
+
+                .item-icon {
+                    display: flex;
+                    justify-content: center;
+
+                    img.container {
+                        width: 60% !important;
+                        margin-left: 20%;
+                    }
+                }
+
+
+                ul.punchstatments {
+                    color: $darkGray;
+
+                    li:first-child {
+                        margin-top: 12px;
+                    }
+
+                    li {
+                        margin-bottom: 12px;
+
+                    }
+
+                    li span {
+                        margin-right: 6px;
+                        color: $green;
+                    }
+                }
+            }
+
+            img {
+                margin: 0 auto;
+                max-width: 100px;
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+        }
+    }
 }
+
