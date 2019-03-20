@@ -390,6 +390,19 @@
             </div>
         </div>
 
+        <div id="product-order-call-to-action">
+            <div class="container pt-10 pb-10">
+                <h1 class="text-center fg-white">Now in Stock</h1>
+                <p class="text-leader text-center fg-lightGray">
+                    The Wetula Faire Scales are now available in stock for orders.
+                    You may place an order today.
+                    <br>
+                    <br>
+                    <button class="button large rounded fg-white bg-orange">Place an order today</button>
+                </p>
+            </div>
+        </div>
+
 
     </div>
 

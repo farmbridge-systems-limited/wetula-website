@@ -622,6 +622,10 @@
     margin-left: 20px;
     margin-right: 20px;
   }
+
+  div#product-order-call-to-action {
+    background: #6E44B8;
+  }
 }
 
 @media only screen and (min-width: 380px) {

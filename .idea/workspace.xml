@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dac5accc-343c-4c1b-b4a9-10df175403e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/pricing/free.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/pricing/subscription.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/large/desktop-1280.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/large/desktop-1280.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/medium/tablet-1024.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/medium/tablet-1024.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/sass/mobile.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/mobile.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/small/mobile-768.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/small/mobile-768.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/product.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/product.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,11 +59,13 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/resources/views/product.blade.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="329">
-                  <caret line="355" column="136" lean-forward="true" selection-start-line="355" selection-start-column="136" selection-end-line="355" selection-end-column="136" />
+                <state relative-caret-position="300">
+                  <caret line="400" column="96" lean-forward="true" selection-start-line="400" selection-start-column="96" selection-end-line="400" selection-end-column="96" />
                   <folding>
+                    <element signature="n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#2;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                   </folding>
                 </state>
               </provider>
@@ -109,11 +106,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/resources/sass/mobile.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="278">
-                  <caret line="680" column="20" selection-start-line="680" selection-start-column="20" selection-end-line="680" selection-end-column="20" />
+                <state relative-caret-position="374">
+                  <caret line="688" column="21" selection-start-line="688" selection-start-column="21" selection-end-line="688" selection-end-column="21" />
                   <folding>
                     <element signature="e#11721#12402#0" />
                     <element signature="e#12416#13652#0" />
@@ -136,11 +133,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/resources/sass/large/desktop-1280.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="254">
-                  <caret line="154" lean-forward="true" selection-start-line="154" selection-end-line="154" />
+                  <caret line="155" lean-forward="true" selection-start-line="155" selection-end-line="155" />
                   <folding>
                     <element signature="e#1503#3062#0" />
                   </folding>
@@ -204,10 +201,10 @@
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/SiteController.php" />
         <option value="$PROJECT_DIR$/resources/sass/small/mobile-576.scss" />
-        <option value="$PROJECT_DIR$/resources/sass/mobile.scss" />
         <option value="$PROJECT_DIR$/resources/sass/small/mobile-768.scss" />
         <option value="$PROJECT_DIR$/resources/sass/medium/tablet-1024.scss" />
         <option value="$PROJECT_DIR$/resources/sass/large/desktop-1280.scss" />
+        <option value="$PROJECT_DIR$/resources/sass/mobile.scss" />
         <option value="$PROJECT_DIR$/resources/views/product.blade.php" />
       </list>
     </option>
@@ -458,7 +455,7 @@
       <updated>1552740627855</updated>
       <workItem from="1552740629808" duration="46425000" />
       <workItem from="1552895186077" duration="63204000" />
-      <workItem from="1553078678599" duration="3402000" />
+      <workItem from="1553078678599" duration="3702000" />
     </task>
     <task id="LOCAL-00001" summary="Implemented homepage -&gt; Contact Us Call to Action">
       <created>1552912287155</created>
@@ -495,11 +492,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553080062669</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="implemented pricing model">
+      <created>1553082148339</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1553082148339</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113031000" />
+    <option name="totallyTimeSpent" value="113331000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
@@ -582,7 +586,8 @@
     <MESSAGE value="implemented company overview section" />
     <MESSAGE value="implemented smart features section of product page" />
     <MESSAGE value="implemented why to use wetula scale section" />
-    <option name="LAST_COMMIT_MESSAGE" value="implemented why to use wetula scale section" />
+    <MESSAGE value="implemented pricing model" />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented pricing model" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -846,18 +851,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/mobile.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="680" column="20" selection-start-line="680" selection-start-column="20" selection-end-line="680" selection-end-column="20" />
-          <folding>
-            <element signature="e#11721#12402#0" />
-            <element signature="e#12416#13652#0" />
-            <element signature="e#12755#13001#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/sass/small/mobile-768.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="446">
@@ -883,20 +876,34 @@
     <entry file="file://$PROJECT_DIR$/resources/sass/large/desktop-1280.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="254">
-          <caret line="154" lean-forward="true" selection-start-line="154" selection-end-line="154" />
+          <caret line="155" lean-forward="true" selection-start-line="155" selection-end-line="155" />
           <folding>
             <element signature="e#1503#3062#0" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/mobile.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="688" column="21" selection-start-line="688" selection-start-column="21" selection-end-line="688" selection-end-column="21" />
+          <folding>
+            <element signature="e#11721#12402#0" />
+            <element signature="e#12416#13652#0" />
+            <element signature="e#12755#13001#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/product.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="355" column="136" lean-forward="true" selection-start-line="355" selection-start-column="136" selection-end-line="355" selection-end-column="136" />
+        <state relative-caret-position="300">
+          <caret line="400" column="96" lean-forward="true" selection-start-line="400" selection-start-column="96" selection-end-line="400" selection-end-column="96" />
           <folding>
+            <element signature="n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
