@@ -392,3 +392,113 @@ div#sector-content{
         }
     }
 }
+
+
+div#product-landing {
+    .container {
+        padding-top: 100px;
+        display: flex;
+
+        .text-content {
+            padding-top: 15%;
+
+            p {
+                color: $orange;
+                text-align: left;
+                font-weight: 500;
+            }
+
+            h1 {
+                font-weight: 500;
+                text-align: left;
+                color: $orange;
+            }
+
+            p.subtext {
+                color: $darkGray;
+            }
+
+            .action-call {
+                display: flex;
+                justify-content: start;
+            }
+        }
+
+        div.img-container {
+            width: 55%;
+            margin-left: 0;
+        }
+
+        .action-call {
+
+            display: none;
+            justify-content: center;
+
+            button {
+                margin-right: 8px;
+            }
+        }
+    }
+}
+
+
+div#product-description {
+
+    .container {
+
+
+        .video-section {
+            display: flex;
+            flex-direction: row;
+
+            iframe {
+                width: 50%;
+                height: 290px
+            }
+
+            .see-it-text {
+                width: 48%;
+                padding-left: 20px;
+
+                h3 {
+                    text-align: left;
+                }
+
+                p {
+                    text-align: left;
+                }
+            }
+
+        }
+    }
+}
+
+
+div#product-feature {
+
+    #smart_features {
+        .smart-features-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            .smart-feature-item {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                margin: 20px;
+
+                img {
+                    margin: 0 auto;
+                    max-width: 100px;
+                    margin-left: 20px;
+                    margin-right: 20px;
+                }
+            }
+
+            .smart-feature-item:active, .smart-feature-item:hover {
+                //background: opacify($orange, 0.3);
+            }
+        }
+    }
+}

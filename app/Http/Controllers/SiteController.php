@@ -17,5 +17,10 @@ class SiteController extends Controller
         return view('sector');
     }
 
+    public function getProductPage()
+    {
+        return view('product');
+    }
+
 
 }

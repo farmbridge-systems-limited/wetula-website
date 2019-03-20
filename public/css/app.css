@@ -508,6 +508,73 @@
     cursor: pointer;
     box-shadow: 0 8px 8px 0 rgba(246, 111, 14, 0.42), 0 8px 8px 0 rgba(246, 111, 14, 0.4);
   }
+
+  /**
+      PRODUCT PAGE
+   */
+
+  div#product-landing .container .text-content p {
+    color: #F66F0E;
+    text-align: center;
+    font-weight: 500;
+  }
+
+  div#product-landing .container .text-content h1 {
+    font-weight: 500;
+    text-align: center;
+    color: #F66F0E;
+  }
+
+  div#product-landing .container .text-content p.subtext {
+    color: #474747;
+  }
+
+  div#product-landing .container .text-content .action-call {
+    display: none;
+  }
+
+  div#product-landing .container .action-call {
+    display: flex;
+    justify-content: center;
+  }
+
+  div#product-description .container .video-section {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  div#product-description .container .video-section iframe {
+    width: 100%;
+    height: 280px;
+  }
+
+  div#product-description .container .video-section .see-it-text h3 {
+    text-align: center;
+  }
+
+  div#product-description .container .video-section .see-it-text p {
+    text-align: center;
+  }
+
+  div#product-feature #smart_features .smart-features-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  div#product-feature #smart_features .smart-features-container .smart-feature-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  div#product-feature #smart_features .smart-features-container .smart-feature-item img {
+    margin: 0 auto;
+    max-width: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 }
 
 @media only screen and (min-width: 380px) {
@@ -900,6 +967,35 @@
     padding-left: 10%;
     width: 60%;
   }
+
+  /**
+      PRODUCT PAGE
+   */
+
+  div#product-landing .container .text-content p {
+    color: #F66F0E;
+    text-align: center;
+    font-weight: 500;
+  }
+
+  div#product-landing .container .text-content h1 {
+    font-weight: 500;
+    text-align: center;
+    color: #F66F0E;
+  }
+
+  div#product-landing .container .text-content p.subtext {
+    color: #474747;
+  }
+
+  div#product-landing .container .action-call {
+    display: flex;
+    justify-content: center;
+  }
+
+  div#product-landing .container .action-call button {
+    margin-right: 8px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -1246,6 +1342,48 @@
   div#sector-content .sectors-container .sector-item:active {
     cursor: pointer;
     box-shadow: 0 8px 8px 0 rgba(246, 111, 14, 0.42), 0 8px 8px 0 rgba(246, 111, 14, 0.4);
+  }
+
+  /**
+  PRODUCT PAGE
+   */
+
+  div#product-page {
+    padding-top: 180px;
+  }
+
+  div#product-landing .container {
+    padding-top: 100px;
+  }
+
+  div#product-landing .container .text-content p {
+    color: #F66F0E;
+    text-align: center;
+    font-weight: 500;
+  }
+
+  div#product-landing .container .text-content h1 {
+    font-weight: 500;
+    text-align: center;
+    color: #F66F0E;
+  }
+
+  div#product-landing .container .text-content p.subtext {
+    color: #474747;
+  }
+
+  div#product-landing .container div.img-container {
+    width: 60%;
+    margin-left: 20%;
+  }
+
+  div#product-landing .container .action-call {
+    display: flex;
+    justify-content: center;
+  }
+
+  div#product-landing .container .action-call button {
+    margin-right: 8px;
   }
 }
 
@@ -1747,6 +1885,93 @@
     cursor: pointer;
     box-shadow: 0 8px 8px 0 rgba(246, 111, 14, 0.42), 0 8px 8px 0 rgba(246, 111, 14, 0.4);
   }
+
+  div#product-landing .container {
+    padding-top: 100px;
+    display: flex;
+  }
+
+  div#product-landing .container .text-content {
+    padding-top: 15%;
+  }
+
+  div#product-landing .container .text-content p {
+    color: #F66F0E;
+    text-align: left;
+    font-weight: 500;
+  }
+
+  div#product-landing .container .text-content h1 {
+    font-weight: 500;
+    text-align: left;
+    color: #F66F0E;
+  }
+
+  div#product-landing .container .text-content p.subtext {
+    color: #474747;
+  }
+
+  div#product-landing .container .text-content .action-call {
+    display: flex;
+    justify-content: start;
+  }
+
+  div#product-landing .container div.img-container {
+    width: 55%;
+    margin-left: 0;
+  }
+
+  div#product-landing .container .action-call {
+    display: none;
+    justify-content: center;
+  }
+
+  div#product-landing .container .action-call button {
+    margin-right: 8px;
+  }
+
+  div#product-description .container .video-section {
+    display: flex;
+    flex-direction: row;
+  }
+
+  div#product-description .container .video-section iframe {
+    width: 50%;
+    height: 290px;
+  }
+
+  div#product-description .container .video-section .see-it-text {
+    width: 48%;
+    padding-left: 20px;
+  }
+
+  div#product-description .container .video-section .see-it-text h3 {
+    text-align: left;
+  }
+
+  div#product-description .container .video-section .see-it-text p {
+    text-align: left;
+  }
+
+  div#product-feature #smart_features .smart-features-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  div#product-feature #smart_features .smart-features-container .smart-feature-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+  }
+
+  div#product-feature #smart_features .smart-features-container .smart-feature-item img {
+    margin: 0 auto;
+    max-width: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 }
 
 @media only screen and (min-width: 1280px) {
@@ -1778,6 +2003,54 @@
   div#customer-segments-overview div.customers-container .customer-item p {
     text-align: center;
     font-size: 1.2rem;
+  }
+
+  div#product-page {
+    padding-top: 120px;
+  }
+
+  div#product-landing .container {
+    padding-top: 100px;
+    display: flex;
+  }
+
+  div#product-landing .container .text-content {
+    padding-top: 10%;
+  }
+
+  div#product-landing .container .text-content p {
+    color: #F66F0E;
+    text-align: left;
+    font-weight: 500;
+  }
+
+  div#product-landing .container .text-content h1 {
+    font-weight: 500;
+    text-align: left;
+    color: #F66F0E;
+  }
+
+  div#product-landing .container .text-content p.subtext {
+    color: #474747;
+  }
+
+  div#product-landing .container .text-content .action-call {
+    display: flex;
+    justify-content: start;
+  }
+
+  div#product-landing .container div.img-container {
+    width: 35%;
+    margin-left: 0;
+  }
+
+  div#product-landing .container .action-call {
+    display: none;
+    justify-content: center;
+  }
+
+  div#product-landing .container .action-call button {
+    margin-right: 8px;
   }
 }
 

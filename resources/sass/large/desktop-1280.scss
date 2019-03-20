@@ -25,3 +25,55 @@ div#customer-segments-overview{
         }
     }
 }
+
+div#product-page {
+    padding-top: 120px;
+}
+
+div#product-landing {
+    .container {
+        padding-top: 100px;
+        display: flex;
+
+        .text-content {
+            padding-top: 10%;
+
+            p {
+                color: $orange;
+                text-align: left;
+                font-weight: 500;
+            }
+
+            h1 {
+                font-weight: 500;
+                text-align: left;
+                color: $orange;
+            }
+
+            p.subtext {
+                color: $darkGray;
+            }
+
+            .action-call {
+                display: flex;
+                justify-content: start;
+            }
+        }
+
+        div.img-container {
+            width: 35%;
+            margin-left: 0;
+        }
+
+        .action-call {
+
+            display: none;
+            justify-content: center;
+
+            button {
+                margin-right: 8px;
+            }
+        }
+    }
+}
+

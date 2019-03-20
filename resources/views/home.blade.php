@@ -98,11 +98,15 @@
                                         <li><a href="#">Maize</a></li>
                                     </ul>
                                 </li>
-                                <li class="pt-1 pb-1"><a href="#">Products</a></li>
-                                <li class="pt-1 pb-1"><a href="#">Contact <span>Us</span></a></li>
-                                <li class="pt-1 pb-1" id="join-nav-item"><a href="#">Join Us</a></li>
-                                <li class="pt-1 pb-1 place-right" id="login-nav-item"><a href="#" class="text-upper text-bold"><span class="mif-user"></span> Client Login</a></li>
-                                <li class="pt-1 pb-1 place-right" id="register-nav-item"><a href="#" class=""><span class="mif-user-plus"></span> Create an Account</a></li>
+                                <li class="pt-1 pb-1"><a href="{{url('/product')}}">Products</a></li>
+                                <li class="pt-1 pb-1"><a href="{{url('/contact-us')}}">Contact <span>Us</span></a></li>
+                                <li class="pt-1 pb-1" id="join-nav-item"><a href="{{url('/join-us')}}">Join Us</a></li>
+                                <li class="pt-1 pb-1 place-right" id="login-nav-item"><a href="{{url('/login')}}"
+                                                                                         class="text-upper text-bold"><span
+                                            class="mif-user"></span> Client Login</a></li>
+                                <li class="pt-1 pb-1 place-right" id="register-nav-item"><a href="{{url('/register')}}"
+                                                                                            class=""><span
+                                            class="mif-user-plus"></span> Create an Account</a></li>
                             </ul>
                         </div>
                     </div>
