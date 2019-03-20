@@ -141,4 +141,19 @@ div#product-feature {
             }
         }
     }
+
+    #pricing_model {
+        .pricing-container {
+            display: flex;
+            justify-content: center;
+
+            .price-table {
+                margin-left: 18px;
+                margin-right: 18px;
+                width: 30%;
+            }
+        }
+
+
+    }
 }

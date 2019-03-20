@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dac5accc-343c-4c1b-b4a9-10df175403e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/punchlines/apis.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/punchlines/installer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/punchlines/integration.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/punchlines/sell.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/punchlines/support.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pricing/free.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pricing/subscription.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/sass/large/desktop-1280.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/large/desktop-1280.scss" afterDir="false" />
@@ -25,7 +22,7 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.47049925">
+    <splitter split-orientation="horizontal" split-proportion="0.6410959">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
@@ -67,8 +64,12 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/resources/views/product.blade.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="302">
-                  <caret line="304" column="141" selection-start-line="304" selection-start-column="141" selection-end-line="304" selection-end-column="141" />
+                <state relative-caret-position="329">
+                  <caret line="355" column="136" lean-forward="true" selection-start-line="355" selection-start-column="136" selection-end-line="355" selection-end-column="136" />
+                  <folding>
+                    <element signature="n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -98,8 +99,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/resources/sass/small/mobile-768.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="206">
-                  <caret line="403" selection-start-line="403" selection-end-line="464" />
+                <state relative-caret-position="446">
+                  <caret line="479" column="5" lean-forward="true" selection-start-line="466" selection-start-column="4" selection-end-line="479" selection-end-column="5" />
                   <folding>
                     <element signature="e#7785#8475#0" />
                     <element signature="e#9216#10452#0" />
@@ -111,8 +112,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/resources/sass/mobile.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="64">
-                  <caret line="592" column="39" lean-forward="true" selection-start-line="592" selection-start-column="39" selection-end-line="592" selection-end-column="39" />
+                <state relative-caret-position="278">
+                  <caret line="680" column="20" selection-start-line="680" selection-start-column="20" selection-end-line="680" selection-end-column="20" />
                   <folding>
                     <element signature="e#11721#12402#0" />
                     <element signature="e#12416#13652#0" />
@@ -125,10 +126,11 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/resources/sass/medium/tablet-1024.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="206">
-                  <caret line="548" column="21" lean-forward="true" selection-start-line="548" selection-start-column="21" selection-end-line="548" selection-end-column="21" />
+                <state relative-caret-position="446">
+                  <caret line="580" column="5" lean-forward="true" selection-start-line="567" selection-start-column="4" selection-end-line="580" selection-end-column="5" />
                   <folding>
                     <element signature="e#9610#10288#0" />
+                    <element signature="e#10329#11888#0" />
                   </folding>
                 </state>
               </provider>
@@ -137,8 +139,11 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/resources/sass/large/desktop-1280.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="302">
-                  <caret line="118" column="35" lean-forward="true" selection-start-line="118" selection-start-column="35" selection-end-line="118" selection-end-column="35" />
+                <state relative-caret-position="254">
+                  <caret line="154" lean-forward="true" selection-start-line="154" selection-end-line="154" />
+                  <folding>
+                    <element signature="e#1503#3062#0" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -201,9 +206,9 @@
         <option value="$PROJECT_DIR$/resources/sass/small/mobile-576.scss" />
         <option value="$PROJECT_DIR$/resources/sass/mobile.scss" />
         <option value="$PROJECT_DIR$/resources/sass/small/mobile-768.scss" />
-        <option value="$PROJECT_DIR$/resources/views/product.blade.php" />
         <option value="$PROJECT_DIR$/resources/sass/medium/tablet-1024.scss" />
         <option value="$PROJECT_DIR$/resources/sass/large/desktop-1280.scss" />
+        <option value="$PROJECT_DIR$/resources/views/product.blade.php" />
       </list>
     </option>
   </component>
@@ -322,6 +327,13 @@
             <path>
               <item name="wetula" type="b2602c69:ProjectViewProjectNode" />
               <item name="wetula" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="pricing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wetula" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wetula" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -374,16 +386,16 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2018.3.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\projects\WETULA\wetula\resources\sass\images" />
+      <recent name="C:\projects\WETULA\wetula\public\images" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\projects\WETULA\wetula\public\images\pricing" />
       <recent name="C:\projects\WETULA\wetula\public\images\punchlines" />
       <recent name="C:\projects\WETULA\wetula\public\images\smart_features" />
       <recent name="C:\projects\WETULA\wetula\public\images\scale" />
       <recent name="C:\projects\WETULA\wetula\resources\sass\images" />
-      <recent name="C:\projects\WETULA\wetula\public\images" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\projects\WETULA\wetula\resources\sass\images" />
-      <recent name="C:\projects\WETULA\wetula\public\images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -446,7 +458,7 @@
       <updated>1552740627855</updated>
       <workItem from="1552740629808" duration="46425000" />
       <workItem from="1552895186077" duration="63204000" />
-      <workItem from="1553078678599" duration="1338000" />
+      <workItem from="1553078678599" duration="3402000" />
     </task>
     <task id="LOCAL-00001" summary="Implemented homepage -&gt; Contact Us Call to Action">
       <created>1552912287155</created>
@@ -476,11 +488,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553076005030</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="implemented why to use wetula scale section">
+      <created>1553080062669</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1553080062669</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110967000" />
+    <option name="totallyTimeSpent" value="113031000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
@@ -489,7 +508,7 @@
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="npm" order="1" side_tool="true" weight="0.17170954" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="3" weight="0.17170954" />
+      <window_info content_ui="combo" id="Project" order="3" visible="true" weight="0.17170954" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32991454" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.44102564" />
@@ -562,7 +581,8 @@
     <MESSAGE value="implemented about page landing section and mission vision section" />
     <MESSAGE value="implemented company overview section" />
     <MESSAGE value="implemented smart features section of product page" />
-    <option name="LAST_COMMIT_MESSAGE" value="implemented smart features section of product page" />
+    <MESSAGE value="implemented why to use wetula scale section" />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented why to use wetula scale section" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -819,10 +839,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="37" lean-forward="true" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/sass/mobile.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="592" column="39" lean-forward="true" selection-start-line="592" selection-start-column="39" selection-end-line="592" selection-end-column="39" />
+        <state relative-caret-position="278">
+          <caret line="680" column="20" selection-start-line="680" selection-start-column="20" selection-end-line="680" selection-end-column="20" />
           <folding>
             <element signature="e#11721#12402#0" />
             <element signature="e#12416#13652#0" />
@@ -831,17 +858,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="37" lean-forward="true" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/sass/small/mobile-768.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="403" selection-start-line="403" selection-end-line="464" />
+        <state relative-caret-position="446">
+          <caret line="479" column="5" lean-forward="true" selection-start-line="466" selection-start-column="4" selection-end-line="479" selection-end-column="5" />
           <folding>
             <element signature="e#7785#8475#0" />
             <element signature="e#9216#10452#0" />
@@ -851,25 +871,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/sass/medium/tablet-1024.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="548" column="21" lean-forward="true" selection-start-line="548" selection-start-column="21" selection-end-line="548" selection-end-column="21" />
+        <state relative-caret-position="446">
+          <caret line="580" column="5" lean-forward="true" selection-start-line="567" selection-start-column="4" selection-end-line="580" selection-end-column="5" />
           <folding>
             <element signature="e#9610#10288#0" />
+            <element signature="e#10329#11888#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/sass/large/desktop-1280.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="118" column="35" lean-forward="true" selection-start-line="118" selection-start-column="35" selection-end-line="118" selection-end-column="35" />
+        <state relative-caret-position="254">
+          <caret line="154" lean-forward="true" selection-start-line="154" selection-end-line="154" />
+          <folding>
+            <element signature="e#1503#3062#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/product.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="304" column="141" selection-start-line="304" selection-start-column="141" selection-end-line="304" selection-end-column="141" />
+        <state relative-caret-position="329">
+          <caret line="355" column="136" lean-forward="true" selection-start-line="355" selection-start-column="136" selection-end-line="355" selection-end-column="136" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>

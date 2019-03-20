@@ -343,7 +343,49 @@
                         </div>
 
                     </div>
-                    <div id="pricing_model">Music</div>
+                    <div id="pricing_model" class="pt-12 pb-10">
+                        <h3 class="fg-orange text-bold text-center">Pricing Model</h3>
+                        <hr class="bg-green">
+
+                        <div class="pricing-container mt-16">
+                            <div class="price-table border border-2 mb-10 bd-green">
+                                <div class="bg-green p-8">
+                                    <h3 class="fg-white text-center text-upper">Farmers</h3>
+                                </div>
+
+                                <div
+                                    class="d-flex flex-justify-center border border-1 bd-green p-6 border-left-none border-right-none">
+                                    <img width="100" height="100" src="{{asset('images/pricing/free.png')}}"
+                                         alt="Farmers free">
+                                </div>
+                                <div
+                                    class="pt-6 pb-6 border d-flex flex-column flex-align-center border-1 bd-green border-left-none border-right-none border-bottom-none">
+
+                                    <p>Field-based usage</p>
+                                    <p>Must have a Wetula Farmers Account</p>
+                                    <button class="button mt-8 large rounded bg-green fg-white">Register Now</button>
+                                </div>
+                            </div>
+                            <div class="price-table border border-1 mb-10 bd-orange">
+                                <div class="bg-orange p-8">
+                                    <h3 class="fg-white text-center text-upper">Corporates</h3>
+                                </div>
+
+                                <div class="d-flex flex-justify-center border border-1 bd-orange p-6">
+                                    <img width="100" height="100" src="{{asset('images/pricing/subscription.png')}}"
+                                         alt="Farmers free">
+                                </div>
+                                <div class="pt-6 pb-6 border d-flex flex-column flex-align-center border-1 bd-orange">
+
+                                    <p>Must be a registred corporation</p>
+                                    <p>Bulk accounts management</p>
+                                    <p>Access APIs & SDKs</p>
+                                    <p>Full time technical support </p>
+                                    <button class="button mt-8 large rounded bg-orange fg-white">Subscribe Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
