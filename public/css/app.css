@@ -626,6 +626,25 @@
   div#product-order-call-to-action {
     background: #6E44B8;
   }
+
+  /**
+      CONTACT PAGE
+   */
+
+  div#contact-page div.contact-form {
+    background-image: url(/images/tree_crops_featured.jpg?5803e4901fc4ec692b1ffa6aaa568dfa);
+    background-size: cover;
+  }
+
+  div#contact-page div.contact-form div.container {
+    display: flex;
+    justify-content: center;
+  }
+
+  div#contact-page div.contact-form div.container div.form-container {
+    width: 100%;
+    padding: 20px;
+  }
 }
 
 @media only screen and (min-width: 380px) {
@@ -1503,6 +1522,31 @@
     margin-right: 15px;
     width: 50%;
   }
+
+  /**
+      CONTACT PAGE
+   */
+
+  div#contact-page {
+    padding-top: 150px;
+  }
+
+  div#contact-page div.contact-form {
+    background-image: url(/images/tree_crops_featured.jpg?5803e4901fc4ec692b1ffa6aaa568dfa);
+    background-size: cover;
+  }
+
+  div#contact-page div.contact-form div.container {
+    display: flex;
+    justify-content: center;
+  }
+
+  div#contact-page div.contact-form div.container div.form-container {
+    width: 80%;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }
 
 @media only screen and (min-width: 992px) {
@@ -2157,6 +2201,27 @@
     margin-right: 15px;
     width: 38%;
   }
+
+  div#contact-page {
+    padding-top: 170px;
+  }
+
+  div#contact-page div.contact-form {
+    background-image: url(/images/tree_crops_featured.jpg?5803e4901fc4ec692b1ffa6aaa568dfa);
+    background-size: cover;
+  }
+
+  div#contact-page div.contact-form div.container {
+    display: flex;
+    justify-content: center;
+  }
+
+  div#contact-page div.contact-form div.container div.form-container {
+    width: 75%;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }
 
 @media only screen and (min-width: 1280px) {
@@ -2306,6 +2371,27 @@
     margin-left: 18px;
     margin-right: 18px;
     width: 30%;
+  }
+
+  div#contact-page {
+    padding-top: 170px;
+  }
+
+  div#contact-page div.contact-form {
+    background-image: url(/images/tree_crops_featured.jpg?5803e4901fc4ec692b1ffa6aaa568dfa);
+    background-size: cover;
+  }
+
+  div#contact-page div.contact-form div.container {
+    display: flex;
+    justify-content: center;
+  }
+
+  div#contact-page div.contact-form div.container div.form-container {
+    width: 70%;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
 }
 

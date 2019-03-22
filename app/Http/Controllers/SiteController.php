@@ -22,5 +22,10 @@ class SiteController extends Controller
         return view('product');
     }
 
+    public function getContactPage()
+    {
+        return view('contact');
+    }
+
 
 }

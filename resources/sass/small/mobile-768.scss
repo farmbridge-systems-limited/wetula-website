@@ -479,3 +479,34 @@ div#product-feature {
 
     }
 }
+
+
+/**
+    CONTACT PAGE
+ */
+
+div#contact-page {
+    padding-top: 150px;
+
+    div.contact-form {
+        background-image: url("../images/tree_crops_featured.jpg");
+        background-size: cover;
+
+        div.container {
+            display: flex;
+            justify-content: center;
+
+            div.form-container {
+                width: 80%;
+                padding: 20px;
+                padding-left: 30px;
+                padding-right: 30px;
+
+                form {
+                    //padding-left: 2%;
+                    //padding-right: 2%;
+                }
+            }
+        }
+    }
+}
