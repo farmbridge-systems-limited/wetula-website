@@ -133,9 +133,9 @@
 
 
         </div>
-        <div style="background-image: url({{asset('images/cocoa.gif')}})" class="contact-form   pt-10 pb-10">
+        <div style="background-image: url({{asset('images/cocoa.gif')}})" class="contact-form pt-10 pb-10">
             <div class="container">
-                <div class="form-container   rounded bg-lightGray">
+                <div class="form-container rounded bg-lightGray">
                     <h2 class="fg-orange text-center">Write us a message</h2>
                     <br>
                     <form class="">
@@ -156,9 +156,9 @@
                     </form>
                 </div>
             </div>
-
-
         </div>
+
+        <map-component></map-component>
     </div>
 
 
@@ -176,3 +176,10 @@
 
 </script>
 </html>
+<script>
+    import MapComponent from "../js/components/MapComponent";
+
+    export default {
+        components: {MapComponent}
+    }
+</script>

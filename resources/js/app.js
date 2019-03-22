@@ -1,9 +1,16 @@
 require('./bootstrap');
 window.Vue = require('vue');
+window.VueGoogleMaps = require('vue2-google-maps');
+window.Vuelidate = require('vuelidate');
 
 
+Vue.use(Vuelidate);
+Vue.use(VueGoogleMaps, {
+    key: 'AIzaSyAyEBbnGhCIgALnVG82bVwQPCQmHl3KXzQ',
+    libraries: 'places'
+});
 
-Vue.component('example-component', require('./components/HeaderComponent.vue').default);
+Vue.component('map-component', require('./components/MapComponent.vue').default);
 
 
 const app = new Vue({
