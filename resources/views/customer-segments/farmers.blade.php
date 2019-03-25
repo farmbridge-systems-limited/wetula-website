@@ -150,6 +150,21 @@
             </div>
         </div>
 
+        <div id="contact-us-call">
+            <div class="container pt-10 pb-10">
+                <h1 class="text-center ">How can we help you?</h1>
+                <p class="text-center text-leader">It's likely you might have some questions or might need to clarify
+                    certain things . <br>
+                    Feel free to contact out support team for immediate assistance
+
+                    <br>
+                    <br>
+                    <button class="button bg-orange fg-white large rounded">Contact Us Today</button>
+                </p>
+            </div>
+            o
+        </div>
+
     </div>
 
 

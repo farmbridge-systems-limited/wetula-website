@@ -1953,6 +1953,14 @@
   div.content-wrapper.customer-segment-page div#sector-content .container .sector-pricing .pricing-container .price-table {
     width: 50%;
   }
+
+  div.content-wrapper.customer-segment-page div#contact-us-call {
+    background-color: #BFBFBF;
+  }
+
+  div.content-wrapper.customer-segment-page div#contact-us-call h1 {
+    color: #6E44B8;
+  }
 }
 
 @media only screen and (min-width: 992px) {

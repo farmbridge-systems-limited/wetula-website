@@ -69,7 +69,7 @@
                         <h2 class="text-center text-bold ">World-Class Platform
                             Built by Industry Experts</h2>
 
-                        <p class="text-center text-leader2 pt-4 pb-4">Wetula empowers farmers and organizations with
+                        <p class="text-center text-leader pt-4 pb-4">Wetula empowers farmers and organizations with
                             software and hardware tools to help them increase productivity.</p>
 
                         <div class="d-flex flex-justify-center">
