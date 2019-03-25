@@ -206,21 +206,25 @@ div.content-wrapper.customer-segment-page {
     }
 
     nav {
+        padding-top: 40px;
         display: block;
+        min-height: 120px;
 
         ul {
             li {
-                margin: 0;
-                border-bottom: 4px solid $lightGray;
+                margin-left: 10px;
+                border-bottom: 5px solid $lightGray;
+                transition: border-bottom-color 0.2s ease-in;
 
                 a {
                     background: white;
                     color: $darkGray;
                     font-weight: 400;
+                    transition: color 0.2s ease-in;
                 }
             }
 
-            li.active {
+            li:hover {
                 border-bottom: 5px solid $orange;
 
                 a {

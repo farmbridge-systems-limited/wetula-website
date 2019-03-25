@@ -28,15 +28,7 @@
             </div>
         </div>
 
-        <nav class="container">
-
-            <ul id="scrolltab" class="inline-list d-flex flex-justify-center">
-                <li class="active"><a href="#overview" class="button large">Overview</a></li>
-                <li><a href="#benefits" class="button large">Benefits</a></li>
-                <li><a href="#requirements" class="button large">Requirements</a></li>
-                <li><a href="#pricing" class="button large">Pricing</a></li>
-            </ul>
-        </nav>
+        <customer-segment-nav-component></customer-segment-nav-component>
 
         <div id="sector-content">
             <div class="container pt-10 pb-10">
@@ -44,26 +36,48 @@
                     <hr class="bg-green ">
                     <h2 class="text-center text-bold fg-orange mt-8 mb-8">Overview</h2>
 
-                    <div id="sector-video" class="d-flex flex-justify-center">
-                        <iframe style="margin: 0 auto" src="https://www.youtube-nocookie.com/embed/vAlG-i5KE7k?start=17"
-                                frameborder="0"
-                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen></iframe>
+                    <div class="sector-overview-content">
+                        <div id="sector-video" class="d-flex flex-justify-center">
+                            <iframe style="margin: 0 auto"
+                                    src="https://www.youtube-nocookie.com/embed/vAlG-i5KE7k?start=17"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
 
+                        </div>
+                        <p class="overview-text text-leader">
+                            Actively automating and networking smallholder farmers' farm activity and trade data
+                            collection,
+                            storage and retrieval in real-time anywhere and anytime. Actively automating and networking
+                            smallholder farmers' farm activity and trade data collection, storage and retrieval in
+                            real-time
+                            anywhere and anytime.
+                        </p>
                     </div>
-                    <p class="overview-text text-leader2">
-                        Actively automating and networking smallholder farmers' farm activity and trade data collection,
-                        storage and retrieval in real-time anywhere and anytime. Actively automating and networking
-                        smallholder farmers' farm activity and trade data collection, storage and retrieval in real-time
-                        anywhere and anytime.
-                    </p>
                 </div>
 
                 <div id="benefits" class="sector-benefits">
                     <hr class="bg-green ">
                     <h2 class="text-center text-bold fg-orange mt-4 mb-8">Benefits</h2>
 
-                    <ul class="b">
+                    <ul class="">
+                        <li class="">
+                            <p class="">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi.
+                            </p>
+                        </li>
+                        <li>
+                            <p class="">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, cupiditate dolores
+                                earum fugiat impedit ratione sit tempore veritatis!
+                            </p>
+                        </li>
+                        <li>
+                            <p class="">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, cupiditate dolores
+                                earum fugiat impedit ratione sit tempore veritatis!
+                            </p>
+                        </li>
                         <li class="">
                             <p class="">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi.
@@ -93,7 +107,7 @@
                     </p>
 
                     <ul class="step-list">
-                        <li>
+                        <li class="bg-light rounded selected-item p-10">
                             <h4>Verified Farmlands </h4>
                             <p>
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
@@ -101,14 +115,14 @@
                                 printer took a galley of type and scrambled it to make a type specimen book.
                             </p>
                         </li>
-                        <li>
+                        <li class="bg-light rounded p-10">
                             <h4>Wetula ID</h4>
                             <p>
                                 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
                                 piece of classical Latin literature from 45 BC, making it over 2000 years old.
                             </p>
                         </li>
-                        <li>
+                        <li class="bg-light rounded p-10">
                             <h4>Verified farmlands</h4>
                             <p>
                                 There are many variations of passages of Lorem Ipsum available, but the majority have
@@ -177,4 +191,7 @@
 </body>
 
 <script src="{{asset('js/app.js')}}"></script>
+<script>
+
+</script>
 </html>

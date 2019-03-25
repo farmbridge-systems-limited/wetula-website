@@ -650,24 +650,31 @@ div.content-wrapper.customer-segment-page {
 
     div#sector-content {
 
+
         .container {
             .sector-overview {
                 padding-bottom: 30px;
 
-                #sector-video {
+                div.sector-overview-content {
+                    display: flex;
+                    justify-content: center;
 
+                    #sector-video {
+                        min-width: 460px;
 
-                    iframe {
-                        width: 70%;
-                        height: 290px;
-                        border: 4px solid $lightGray;
+                        iframe {
+                            width: 100%;
+                            height: 290px;
+                            border: 4px solid $lightGray;
+                        }
                     }
-                }
 
-                p.overview-text {
-                    font-size: 1.15rem;
-                    font-weight: 300;
-                    text-align: center;
+                    p.overview-text {
+                        width: 40%;
+                        text-align: left;
+                        padding-left: 50px;
+                        line-height: 2rem;
+                    }
                 }
             }
 

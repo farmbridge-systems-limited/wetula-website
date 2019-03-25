@@ -595,10 +595,17 @@ div.content-wrapper.customer-segment-page {
                     padding-left: 30px;
                     padding-right: 5px;
                     font-weight: 300;
+                    width: 100%;
+
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
 
                     li {
                         margin-bottom: 8px;
                         padding-top: 16px;
+                        width: 40%;
+                        margin-right: 8%;
 
                         p {
                             margin-top: -8px;
