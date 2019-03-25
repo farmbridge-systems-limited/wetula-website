@@ -529,6 +529,10 @@
       PRODUCT PAGE
    */
 
+  div#product-page.content-wrapper {
+    padding-top: 164px;
+  }
+
   div#product-landing .container .text-content p {
     color: #F66F0E;
     text-align: center;
@@ -2403,6 +2407,10 @@
   div#sector-content .sectors-container .sector-item:active {
     cursor: pointer;
     box-shadow: 0 8px 8px 0 rgba(246, 111, 14, 0.42), 0 8px 8px 0 rgba(246, 111, 14, 0.4);
+  }
+
+  div#product-page.content-wrapper {
+    padding-top: 120px;
   }
 
   div#product-landing .container {
