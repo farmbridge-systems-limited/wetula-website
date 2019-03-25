@@ -4,15 +4,18 @@
             <div class="w-100 row" id="gmap-container" style="height: 360px">
 
             </div>
-            <div class="bg-green drop-shadow fg-white p-4 w-25 ml-20 mb-20" id="location-details"
-                 style="margin-top: -280px">
-                <h5>Our Location Details</h5>
-                <p><span class="mif-location-city"></span> FarmBridge Limited <br>
-                    <span class="mif-location"></span>Room 26, Bishop Arthur Center <br>
-                    <span class="mif-map"></span> St. Cyprians Anglican Cathedral, Maxwell Road, Fante - New Town <br>
-                    <span class="mif-my-location"></span>Kumasi - Ghana, West Africa
-                </p>
+            <div id="map-overlay">
+                <div class="bg-green drop-shadow fg-white p-4" id="location-details"
+                     style="margin-top: -280px">
+                    <h5>Our Location Details</h5>
+                    <p><span class="mif-location-city"></span> FarmBridge Limited <br>
+                        <span class="mif-location"></span>Room 26, Bishop Arthur Center <br>
+                        <span class="mif-map"></span> St. Cyprians Anglican Cathedral, Maxwell Road, Fante - New Town
+                        <br>
+                        <span class="mif-my-location"></span>Kumasi - Ghana, West Africa
+                    </p>
 
+                </div>
             </div>
         </section>
     </div>

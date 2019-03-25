@@ -1977,6 +1977,9 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
 var vuelidateMixin = window.Vuelidate.validationMixin;
 
 var _require = __webpack_require__(/*! vuelidate/lib/validators */ "./node_modules/vuelidate/lib/validators/index.js"),
@@ -56869,7 +56872,7 @@ var staticRenderFns = [
                 ]),
                 _vm._v(" "),
                 _c("li", { staticClass: "pt-1 pb-1" }, [
-                  _c("a", { attrs: { href: "/contact-us'" } }, [
+                  _c("a", { attrs: { href: "/contact-us" } }, [
                     _vm._v("Contact "),
                     _c("span", [_vm._v("Us")])
                   ])
@@ -57018,36 +57021,38 @@ var staticRenderFns = [
           attrs: { id: "gmap-container" }
         }),
         _vm._v(" "),
-        _c(
-          "div",
-          {
-            staticClass: "bg-green drop-shadow fg-white p-4 w-25 ml-20 mb-20",
-            staticStyle: { "margin-top": "-280px" },
-            attrs: { id: "location-details" }
-          },
-          [
-            _c("h5", [_vm._v("Our Location Details")]),
-            _vm._v(" "),
-            _c("p", [
-              _c("span", { staticClass: "mif-location-city" }),
-              _vm._v(" FarmBridge Limited "),
-              _c("br"),
+        _c("div", { attrs: { id: "map-overlay" } }, [
+          _c(
+            "div",
+            {
+              staticClass: "bg-green drop-shadow fg-white p-4",
+              staticStyle: { "margin-top": "-280px" },
+              attrs: { id: "location-details" }
+            },
+            [
+              _c("h5", [_vm._v("Our Location Details")]),
               _vm._v(" "),
-              _c("span", { staticClass: "mif-location" }),
-              _vm._v("Room 26, Bishop Arthur Center "),
-              _c("br"),
-              _vm._v(" "),
-              _c("span", { staticClass: "mif-map" }),
-              _vm._v(
-                " St. Cyprians Anglican Cathedral, Maxwell Road, Fante - New Town "
-              ),
-              _c("br"),
-              _vm._v(" "),
-              _c("span", { staticClass: "mif-my-location" }),
-              _vm._v("Kumasi - Ghana, West Africa\n            ")
-            ])
-          ]
-        )
+              _c("p", [
+                _c("span", { staticClass: "mif-location-city" }),
+                _vm._v(" FarmBridge Limited "),
+                _c("br"),
+                _vm._v(" "),
+                _c("span", { staticClass: "mif-location" }),
+                _vm._v("Room 26, Bishop Arthur Center "),
+                _c("br"),
+                _vm._v(" "),
+                _c("span", { staticClass: "mif-map" }),
+                _vm._v(
+                  " St. Cyprians Anglican Cathedral, Maxwell Road, Fante - New Town\n                    "
+                ),
+                _c("br"),
+                _vm._v(" "),
+                _c("span", { staticClass: "mif-my-location" }),
+                _vm._v("Kumasi - Ghana, West Africa\n                ")
+              ])
+            ]
+          )
+        ])
       ])
     ])
   }

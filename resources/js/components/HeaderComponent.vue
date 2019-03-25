@@ -126,7 +126,7 @@
                         </ul>
                     </li>
                     <li class="pt-1 pb-1"><a href="/product">Products</a></li>
-                    <li class="pt-1 pb-1"><a href="/contact-us'">Contact <span>Us</span></a></li>
+                    <li class="pt-1 pb-1"><a href="/contact-us">Contact <span>Us</span></a></li>
                     <li class="pt-1 pb-1" id="join-nav-item"><a href="/join-us">Join Us</a></li>
                     <li class="pt-1 pb-1 place-right" id="login-nav-item"><a class="text-upper text-bold"
                                                                              href="/login"><span

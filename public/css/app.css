@@ -651,6 +651,10 @@
       CONTACT PAGE
    */
 
+  div#contact-page.content-wrapper {
+    padding-top: 164px;
+  }
+
   div#contact-page div.contact-form {
     background-image: url(/images/tree_crops_featured.jpg?5803e4901fc4ec692b1ffa6aaa568dfa);
     background-size: cover;
@@ -664,6 +668,10 @@
   div#contact-page div.contact-form div.container div.form-container {
     width: 100%;
     padding: 20px;
+  }
+
+  div#contact-page div#location-details {
+    margin: 20px;
   }
 
   /**
@@ -1308,6 +1316,39 @@
   div.content-wrapper.customer-segment-page div#sector-content .container .sector-pricing .pricing-container .price-table {
     width: 70%;
   }
+
+  /**
+      CONTACT PAGE
+   */
+
+  div#contact-page.content-wrapper {
+    padding-top: 164px;
+  }
+
+  div#contact-page div.contact-form {
+    background-image: url(/images/tree_crops_featured.jpg?5803e4901fc4ec692b1ffa6aaa568dfa);
+    background-size: cover;
+  }
+
+  div#contact-page div.contact-form div.container {
+    display: flex;
+    justify-content: center;
+  }
+
+  div#contact-page div.contact-form div.container div.form-container {
+    width: 100%;
+    padding: 20px;
+  }
+
+  div#contact-page div#map-overlay {
+    display: flex;
+    justify-content: center;
+  }
+
+  div#contact-page div#map-overlay div#location-details {
+    margin: 20px;
+    width: 60%;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -1800,6 +1841,18 @@
     padding: 20px;
     padding-left: 30px;
     padding-right: 30px;
+  }
+
+  div#contact-page div#map-overlay {
+    display: flex;
+    justify-content: start;
+    align-content: center;
+  }
+
+  div#contact-page div#map-overlay div#location-details {
+    margin: 20px;
+    width: 380px;
+    height: 200px;
   }
 
   /**

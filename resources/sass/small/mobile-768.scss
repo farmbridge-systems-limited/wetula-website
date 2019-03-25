@@ -517,6 +517,18 @@ div#contact-page {
             }
         }
     }
+
+    div#map-overlay {
+        display: flex;
+        justify-content: start;
+        align-content: center;
+
+        div#location-details {
+            margin: 20px;
+            width: 380px;
+            height: 200px;
+        }
+    }
 }
 
 

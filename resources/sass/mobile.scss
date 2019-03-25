@@ -713,6 +713,9 @@ div#product-order-call-to-action {
     CONTACT PAGE
  */
 
+div#contact-page.content-wrapper {
+    padding-top: 164px
+}
 div#contact-page {
 
     div.contact-form {
@@ -733,6 +736,10 @@ div#contact-page {
                 }
             }
         }
+    }
+
+    div#location-details {
+        margin: 20px;
     }
 }
 

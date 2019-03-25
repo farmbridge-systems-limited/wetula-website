@@ -320,3 +320,45 @@ div.content-wrapper.customer-segment-page {
     }
 }
 
+
+/**
+    CONTACT PAGE
+ */
+
+div#contact-page.content-wrapper {
+    padding-top: 164px
+}
+
+div#contact-page {
+
+    div.contact-form {
+        background-image: url("../images/tree_crops_featured.jpg");
+        background-size: cover;
+
+        div.container {
+            display: flex;
+            justify-content: center;
+
+            div.form-container {
+                width: 100%;
+                padding: 20px;
+
+                form {
+                    //padding-left: 2%;
+                    //padding-right: 2%;
+                }
+            }
+        }
+    }
+
+    div#map-overlay {
+        display: flex;
+        justify-content: center;
+
+        div#location-details {
+            margin: 20px;
+            width: 60%;
+        }
+    }
+
+}
