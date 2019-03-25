@@ -299,6 +299,9 @@ div#values-container {
 /**
     SECTORS
  */
+div#sector.content-wrapper {
+    padding-top: 40px
+}
 div#sector-landing{
     background-image: url("../images/tree_crops_featured.jpg");
     background-size: cover;

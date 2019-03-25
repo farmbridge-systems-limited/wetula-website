@@ -471,6 +471,10 @@
       SECTORS
    */
 
+  div#sector.content-wrapper {
+    padding-top: 164px;
+  }
+
   div#sector-landing {
     background-image: url(/images/tree_crops_featured.jpg?5803e4901fc4ec692b1ffa6aaa568dfa);
     background-size: cover;
@@ -1597,6 +1601,10 @@
   /**
       SECTORS
    */
+
+  div#sector.content-wrapper {
+    padding-top: 40px;
+  }
 
   div#sector-landing {
     background-image: url(/images/tree_crops_featured.jpg?5803e4901fc4ec692b1ffa6aaa568dfa);
