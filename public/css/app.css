@@ -6,12 +6,12 @@
 
   header {
     display: grid;
-    position: relative;
+    position: fixed;
     width: 100%;
     z-index: 500;
     grid-template-areas: "app_bar_container" "brand_image_container" "nav_bar_container";
     grid-template-columns: 100%;
-    grid-template-rows: auto 120px auto;
+    grid-template-rows: 44px 120px auto;
   }
 
   header div#app-bar-container {
@@ -76,6 +76,10 @@
     display: none;
   }
 
+  header div#app-bar-container .mobile-tab-app-bar .menu-container #mobileNavList {
+    margin-top: 44px;
+  }
+
   header div#app-bar-container .mobile-tab-app-bar .menu-container #joinBtn {
     display: none;
   }
@@ -109,6 +113,10 @@
   header div#nav-container #register-nav-item,
   header div#nav-container #login-nav-item {
     display: none;
+  }
+
+  div#home.content-wrapper {
+    padding-top: 164px;
   }
 
   div#carousel {
@@ -363,6 +371,10 @@
   /**
       ABOUT PAGE
    */
+
+  div#about.content-wrapper {
+    padding-top: 164px;
+  }
 
   div#about-landing {
     background: #ffffff;
@@ -644,6 +656,103 @@
   div#contact-page div.contact-form div.container div.form-container {
     width: 100%;
     padding: 20px;
+  }
+
+  /**
+     CUSTOMER SEGMENT PAGE
+   */
+
+  div.content-wrapper.customer-segment-page div#segment-landing {
+    background-image: url(/images/tree_crops_featured.jpg?5803e4901fc4ec692b1ffa6aaa568dfa);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 380px;
+    padding-top: 170px;
+  }
+
+  div.content-wrapper.customer-segment-page div#segment-landing .sector-title-widget {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    padding: 20px;
+    width: 100%;
+  }
+
+  div.content-wrapper.customer-segment-page div#segment-landing .sector-title-widget .segment-icon-large {
+    background-image: url(/images/farmers-segment-icon.png?24d1042fd493c214faae028c3683f3b8);
+  }
+
+  div.content-wrapper.customer-segment-page div#segment-landing #segment-login-widget {
+    display: none;
+  }
+
+  div.content-wrapper.customer-segment-page nav {
+    display: none;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-overview {
+    padding-bottom: 30px;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-overview #sector-video iframe {
+    width: 100%;
+    height: 200px;
+    border: 4px solid #BFBFBF;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-overview p.overview-text {
+    font-size: 1.15rem;
+    font-weight: 300;
+    text-align: center;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-benefits {
+    padding-bottom: 30px;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-benefits ul {
+    list-style-type: square;
+    list-style-image: url(/images/pink_bullet_point.png?bb4572f513e221db36a21e1a6a0bd2d7);
+    list-style-position: outside;
+    font-size: 1.1rem;
+    padding-left: 30px;
+    padding-right: 5px;
+    font-weight: 300;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-benefits ul li {
+    margin-bottom: 8px;
+    padding-top: 16px;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-benefits ul li p {
+    margin-top: -8px;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-requirements {
+    padding-bottom: 30px;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-requirements ul {
+    list-style-position: outside;
+    font-size: 1.1rem;
+    font-weight: 300;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-requirements ul li {
+    margin-bottom: 8px;
+    padding-top: 16px;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-requirements ul li h4 {
+    color: #9923AE;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-requirements ul li p {
+    margin-top: -8px;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-pricing {
+    padding-bottom: 30px;
   }
 }
 
@@ -999,6 +1108,10 @@
       ABOUT PAGE
    */
 
+  div#about.content-wrapper {
+    padding-top: 180px;
+  }
+
   div#company-overview .container .img-container {
     height: 250px;
     background-image: url(/images/company_picture_1.jpg?8ff7b18f9bcc3f1e6cddd49f474d0c6b);
@@ -1065,6 +1178,127 @@
 
   div#product-landing .container .action-call button {
     margin-right: 8px;
+  }
+
+  /**
+     CUSTOMER SEGMENT PAGE
+   */
+
+  div.content-wrapper.customer-segment-page div#segment-landing {
+    background-image: url(/images/tree_crops_featured.jpg?5803e4901fc4ec692b1ffa6aaa568dfa);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 380px;
+    padding-top: 170px;
+  }
+
+  div.content-wrapper.customer-segment-page div#segment-landing .sector-title-widget {
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    padding: 20px;
+    width: 60%;
+  }
+
+  div.content-wrapper.customer-segment-page div#segment-landing #segment-login-widget {
+    display: none;
+  }
+
+  div.content-wrapper.customer-segment-page nav {
+    display: block;
+  }
+
+  div.content-wrapper.customer-segment-page nav ul li {
+    margin: 0;
+    border-bottom: 4px solid #BFBFBF;
+  }
+
+  div.content-wrapper.customer-segment-page nav ul li a {
+    background: white;
+    color: #474747;
+    font-weight: 400;
+  }
+
+  div.content-wrapper.customer-segment-page nav ul li.active {
+    border-bottom: 5px solid #F66F0E;
+  }
+
+  div.content-wrapper.customer-segment-page nav ul li.active a {
+    color: #60A917;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-overview {
+    padding-bottom: 30px;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-overview #sector-video iframe {
+    width: 90%;
+    height: 290px;
+    border: 4px solid #BFBFBF;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-overview p.overview-text {
+    font-size: 1.15rem;
+    font-weight: 300;
+    text-align: center;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-benefits {
+    padding-bottom: 30px;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-benefits ul {
+    list-style-type: square;
+    list-style-image: url(/images/pink_bullet_point.png?bb4572f513e221db36a21e1a6a0bd2d7);
+    list-style-position: outside;
+    font-size: 1.1rem;
+    padding-left: 30px;
+    padding-right: 5px;
+    font-weight: 300;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-benefits ul li {
+    margin-bottom: 8px;
+    padding-top: 16px;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-benefits ul li p {
+    margin-top: -8px;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-requirements {
+    padding-bottom: 30px;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-requirements ul {
+    list-style-position: outside;
+    font-size: 1.1rem;
+    font-weight: 300;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-requirements ul li {
+    margin-bottom: 8px;
+    padding-top: 16px;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-requirements ul li h4 {
+    color: #9923AE;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-requirements ul li p {
+    margin-top: -8px;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-pricing {
+    padding-bottom: 30px;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-pricing .pricing-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-pricing .pricing-container .price-table {
+    width: 70%;
   }
 }
 
@@ -1183,6 +1417,10 @@
     background: #ffffff;
   }
 
+  div#home.content-wrapper {
+    padding-top: 20px;
+  }
+
   div#carousel {
     padding-top: 150px;
   }
@@ -1289,6 +1527,10 @@
   /**
       ABOUT PAGE
    */
+
+  div#about.content-wrapper {
+    padding-top: 20px;
+  }
 
   div#about-landing {
     background: linear-gradient(to bottom, #60A917 0%, #7AB83E 45%, #FFFFFF 80%, #FDFFFF 100%);
@@ -1547,6 +1789,105 @@
     padding-left: 30px;
     padding-right: 30px;
   }
+
+  /**
+     CUSTOMER SEGMENT PAGE
+   */
+
+  div.content-wrapper.customer-segment-page div#segment-landing {
+    margin-top: 120px;
+    background-image: url(/images/tree_crops_featured.jpg?5803e4901fc4ec692b1ffa6aaa568dfa);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 380px;
+    padding-top: 170px;
+  }
+
+  div.content-wrapper.customer-segment-page div#segment-landing .sector-title-widget {
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    padding: 20px;
+    width: 50%;
+  }
+
+  div.content-wrapper.customer-segment-page div#segment-landing #segment-login-widget {
+    display: none;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-overview {
+    padding-bottom: 30px;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-overview #sector-video iframe {
+    width: 70%;
+    height: 290px;
+    border: 4px solid #BFBFBF;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-overview p.overview-text {
+    font-size: 1.15rem;
+    font-weight: 300;
+    text-align: center;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-benefits {
+    padding-bottom: 30px;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-benefits ul {
+    list-style-type: square;
+    list-style-image: url(/images/pink_bullet_point.png?bb4572f513e221db36a21e1a6a0bd2d7);
+    list-style-position: outside;
+    font-size: 1.1rem;
+    padding-left: 30px;
+    padding-right: 5px;
+    font-weight: 300;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-benefits ul li {
+    margin-bottom: 8px;
+    padding-top: 16px;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-benefits ul li p {
+    margin-top: -8px;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-requirements {
+    padding-bottom: 30px;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-requirements ul {
+    list-style-position: outside;
+    font-size: 1.1rem;
+    font-weight: 300;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-requirements ul li {
+    margin-bottom: 8px;
+    padding-top: 16px;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-requirements ul li h4 {
+    color: #9923AE;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-requirements ul li p {
+    margin-top: -8px;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-pricing {
+    padding-bottom: 30px;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-pricing .pricing-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-pricing .pricing-container .price-table {
+    width: 50%;
+  }
 }
 
 @media only screen and (min-width: 992px) {
@@ -1673,6 +2014,10 @@
 }
 
 @media only screen and (min-width: 1024px) {
+  div#home.content-wrapper {
+    padding-top: 30px;
+  }
+
   div#featured-product div {
     display: flex;
     flex-direction: row-reverse;
@@ -1895,6 +2240,10 @@
   /**
       ABOUT PAGE
    */
+
+  div#about.content-wrapper {
+    padding-top: 0;
+  }
 
   div#about-landing {
     background: linear-gradient(to bottom, #60A917 0%, #7AB83E 45%, #FFFFFF 80%, #FDFFFF 100%);
@@ -2222,6 +2571,106 @@
     padding-left: 30px;
     padding-right: 30px;
   }
+
+  /**
+     CUSTOMER SEGMENT PAGE
+   */
+
+  div.content-wrapper.customer-segment-page div#segment-landing {
+    margin-top: 120px;
+    background-image: url(/images/tree_crops_featured.jpg?5803e4901fc4ec692b1ffa6aaa568dfa);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    padding-top: 170px;
+  }
+
+  div.content-wrapper.customer-segment-page div#segment-landing .sector-title-widget {
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    padding: 20px;
+    padding-left: 5%;
+    width: 40%;
+  }
+
+  div.content-wrapper.customer-segment-page div#segment-landing #segment-login-widget {
+    display: none;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-overview {
+    padding-bottom: 30px;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-overview #sector-video iframe {
+    width: 70%;
+    height: 290px;
+    border: 4px solid #BFBFBF;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-overview p.overview-text {
+    font-size: 1.15rem;
+    font-weight: 300;
+    text-align: center;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-benefits {
+    padding-bottom: 30px;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-benefits ul {
+    list-style-type: square;
+    list-style-image: url(/images/pink_bullet_point.png?bb4572f513e221db36a21e1a6a0bd2d7);
+    list-style-position: outside;
+    font-size: 1.1rem;
+    padding-left: 30px;
+    padding-right: 5px;
+    font-weight: 300;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-benefits ul li {
+    margin-bottom: 8px;
+    padding-top: 16px;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-benefits ul li p {
+    margin-top: -8px;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-requirements {
+    padding-bottom: 30px;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-requirements ul {
+    list-style-position: outside;
+    font-size: 1.1rem;
+    font-weight: 300;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-requirements ul li {
+    margin-bottom: 8px;
+    padding-top: 16px;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-requirements ul li h4 {
+    color: #9923AE;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-requirements ul li p {
+    margin-top: -8px;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-pricing {
+    padding-bottom: 30px;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-pricing .pricing-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-pricing .pricing-container .price-table {
+    width: 30%;
+  }
 }
 
 @media only screen and (min-width: 1280px) {
@@ -2392,6 +2841,106 @@
     padding: 20px;
     padding-left: 50px;
     padding-right: 50px;
+  }
+
+  /**
+     CUSTOMER SEGMENT PAGE
+   */
+
+  div.content-wrapper.customer-segment-page div#segment-landing {
+    margin-top: 120px;
+    background-image: url(/images/tree_crops_featured.jpg?5803e4901fc4ec692b1ffa6aaa568dfa);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 460px;
+    padding-top: 220px;
+  }
+
+  div.content-wrapper.customer-segment-page div#segment-landing .sector-title-widget {
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    padding: 20px;
+    padding-left: 8%;
+    width: 40%;
+  }
+
+  div.content-wrapper.customer-segment-page div#segment-landing #segment-login-widget {
+    display: none;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-overview {
+    padding-bottom: 30px;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-overview #sector-video iframe {
+    width: 70%;
+    height: 290px;
+    border: 4px solid #BFBFBF;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-overview p.overview-text {
+    font-size: 1.15rem;
+    font-weight: 300;
+    text-align: center;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-benefits {
+    padding-bottom: 30px;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-benefits ul {
+    list-style-type: square;
+    list-style-image: url(/images/pink_bullet_point.png?bb4572f513e221db36a21e1a6a0bd2d7);
+    list-style-position: outside;
+    font-size: 1.1rem;
+    padding-left: 30px;
+    padding-right: 5px;
+    font-weight: 300;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-benefits ul li {
+    margin-bottom: 8px;
+    padding-top: 16px;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-benefits ul li p {
+    margin-top: -8px;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-requirements {
+    padding-bottom: 30px;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-requirements ul {
+    list-style-position: outside;
+    font-size: 1.1rem;
+    font-weight: 300;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-requirements ul li {
+    margin-bottom: 8px;
+    padding-top: 16px;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-requirements ul li h4 {
+    color: #9923AE;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-requirements ul li p {
+    margin-top: -8px;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-pricing {
+    padding-bottom: 30px;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-pricing .pricing-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  div.content-wrapper.customer-segment-page div#sector-content .container .sector-pricing .pricing-container .price-table {
+    width: 30%;
   }
 }
 

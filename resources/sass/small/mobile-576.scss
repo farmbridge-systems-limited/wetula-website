@@ -92,6 +92,10 @@ header{
 /**
     ABOUT PAGE
  */
+div#about.content-wrapper {
+    padding-top: 180px
+}
+
 div#company-overview {
     .container {
         .img-container {
@@ -172,3 +176,147 @@ div#product-landing {
         }
     }
 }
+
+
+/**
+   CUSTOMER SEGMENT PAGE
+ */
+
+div.content-wrapper.customer-segment-page {
+    div#segment-landing {
+        background-image: url("../images/tree_crops_featured.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 380px;
+        padding-top: 170px;
+
+        .sector-title-widget {
+            border-top-right-radius: 100px;
+            border-bottom-right-radius: 100px;
+            padding: 20px;
+            width: 60%;
+
+
+        }
+
+        #segment-login-widget {
+            display: none;
+        }
+
+    }
+
+    nav {
+        display: block;
+
+        ul {
+            li {
+                margin: 0;
+                border-bottom: 4px solid $lightGray;
+
+                a {
+                    background: white;
+                    color: $darkGray;
+                    font-weight: 400;
+                }
+            }
+
+            li.active {
+                border-bottom: 5px solid $orange;
+
+                a {
+                    color: $green;
+                }
+            }
+        }
+    }
+
+
+    div#sector-content {
+
+        .container {
+            .sector-overview {
+                padding-bottom: 30px;
+
+                #sector-video {
+
+
+                    iframe {
+                        width: 90%;
+                        height: 290px;
+                        border: 4px solid $lightGray;
+                    }
+                }
+
+                p.overview-text {
+                    font-size: 1.15rem;
+                    font-weight: 300;
+                    text-align: center;
+                }
+            }
+
+            .sector-benefits {
+                padding-bottom: 30px;
+
+                ul {
+                    list-style-type: square;
+                    list-style-image: url("../images/bullets/pink_bullet_point.png");
+                    list-style-position: outside;
+                    font-size: 1.1rem;
+                    padding-left: 30px;
+                    padding-right: 5px;
+                    font-weight: 300;
+
+                    li {
+                        margin-bottom: 8px;
+                        padding-top: 16px;
+
+                        p {
+                            margin-top: -8px;
+                        }
+                    ;
+                    }
+                }
+            }
+
+            .sector-requirements {
+                padding-bottom: 30px;
+
+                ul {
+                    list-style-position: outside;
+                    font-size: 1.1rem;
+                    font-weight: 300;
+
+                    li {
+                        margin-bottom: 8px;
+                        padding-top: 16px;
+
+                        h4 {
+                            color: $darkPink;
+                        }
+
+                        p {
+                            margin-top: -8px;
+                        }
+                    ;
+                    }
+                }
+            }
+
+            .sector-pricing {
+                padding-bottom: 30px;
+
+                .pricing-container {
+                    display: flex;
+                    justify-content: center;
+
+                    .price-table {
+                        width: 70%;
+                    }
+                }
+
+            }
+        }
+
+    }
+}
+

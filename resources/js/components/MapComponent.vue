@@ -12,6 +12,7 @@
                     <span class="mif-map"></span> St. Cyprians Anglican Cathedral, Maxwell Road, Fante - New Town <br>
                     <span class="mif-my-location"></span>Kumasi - Ghana, West Africa
                 </p>
+
             </div>
         </section>
     </div>

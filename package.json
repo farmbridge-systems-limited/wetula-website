@@ -22,6 +22,7 @@
         "vue-template-compiler": "^2.5.21"
     },
     "dependencies": {
+        "aos": "^2.3.4",
         "metro4-dist": "^4.2.38",
         "vue2-google-maps": "^0.10.6",
         "vuelidate": "^0.7.4"

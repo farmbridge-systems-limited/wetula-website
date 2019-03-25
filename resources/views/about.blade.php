@@ -12,333 +12,244 @@
 <body>
 <div id="app">
     {{--Header--}}
-    <header class=" bg-white">
+    <header-component></header-component>
 
-        <div id="app-bar-container">
-            <div class="mobile-tab-app-bar container">
-                <div class="geo-container p-1">
-                    <button id="geoSettingsToggleBtn" class="button bg-white"><span class="mif-equalizer mif-2x"></span>
-                        <span id="btnText" style="margin-top: -4px">Geo Settings</span></button>
-
-                    <a id="language" class="button bg-white">
-                        <span class="mif-language fg-green"></span>
-                        <small>English</small>
-                    </a>
-
-                    <a id="continent" class=" button bg-white">
-                        <span class="mif-earth fg-green"></span>
-                        <small>Africa</small>
-                    </a>
-                    <a id="appbar_contact" class="button bg-white">
-                        <span class="mif-phone fg-green"></span>
-                        <small>Contact Us</small>
-                    </a>
-
+    <div id="about" class="content-wrapper">
+        <div id="about-landing">
+            <div id="featured-background">
+                <div class="container">
+                    <h2 class="text-bold">About</h2>
+                    <h1>Wetula Platform</h1>
+                    <blockquote class="text-leader">
+                        Chief driver of the quantum leap in farm performance.
+                    </blockquote>
+                    <h1 style="font-size: 5rem" class="symb-direct text-center">
+                        <a href="#" class="no-decor fg-orange">
+                            <span class="mif-chevron-thin-down ani-flash"></span>
+                        </a>
+                    </h1>
                 </div>
-                <div class="auth-container pt-2 p-1">
-                    <a class="ml-2 mr-2 "><span class="mif-security"></span> Client Login</a>
-                </div>
-                <div class="menu-container p-1">
-                    <a id="menuToggleBtn" class="button place-right"><span class="mif-menu "></span> <span
-                            class="btnText"> Menu</span></a>
-
-                    <button id="joinBtn" class="button"><span class="mif-user-plus"></span> Register</button>
-                </div>
-
             </div>
-            <div class="desktop-app-bar container">
-
+            <div id="branded-lines"></div>
+        </div>
+        {{--Mission - Vision & Core Values --}}
+        <div id="values-container" class="container">
+            <div id="mission" class="bg-orange fg-white rounded value-item ">
+                <p class="text-leader text-center"><span class="mif-airplane mif-2x"></span></p>
+                <p class="text-center title-text text-bold text-leader">Mission Statement</p>
+                <p class="text-leader2 text-center">
+                    Our mission is to have integrable hard & softwares that provide simplified small holder friendly
+                    precision agriculture technologies for the various actors in the various agriculture value chains.
+                </p>
+            </div>
+            <div id="vision" class="bg-green fg-white rounded value-item ">
+                <p class="text-leader text-center"><span class="mif-target mif-2x"></span></p>
+                <p class="text-center title-text text-bold text-leader">Our Vision</p>
+                <p class="text-leader2 text-center">
+                    To drive a quantum leap in farm performance, farmer life improvements and inclusive end-to-end
+                    solutions
+                    in not only cocoa, but along the major agriculture value chains globally.
+                </p>
+            </div>
+            <div id="values" class="bg-orange fg-white rounded value-item ">
+                <p class="text-leader text-center"><span class="mif-balance-scale mif-2x"></span></p>
+                <p class="text-center title-text text-bold text-leader">Core Values</p>
+                <p class="text-leader2 text-center">
+                    We maintain a unique culture, build resilient teams, employ innovation and use superior production
+                    processes
+                </p>
             </div>
         </div>
-        <div id="brand-container">
-            <div class="container">
-                <div class="logo-container">
-                    <img src="{{asset('images/wetula_logo.png')}}" alt="">
-                </div>
-                <div id="wetula_info" class="p-6">
-                    <div class="d-flex flex-justify-end">
-                        <div class="pos-relative">
-                            <a class="button link dropdown-toggle"><span
-                                    class="mif-language mif-2x mr-4 fg-green"></span> English(UK)</a>
-                            <ul class="d-menu" data-role="dropdown">
-                                <li><a href="#">English (UK)</a></li>
-                                <li><a href="#">French</a></li>
-                                <li><a href="#">Espanol</a></li>
+
+        {{--Company Overview--}}
+        <div id="company-overview">
+            <div class="container pt-10 pb-10">
+                <hr class="bg-orange w-25">
+                <h3 class="text-center mb-10">Company Overview</h3>
+                <div class="img-container thumbnail rounded"></div>
+
+                <section class="pt-4 pb-4">
+                    <figure class="float-right mr-8 " data-aos="zoom-in-right">
+                        <img alt="Company Picture" src="{{asset('images/company_picture_1.jpg')}}">
+                    </figure>
+                    <p class="text-leader2">
+
+                        Despite the prolonged inertia in digitizing Africa’s agriculture, the industry makes significant
+                        global gains amounting to billions of dollars. The sector also continues to show steady growth
+                        and
+                        promising prospects for Africa in the coming years. Agriculture and agribusiness accounts for 32
+                        percent of GDP in Sub-Saharan Africa and employs 65 percent of the work force. Entry level
+                        barriers
+                        (other than adoption issues and the need to obtain state-based licenses and registrations) in
+                        the
+                        industry have spawned more middle men (mid-level actors).
+                    </p>
+
+                    <p class="text-leader2">
+                        Farmbridge Systems Limited has strategically positioned itself along the value chains in
+                        emerging
+                        markets of agricultural digitization and automation. We are building a unique and innovative
+                        demand-led value-chain that would be based on long-term linkages between producers, buyers and
+                        other
+                        key market players such as suppliers of finance, inputs and technical professionals.
+                    </p>
+
+                    <p class="text-leader2">
+                        Competition in the sector is largely based on reputation and proven performance as many new
+                        competitors find it difficult to quickly establish a foothold in the digital market. Existing
+                        firms
+                        have several advantages relative to new entrants. They: have access to a pool of resourceful
+                        small
+                        holder schemes; have ongoing arrangements with these schemes and value chain actors; have
+                        ongoing
+                        arrangements with financial institutions and input supplier schemes; and enjoy public display in
+                        local markets and leverage "word-of-mouth" referrals.
+
+                    </p>
+
+                    <p class="text-leader2">
+                        Farmbridge Systems Limited focuses its expertise to discover, manufacture and market innovative
+                        digital solutions for private businesses, Governments and Non-Governmental Organizations. As a
+                        leading technology company in Africa, we are devoted to providing excellent and high-quality
+                        cost
+                        efficient sustainable solutions, and customer-tailored products and services. Our commitments
+                        stretch beyond discovering and manufacturing integrated applications and translates into
+                        comprehensively innovative product portfolios, including solutions for all value chains.
+                    </p>
+                </section>
+            </div>
+        </div>
+
+
+        {{--Our Team--}}
+
+        <div id="our-team">
+            <div class="container pt-10 pb-10">
+                <hr class="bg-orange w-25">
+                <h3 class="text-center mb-10">Our Team</h3>
+
+                <div class="members">
+                    <div class="member-card img-container thumbnail">
+                        <img src="{{asset('images/team/joe_nabin.jpg')}}" alt="Joe Nabin">
+                        <div class="image-overlay op-green d-flex flex-column flex-justify-center">
+                            <h4>Joseph N. Nabin</h4>
+                            <p class="text-leader2">Chief Executive Officer</p>
+                            <ul class="mt-8 inline-list">
+                                <li><a href="#"><span class="mif-facebook mif-3x"></span></a></li>
+                                <li><a href="#"><span class="mif-twitter mif-3x"></span></a></li>
+                                <li><a href="#"><span class="mif-linkedin mif-3x"></span></a></li>
                             </ul>
                         </div>
-                        <div class="pos-relative">
-                            <a class="button link dropdown-toggle"><span class="mif-earth mif-2x mr-4 fg-green"></span>
-                                Ghana</a>
-                            <ul class="d-menu" data-role="dropdown">
-                                <li><a href="#">Africa</a></li>
-                                <li><a href="#">Asia</a></li>
+                    </div>
+                    <div class="member-card img-container thumbnail">
+                        <img src="{{asset('images/team/joe_nabin.jpg')}}" alt="Joe Nabin">
+                        <div class="image-overlay op-green d-flex flex-column flex-justify-center">
+                            <h4>Joseph N. Nabin</h4>
+                            <p class="text-leader2">Chief Executive Officer</p>
+                            <ul class="mt-8 inline-list">
+                                <li><a href="#"><span class="mif-facebook mif-3x"></span></a></li>
+                                <li><a href="#"><span class="mif-twitter mif-3x"></span></a></li>
+                                <li><a href="#"><span class="mif-linkedin mif-3x"></span></a></li>
                             </ul>
                         </div>
                     </div>
-                    <div class="d-flex mt-2 flex-justify-end">
-                        <p class="pl-2">
-                            <span class="mif-mail fg-orange"></span>
-                            <small>support@wetula.com</small>
-
-                            <span class="mif-phone fg-orange"></span>
-                            <small>+233(0) 245 4855 531</small>
-                        </p>
-
+                    <div class="member-card img-container thumbnail">
+                        <img src="{{asset('images/team/joe_nabin.jpg')}}" alt="Joe Nabin">
+                        <div class="image-overlay op-green d-flex flex-column flex-justify-center">
+                            <h4>Joseph N. Nabin</h4>
+                            <p class="text-leader2">Chief Executive Officer</p>
+                            <ul class="mt-8 inline-list">
+                                <li><a href="#"><span class="mif-facebook mif-3x"></span></a></li>
+                                <li><a href="#"><span class="mif-twitter mif-3x"></span></a></li>
+                                <li><a href="#"><span class="mif-linkedin mif-3x"></span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="member-card img-container thumbnail">
+                        <img src="{{asset('images/team/joe_nabin.jpg')}}" alt="Joe Nabin">
+                        <div class="image-overlay op-green d-flex flex-column flex-justify-center">
+                            <h4>Joseph N. Nabin</h4>
+                            <p class="text-leader2">Chief Executive Officer</p>
+                            <ul class="mt-8 inline-list">
+                                <li><a href="#"><span class="mif-facebook mif-3x"></span></a></li>
+                                <li><a href="#"><span class="mif-twitter mif-3x"></span></a></li>
+                                <li><a href="#"><span class="mif-linkedin mif-3x"></span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="member-card img-container thumbnail">
+                        <img src="{{asset('images/team/joe_nabin.jpg')}}" alt="Joe Nabin">
+                        <div class="image-overlay op-green d-flex flex-column flex-justify-center">
+                            <h4>Joseph N. Nabin</h4>
+                            <p class="text-leader2">Chief Executive Officer</p>
+                            <ul class="mt-8 inline-list">
+                                <li><a href="#"><span class="mif-facebook mif-3x"></span></a></li>
+                                <li><a href="#"><span class="mif-twitter mif-3x"></span></a></li>
+                                <li><a href="#"><span class="mif-linkedin mif-3x"></span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="member-card img-container thumbnail">
+                        <img src="{{asset('images/team/joe_nabin.jpg')}}" alt="Joe Nabin">
+                        <div class="image-overlay op-green d-flex flex-column flex-justify-center">
+                            <h4>Joseph N. Nabin</h4>
+                            <p class="text-leader2">Chief Executive Officer</p>
+                            <ul class="mt-8 inline-list">
+                                <li><a href="#"><span class="mif-facebook mif-3x"></span></a></li>
+                                <li><a href="#"><span class="mif-twitter mif-3x"></span></a></li>
+                                <li><a href="#"><span class="mif-linkedin mif-3x"></span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="member-card img-container thumbnail">
+                        <img src="{{asset('images/team/joe_nabin.jpg')}}" alt="Joe Nabin">
+                        <div class="image-overlay op-green d-flex flex-column flex-justify-center">
+                            <h4>Joseph N. Nabin</h4>
+                            <p class="text-leader2">Chief Executive Officer</p>
+                            <ul class="mt-8 inline-list">
+                                <li><a href="#"><span class="mif-facebook mif-3x"></span></a></li>
+                                <li><a href="#"><span class="mif-twitter mif-3x"></span></a></li>
+                                <li><a href="#"><span class="mif-linkedin mif-3x"></span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="member-card img-container thumbnail">
+                        <img src="{{asset('images/team/joe_nabin.jpg')}}" alt="Joe Nabin">
+                        <div class="image-overlay op-green d-flex flex-column flex-justify-center">
+                            <h4>Joseph N. Nabin</h4>
+                            <p class="text-leader2">Chief Executive Officer</p>
+                            <ul class="mt-8 inline-list">
+                                <li><a href="#"><span class="mif-facebook mif-3x"></span></a></li>
+                                <li><a href="#"><span class="mif-twitter mif-3x"></span></a></li>
+                                <li><a href="#"><span class="mif-linkedin mif-3x"></span></a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="drop-shadow" id="nav-container">
-            <div class="container">
-                <ul class="h-menu fg-white" style="background: transparent">
-                    <li class=" pt-1 pb-1"><a href="{{url('/')}}">Home</a></li>
-                    <li class="active pt-1 pb-1"><a href="{{url('/about')}}">About <span>Us</span></a></li>
-                    <li class="pt-1 pb-1">
-                        <a href="#" class="dropdown-toggle">Sectors </a>
-                        <ul class="d-menu" data-role="dropdown">
-                            <li>
-                                <a href="{{url('/sector')}}">Cocoa</a>
-                            </li>
-                            <li><a href="{{url('/sector')}}">Cashew</a></li>
-                            <li class="divider"></li>
-                            <li><a href="{{url('/sector')}}">Maize</a></li>
-                        </ul>
-                    </li>
-                    <li class="pt-1 pb-1"><a href="{{url('/product')}}">Products</a></li>
-                    <li class="pt-1 pb-1"><a href="{{url('/contact-us')}}">Contact <span>Us</span></a></li>
-                    <li class="pt-1 pb-1" id="join-nav-item"><a href="{{url('/join-us')}}">Join Us</a></li>
-                    <li class="pt-1 pb-1 place-right" id="login-nav-item"><a href="{{url('/login')}}"
-                                                                             class="text-upper text-bold"><span
-                                class="mif-user"></span> Client Login</a></li>
-                    <li class="pt-1 pb-1 place-right" id="register-nav-item"><a href="{{url('/register')}}"
-                                                                                class=""><span
-                                class="mif-user-plus"></span> Create an Account</a></li>
-                </ul>
-            </div>
-        </div>
 
-    </header>
+        {{--Call to Action--}}
 
-    <div id="about-landing">
-        <div id="featured-background">
-            <div class="container">
-                <h2 class="text-bold">About</h2>
-                <h1>Wetula Platform</h1>
-                <blockquote class="text-leader">
-                    Chief driver of the quantum leap in farm performance.
-                </blockquote>
-                <h1 style="font-size: 5rem" class="symb-direct text-center">
-                    <a href="#" class="no-decor fg-orange">
-                        <span class="mif-chevron-thin-down ani-flash"></span>
-                    </a>
-                </h1>
-            </div>
-        </div>
-        <div id="branded-lines"></div>
-    </div>
-    {{--Mission - Vision & Core Values --}}
-    <div id="values-container" class="container">
-        <div id="mission" class="bg-orange fg-white rounded value-item ">
-            <p class="text-leader text-center"><span class="mif-airplane mif-2x"></span></p>
-            <p class="text-center title-text text-bold text-leader">Mission Statement</p>
-            <p class="text-leader2 text-center">
-                Our mission is to have integrable hard & softwares that provide simplified small holder friendly
-                precision agriculture technologies for the various actors in the various agriculture value chains.
-            </p>
-        </div>
-        <div id="vision" class="bg-green fg-white rounded value-item ">
-            <p class="text-leader text-center"><span class="mif-target mif-2x"></span></p>
-            <p class="text-center title-text text-bold text-leader">Our Vision</p>
-            <p class="text-leader2 text-center">
-                To drive a quantum leap in farm performance, farmer life improvements and inclusive end-to-end solutions
-                in not only cocoa, but along the major agriculture value chains globally.
-            </p>
-        </div>
-        <div id="values" class="bg-orange fg-white rounded value-item ">
-            <p class="text-leader text-center"><span class="mif-balance-scale mif-2x"></span></p>
-            <p class="text-center title-text text-bold text-leader">Core Values</p>
-            <p class="text-leader2 text-center">
-                We maintain a unique culture, build resilient teams, employ innovation and use superior production
-                processes
-            </p>
-        </div>
-    </div>
+        <div id="aboutpage-call-to-action">
+            <div class="container pt-10 pb-10">
+                <p class="text-leader2 text-center text-bold text-upper fg-white">Learn more about </p>
+                <h2 class="text-center fg-white mt-2">Our Customer Segments</h2>
 
-    {{--Company Overview--}}
-    <div id="company-overview">
-        <div class="container pt-10 pb-10">
-            <hr class="bg-orange w-25">
-            <h3 class="text-center mb-10">Company Overview</h3>
-            <div class="img-container thumbnail rounded"></div>
+                <p class="text-leader2 fg-white pl-4 pr-4 text-center">
+                    Whilst we will be working with farmers and other stakeholder institutions and individuals in the
+                    agricultural sector, we have analyzed the various small holder agriculture value chains. And we have
+                    determined that, of the 500 million small holder households in Africa, our innovative technology
+                    would generate the most value in the loose and or tight commercial agriculture value chains.
 
-            <section class="pt-4 pb-4">
-                <figure class="float-right mr-8 " data-aos="zoom-in-right">
-                    <img alt="Company Picture" src="{{asset('images/company_picture_1.jpg')}}">
-                </figure>
-                <p class="text-leader2">
+                    <br><br>
 
-                    Despite the prolonged inertia in digitizing Africa’s agriculture, the industry makes significant
-                    global gains amounting to billions of dollars. The sector also continues to show steady growth and
-                    promising prospects for Africa in the coming years. Agriculture and agribusiness accounts for 32
-                    percent of GDP in Sub-Saharan Africa and employs 65 percent of the work force. Entry level barriers
-                    (other than adoption issues and the need to obtain state-based licenses and registrations) in the
-                    industry have spawned more middle men (mid-level actors).
+                    <button class="button large rounded fg-white bg-orange text-upper">Learn more...</button>
                 </p>
-
-                <p class="text-leader2">
-                    Farmbridge Systems Limited has strategically positioned itself along the value chains in emerging
-                    markets of agricultural digitization and automation. We are building a unique and innovative
-                    demand-led value-chain that would be based on long-term linkages between producers, buyers and other
-                    key market players such as suppliers of finance, inputs and technical professionals.
-                </p>
-
-                <p class="text-leader2">
-                    Competition in the sector is largely based on reputation and proven performance as many new
-                    competitors find it difficult to quickly establish a foothold in the digital market. Existing firms
-                    have several advantages relative to new entrants. They: have access to a pool of resourceful small
-                    holder schemes; have ongoing arrangements with these schemes and value chain actors; have ongoing
-                    arrangements with financial institutions and input supplier schemes; and enjoy public display in
-                    local markets and leverage "word-of-mouth" referrals.
-
-                </p>
-
-                <p class="text-leader2">
-                    Farmbridge Systems Limited focuses its expertise to discover, manufacture and market innovative
-                    digital solutions for private businesses, Governments and Non-Governmental Organizations. As a
-                    leading technology company in Africa, we are devoted to providing excellent and high-quality cost
-                    efficient sustainable solutions, and customer-tailored products and services. Our commitments
-                    stretch beyond discovering and manufacturing integrated applications and translates into
-                    comprehensively innovative product portfolios, including solutions for all value chains.
-                </p>
-            </section>
-        </div>
-    </div>
-
-
-    {{--Our Team--}}
-
-    <div id="our-team">
-        <div class="container pt-10 pb-10">
-            <hr class="bg-orange w-25">
-            <h3 class="text-center mb-10">Our Team</h3>
-
-            <div class="members">
-                <div class="member-card img-container thumbnail">
-                    <img src="{{asset('images/team/joe_nabin.jpg')}}" alt="Joe Nabin">
-                    <div class="image-overlay op-green d-flex flex-column flex-justify-center">
-                        <h4>Joseph N. Nabin</h4>
-                        <p class="text-leader2">Chief Executive Officer</p>
-                        <ul class="mt-8 inline-list">
-                            <li><a href="#"><span class="mif-facebook mif-3x"></span></a></li>
-                            <li><a href="#"><span class="mif-twitter mif-3x"></span></a></li>
-                            <li><a href="#"><span class="mif-linkedin mif-3x"></span></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="member-card img-container thumbnail">
-                    <img src="{{asset('images/team/joe_nabin.jpg')}}" alt="Joe Nabin">
-                    <div class="image-overlay op-green d-flex flex-column flex-justify-center">
-                        <h4>Joseph N. Nabin</h4>
-                        <p class="text-leader2">Chief Executive Officer</p>
-                        <ul class="mt-8 inline-list">
-                            <li><a href="#"><span class="mif-facebook mif-3x"></span></a></li>
-                            <li><a href="#"><span class="mif-twitter mif-3x"></span></a></li>
-                            <li><a href="#"><span class="mif-linkedin mif-3x"></span></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="member-card img-container thumbnail">
-                    <img src="{{asset('images/team/joe_nabin.jpg')}}" alt="Joe Nabin">
-                    <div class="image-overlay op-green d-flex flex-column flex-justify-center">
-                        <h4>Joseph N. Nabin</h4>
-                        <p class="text-leader2">Chief Executive Officer</p>
-                        <ul class="mt-8 inline-list">
-                            <li><a href="#"><span class="mif-facebook mif-3x"></span></a></li>
-                            <li><a href="#"><span class="mif-twitter mif-3x"></span></a></li>
-                            <li><a href="#"><span class="mif-linkedin mif-3x"></span></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="member-card img-container thumbnail">
-                    <img src="{{asset('images/team/joe_nabin.jpg')}}" alt="Joe Nabin">
-                    <div class="image-overlay op-green d-flex flex-column flex-justify-center">
-                        <h4>Joseph N. Nabin</h4>
-                        <p class="text-leader2">Chief Executive Officer</p>
-                        <ul class="mt-8 inline-list">
-                            <li><a href="#"><span class="mif-facebook mif-3x"></span></a></li>
-                            <li><a href="#"><span class="mif-twitter mif-3x"></span></a></li>
-                            <li><a href="#"><span class="mif-linkedin mif-3x"></span></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="member-card img-container thumbnail">
-                    <img src="{{asset('images/team/joe_nabin.jpg')}}" alt="Joe Nabin">
-                    <div class="image-overlay op-green d-flex flex-column flex-justify-center">
-                        <h4>Joseph N. Nabin</h4>
-                        <p class="text-leader2">Chief Executive Officer</p>
-                        <ul class="mt-8 inline-list">
-                            <li><a href="#"><span class="mif-facebook mif-3x"></span></a></li>
-                            <li><a href="#"><span class="mif-twitter mif-3x"></span></a></li>
-                            <li><a href="#"><span class="mif-linkedin mif-3x"></span></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="member-card img-container thumbnail">
-                    <img src="{{asset('images/team/joe_nabin.jpg')}}" alt="Joe Nabin">
-                    <div class="image-overlay op-green d-flex flex-column flex-justify-center">
-                        <h4>Joseph N. Nabin</h4>
-                        <p class="text-leader2">Chief Executive Officer</p>
-                        <ul class="mt-8 inline-list">
-                            <li><a href="#"><span class="mif-facebook mif-3x"></span></a></li>
-                            <li><a href="#"><span class="mif-twitter mif-3x"></span></a></li>
-                            <li><a href="#"><span class="mif-linkedin mif-3x"></span></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="member-card img-container thumbnail">
-                    <img src="{{asset('images/team/joe_nabin.jpg')}}" alt="Joe Nabin">
-                    <div class="image-overlay op-green d-flex flex-column flex-justify-center">
-                        <h4>Joseph N. Nabin</h4>
-                        <p class="text-leader2">Chief Executive Officer</p>
-                        <ul class="mt-8 inline-list">
-                            <li><a href="#"><span class="mif-facebook mif-3x"></span></a></li>
-                            <li><a href="#"><span class="mif-twitter mif-3x"></span></a></li>
-                            <li><a href="#"><span class="mif-linkedin mif-3x"></span></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="member-card img-container thumbnail">
-                    <img src="{{asset('images/team/joe_nabin.jpg')}}" alt="Joe Nabin">
-                    <div class="image-overlay op-green d-flex flex-column flex-justify-center">
-                        <h4>Joseph N. Nabin</h4>
-                        <p class="text-leader2">Chief Executive Officer</p>
-                        <ul class="mt-8 inline-list">
-                            <li><a href="#"><span class="mif-facebook mif-3x"></span></a></li>
-                            <li><a href="#"><span class="mif-twitter mif-3x"></span></a></li>
-                            <li><a href="#"><span class="mif-linkedin mif-3x"></span></a></li>
-                        </ul>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
 
-    {{--Call to Action--}}
-
-    <div id="aboutpage-call-to-action">
-        <div class="container pt-10 pb-10">
-            <p class="text-leader2 text-center text-bold text-upper fg-white">Learn more about </p>
-            <h2 class="text-center fg-white mt-2">Our Customer Segments</h2>
-
-            <p class="text-leader2 fg-white pl-4 pr-4 text-center">
-                Whilst we will be working with farmers and other stakeholder institutions and individuals in the agricultural sector, we have analyzed the various small holder agriculture value chains. And we have determined that, of the 500 million small holder households in Africa, our innovative technology would generate the most value in the loose and or tight commercial agriculture value chains.
-
-                <br><br>
-
-                <button class="button large rounded fg-white bg-orange text-upper">Learn more...</button>
-            </p>
-        </div>
-    </div>
     {{--Footer--}}
     @include('components.footer')
 

@@ -27,5 +27,10 @@ class SiteController extends Controller
         return view('contact');
     }
 
+    public function getFarmersSegmentPage()
+    {
+        return view('customer-segments.farmers');
+    }
+
 
 }
