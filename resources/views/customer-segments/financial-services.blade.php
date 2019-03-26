@@ -5,7 +5,7 @@
     <meta name="metro4:init" content="false">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>Wetula | Farmers</title>
+    <title>Wetula | Financial Services</title>
     <link rel="favicon" href="{{asset('favicon.png?v2')}}">
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
 </head>
@@ -18,13 +18,13 @@
         <div id="segment-landing">
             <div class="sector-title-widget d-flex flex-align-center drop-shadow bg-white">
                 <div>
-                    <h1 class="fg-orange">Farmers</h1>
-                    <p class="text-leader2">Small Share-holder farmers</p>
+                    <h1 class="fg-orange">Financial Service</h1>
+                    <p class="text-leader2">Some tagline here</p>
                 </div>
-                <img src="{{asset('images/customers/farmers-circular-icon.png')}}"/>
+                <img src="{{asset('images/customers/financial_services-circular-icon.png')}}"/>
             </div>
             <form id="segment-login-widget" class="rounded op-white">
-                <h4 class="fg-orange text-center"><span class="mif-key"></span> Farmers Login</h4>
+                <h4 class="fg-orange text-center"><span class="mif-key"></span> Financial  Services Login</h4>
 
                 <div class="form-group">
                     <input type="email" placeholder="Enter email"/>
@@ -154,7 +154,7 @@
                     <div class="pricing-container mt-16 ">
                         <div class="price-table border border-2 mb-10 bd-green">
                             <div class="bg-green p-8">
-                                <h3 class="fg-white text-center text-upper">Farmers</h3>
+                                <h3 class="fg-white text-center text-upper">Financial Services</h3>
                             </div>
 
                             <div

@@ -637,13 +637,15 @@ div.content-wrapper.customer-segment-page {
             border-bottom-right-radius: 100px;
             padding: 20px;
             padding-left: 5%;
-            width: 40%;
+            width: 50%;
 
-
+            margin-right: 14%;
         }
 
         #segment-login-widget {
-            display: none;
+            display: block;
+            width: 320px;
+            padding: 30px;
         }
 
     }

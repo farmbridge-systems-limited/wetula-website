@@ -98,59 +98,59 @@
                                 </div>
                                 <p>Farmers</p>
                             </a>
-                            <a href="#" class="customer-item no-decor">
+                            <a href="{{url('/customers/input-suppliers')}}" class="customer-item no-decor">
                                 <div>
                                     <img src="{{asset('images/customers/input_suppliers.png')}}" alt="">
                                 </div>
                                 <p>Input Suppliers</p>
                             </a>
-                            <a href="#" class="customer-item no-decor">
+                            <a href="{{url('/customers/financial-services')}}" class="customer-item no-decor">
                                 <div>
                                     <img src="{{asset('images/customers/financial.png')}}" alt="">
                                 </div>
                                 <p>Financial Services</p>
                             </a>
-                            <a href="#" class="customer-item no-decor">
+                            <a href="{{url('/customers/insurance-companies')}}" class="customer-item no-decor">
                                 <div>
                                     <img src="{{asset('images/customers/insurance.png')}}" alt="">
                                 </div>
                                 <p>Insurance Companies</p>
                             </a>
-                            <a href="#" class="customer-item no-decor">
+                            <a href="{{url('/customers/crop-marketing')}}" class="customer-item no-decor">
                                 <div>
                                     <img src="{{asset('images/customers/crop_marketing.png')}}" alt="">
                                 </div>
                                 <p>Crop Marketing</p>
                             </a>
 
-                            <a href="#" class="customer-item no-decor">
+                            <a href="{{url('/customers/apps-and-software')}}" class="customer-item no-decor">
                                 <div>
                                     <img src="{{asset('images/customers/software.png')}}" alt="">
                                 </div>
                                 <p>Apps & Software</p>
                             </a>
 
-                            <a href="#" class="customer-item no-decor">
+                            <a href="{{url('/customers/aggregators')}}" class="customer-item no-decor">
                                 <div>
                                     <img src="{{asset('images/customers/aggregators.png')}}" alt="">
                                 </div>
                                 <p>Aggregators</p>
                             </a>
 
-                            <a href="#" class="customer-item no-decor">
+                            <a href="{{url('/customers/equipment-suppliers')}}" class="customer-item no-decor">
                                 <div>
                                     <img src="{{asset('images/customers/equipment_suppliers.png')}}" alt="">
                                 </div>
                                 <p>Equipment Suppliers</p>
                             </a>
 
-                            <a href="#" class="customer-item no-decor">
+                            <a href="{{url('/customers/retailers')}}" class="customer-item no-decor">
                                 <div>
                                     <img src="{{asset('images/customers/retailers.png')}}" alt="">
                                 </div>
                                 <p>Ag Retailers</p>
                             </a>
-                            <a href="#" class="customer-item no-decor">
+                            <a href="{{url('/customers/ngos')}}" class="customer-item no-decor">
                                 <div>
                                     <img src="{{asset('images/customers/ngos.png')}}" alt="">
                                 </div>

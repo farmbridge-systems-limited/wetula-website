@@ -1873,7 +1873,8 @@
     background-size: cover;
     background-repeat: no-repeat;
     height: 380px;
-    padding-top: 170px;
+    display: flex;
+    align-items: center;
   }
 
   div.content-wrapper.customer-segment-page div#segment-landing .sector-title-widget {
@@ -1881,10 +1882,13 @@
     border-bottom-right-radius: 100px;
     padding: 20px;
     width: 50%;
+    margin-right: 8%;
   }
 
   div.content-wrapper.customer-segment-page div#segment-landing #segment-login-widget {
-    display: none;
+    margin-top: -180px;
+    padding: 20px;
+    display: block;
   }
 
   div.content-wrapper.customer-segment-page div#sector-content .container .sector-overview {
@@ -2681,11 +2685,14 @@
     border-bottom-right-radius: 100px;
     padding: 20px;
     padding-left: 5%;
-    width: 40%;
+    width: 50%;
+    margin-right: 14%;
   }
 
   div.content-wrapper.customer-segment-page div#segment-landing #segment-login-widget {
-    display: none;
+    display: block;
+    width: 320px;
+    padding: 30px;
   }
 
   div.content-wrapper.customer-segment-page div#sector-content .container .sector-overview {
@@ -2962,11 +2969,11 @@
     border-bottom-right-radius: 100px;
     padding: 20px;
     padding-left: 8%;
-    width: 40%;
+    width: 50%;
   }
 
   div.content-wrapper.customer-segment-page div#segment-landing #segment-login-widget {
-    display: none;
+    display: block;
   }
 
   div.content-wrapper.customer-segment-page div#sector-content .container .sector-overview {

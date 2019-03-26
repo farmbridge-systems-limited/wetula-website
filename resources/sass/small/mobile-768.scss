@@ -544,19 +544,23 @@ div.content-wrapper.customer-segment-page {
         background-size: cover;
         background-repeat: no-repeat;
         height: 380px;
-        padding-top: 170px;
+        //padding-top: 170px;
+
+        display: flex;
+        align-items: center;
 
         .sector-title-widget {
             border-top-right-radius: 100px;
             border-bottom-right-radius: 100px;
             padding: 20px;
             width: 50%;
-
-
+            margin-right: 8%;
         }
 
         #segment-login-widget {
-            display: none;
+            margin-top: -180px;
+            padding:20px;
+            display: block;
         }
 
     }
