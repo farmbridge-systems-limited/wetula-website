@@ -33,7 +33,7 @@
             <div class="linkset" id="major-links">
                 <ul style=" list-style: none inside;">
                     <li class="no-border-bottom">
-                        <a class="text-upper fg-orange-hover no-decor fg-white" href="#">
+                        <a class="text-upper fg-orange-hover no-decor fg-white" href="{{url('/about')}}">
                             <span class="mif-organization mif-2x mr-4 fg-white"></span>
                             <span class="mt-2-minus text-bold">About Us</span>
                         </a>
@@ -45,19 +45,19 @@
                         </a>
                     </li>
                     <li class="no-border-bottom">
-                        <a class="text-upper fg-orange-hover no-decor fg-white" href="#">
+                        <a class="text-upper fg-orange-hover no-decor fg-white" href="{{url('/join-us')}}">
                             <span class="mif-user-plus mif-2x mr-4 fg-white"></span>
                             <span class="mt-2-minus text-bold">Join our Team</span>
                         </a>
                     </li>
                     <li class="no-border-bottom">
-                        <a class="text-upper fg-orange-hover no-decor fg-white" href="#">
+                        <a class="text-upper fg-orange-hover no-decor fg-white" href="{{url('/partners')}}">
                             <span class="mif-users mif-2x mr-4 fg-white"></span>
                             <span class="mt-2-minus text-bold">Our Partners</span>
                         </a>
                     </li>
                     <li class="no-border-bottom">
-                        <a class="text-upper fg-orange-hover no-decor fg-white" href="#">
+                        <a class="text-upper fg-orange-hover no-decor fg-white" href="{{url('/policies')}}">
                             <span class="mif-files-empty mif-2x mr-4 fg-white"></span>
                             <span class="mt-2-minus text-bold">Legal & Policies</span>
                         </a>
@@ -75,7 +75,7 @@
                     </li>
                     <li><p class="text-bold text-upper mt-4 fg-white">Products</p></li>
                     <li class="no-border-bottom">
-                        <a class="no-decor fg-orange-hover fg-gray" href="#">
+                        <a class="no-decor fg-orange-hover fg-gray" href="{{url('/product')}}">
                             <span class="mt-2-minus">Wetula Faire Scale</span>
                         </a>
                     </li>
@@ -100,29 +100,29 @@
                 <ul style=" list-style: none inside;">
                     <li><p class="text-bold text-upper mt-4 fg-white">Client Categories</p></li>
                     <li class="no-border-bottom">
-                        <a class="no-decor fg-orange-hover fg-gray" href="#">
+                        <a class="no-decor fg-orange-hover fg-gray" href="{{url('/customers/farmers')}}">
                             <span class="mt-2-minus">Farmers</span>
                         </a>
                     </li>
                     <li class="no-border-bottom">
-                        <a class="no-decor fg-orange-hover fg-gray" href="#">
+                        <a class="no-decor fg-orange-hover fg-gray" href="{{url('/customers/retailers')}}">
                             <span class="mt-2-minus">Product Retailers</span>
                         </a>
                     </li>
                     <li class="no-border-bottom">
-                        <a class="no-decor fg-orange-hover fg-gray" href="#">
+                        <a class="no-decor fg-orange-hover fg-gray" href="{{url('/customers/crop-marketing')}}">
                             <span class="mt-2-minus">License Buying Companies</span>
                         </a>
                     </li>
 
                     <li class="no-border-bottom">
-                        <a class="no-decor fg-orange-hover fg-gray" href="#">
+                        <a class="no-decor fg-orange-hover fg-gray" href="{{url('/customers/input-suppliers')}}">
                             <span class="mt-2-minus">Input Suppliers</span>
                         </a>
                     </li>
 
                     <li class="no-border-bottom">
-                        <a class="no-decor fg-orange-hover fg-gray" href="#">
+                        <a class="no-decor fg-orange-hover fg-gray" href="{{url('/customers/input-suppliers')}}">
                             <span class="mt-2-minus">Dealer Services</span>
                         </a>
                     </li>
@@ -141,20 +141,20 @@
 
 
                     <li class="no-border-bottom">
-                        <a class="no-decor fg-orange-hover fg-gray" href="#">
+                        <a class="no-decor fg-orange-hover fg-gray" href="{{url('/customers/aggregators')}}">
                             <span class="mt-2-minus">Co-operatives/ Aggregators</span>
                         </a>
                     </li>
 
                     <li class="no-border-bottom">
-                        <a class="no-decor fg-orange-hover fg-gray" href="#">
+                        <a class="no-decor fg-orange-hover fg-gray" href="{{url('/customers/ngos')}}">
                             <span class="mt-2-minus">NGOs</span>
                         </a>
                     </li>
 
 
                     <li class="no-border-bottom">
-                        <a class="no-decor fg-orange-hover fg-gray" href="#">
+                        <a class="no-decor fg-orange-hover fg-gray" href="{{url('/customers/financial-services')}}">
                             <span class="mt-2-minus">Financial Institutions</span>
                         </a>
                     </li>
@@ -177,9 +177,9 @@
                             <span>St. Cyprians Anglican Cathedral</span> <br>
                             <span>Maxwell Road, Fante - New Town</span> <br>
                             <span>Kumasi - Ghana</span> <br><br>
-                            <button class="button rounded bg-white fg-darkGreen"><span
+                            <a class="button rounded bg-white fg-darkGreen"><span
                                     class="mif-map2 mif-2x"></span> View on Map
-                            </button>
+                            </a>
                         </p>
                     </li>
 

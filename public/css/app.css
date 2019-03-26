@@ -832,6 +832,49 @@
   div#carreer div.jobs a.card:hover {
     border: 1px dashed #F66F0E;
   }
+
+  /**
+      PARTNERS
+   */
+
+  div#partners {
+    padding-top: 20px;
+    padding-bottom: 100px;
+    background: #f7fffc;
+  }
+
+  div#partners div.partners {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  div#partners div.partners a.card {
+    width: 100%;
+    color: #111111;
+    transition: border 0.2s ease-in;
+  }
+
+  div#partners div.partners a.card .card-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  div#partners div.partners a.card .card-header div h2 {
+    color: #60A917;
+  }
+
+  div#partners div.partners a.card .card-header div p {
+    text-align: center;
+    text-transform: uppercase;
+    color: #F66F0E;
+  }
+
+  div#partners div.partners a.card .card-footer {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media only screen and (min-width: 380px) {
@@ -2890,6 +2933,51 @@
     color: #fff;
     border: #fff;
     border-radius: 4px;
+  }
+
+  /**
+      PARTNERS
+   */
+
+  div#partners {
+    padding-top: 20px;
+    padding-bottom: 100px;
+    background: #f7fffc;
+  }
+
+  div#partners div.partners {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  div#partners div.partners a.card {
+    width: 45%;
+    margin: 20px;
+    color: #111111;
+    transition: border 0.2s ease-in;
+  }
+
+  div#partners div.partners a.card .card-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  div#partners div.partners a.card .card-header div h2 {
+    color: #60A917;
+  }
+
+  div#partners div.partners a.card .card-header div p {
+    text-align: center;
+    text-transform: uppercase;
+    color: #F66F0E;
+  }
+
+  div#partners div.partners a.card .card-footer {
+    display: flex;
+    flex-direction: column;
   }
 }
 
