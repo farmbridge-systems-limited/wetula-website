@@ -746,3 +746,60 @@ div.content-wrapper.customer-segment-page {
     }
 }
 
+
+/**
+  CARREERS PAGE
+ */
+div#carreer {
+    padding-top: 20px;
+    padding-bottom: 100px;
+    background: #f7fffc;
+
+
+    div.jobs {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+
+        a.card {
+            width: 45%;
+            color: #111111;
+
+            div.card-header {
+                background: #ffffff;
+            }
+
+            div.card-footer {
+                background: #efefef;
+
+                p > span {
+                    color: $green;
+                }
+            }
+
+            .simple-description {
+                min-width: 300px;
+
+                h2 {
+                    font-size: 1.4rem;
+                }
+
+                p {
+                    color: #c90c73;
+                    margin-top: 4px;
+                }
+            }
+
+            button {
+                background: $orange;
+                color: #fff;
+                border: #fff;
+                border-radius: 4px;
+            }
+        }
+
+
+    }
+
+}

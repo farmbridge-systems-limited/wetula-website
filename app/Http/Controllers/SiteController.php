@@ -68,4 +68,8 @@ class SiteController extends Controller
         return view('customer-segments.ngos');
     }
 
+    public function getCarreersPage()
+    {
+        return view('carreers');
+    }
 }

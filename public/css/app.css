@@ -774,6 +774,64 @@
   div.content-wrapper.customer-segment-page div#sector-content .container .sector-pricing {
     padding-bottom: 30px;
   }
+
+  /**
+    CARREERS PAGE
+   */
+
+  div#carreer {
+    padding-top: 20px;
+    padding-bottom: 100px;
+    background: #f7fffc;
+  }
+
+  div#carreer div.jobs {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  div#carreer div.jobs a.card {
+    width: 100%;
+    color: #111111;
+    transition: border 0.2s ease-in;
+  }
+
+  div#carreer div.jobs a.card div.card-header {
+    background: #ffffff;
+  }
+
+  div#carreer div.jobs a.card div.card-footer {
+    background: #efefef;
+  }
+
+  div#carreer div.jobs a.card div.card-footer p > span {
+    color: #60A917;
+  }
+
+  div#carreer div.jobs a.card .simple-description {
+    min-width: 300px;
+  }
+
+  div#carreer div.jobs a.card .simple-description h2 {
+    font-size: 1.4rem;
+  }
+
+  div#carreer div.jobs a.card .simple-description p {
+    color: #c90c73;
+    margin-top: 4px;
+  }
+
+  div#carreer div.jobs a.card button {
+    background: #F66F0E;
+    color: #fff;
+    border: #fff;
+    border-radius: 4px;
+  }
+
+  div#carreer div.jobs a.card:hover {
+    border: 1px dashed #F66F0E;
+  }
 }
 
 @media only screen and (min-width: 380px) {
@@ -2778,6 +2836,60 @@
 
   div.content-wrapper.customer-segment-page div#sector-content .container .sector-pricing .pricing-container .price-table {
     width: 30%;
+  }
+
+  /**
+    CARREERS PAGE
+   */
+
+  div#carreer {
+    padding-top: 20px;
+    padding-bottom: 100px;
+    background: #f7fffc;
+  }
+
+  div#carreer div.jobs {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  div#carreer div.jobs a.card {
+    width: 45%;
+    color: #111111;
+  }
+
+  div#carreer div.jobs a.card div.card-header {
+    background: #ffffff;
+  }
+
+  div#carreer div.jobs a.card div.card-footer {
+    background: #efefef;
+  }
+
+  div#carreer div.jobs a.card div.card-footer p > span {
+    color: #60A917;
+  }
+
+  div#carreer div.jobs a.card .simple-description {
+    min-width: 300px;
+  }
+
+  div#carreer div.jobs a.card .simple-description h2 {
+    font-size: 1.4rem;
+  }
+
+  div#carreer div.jobs a.card .simple-description p {
+    color: #c90c73;
+    margin-top: 4px;
+  }
+
+  div#carreer div.jobs a.card button {
+    background: #F66F0E;
+    color: #fff;
+    border: #fff;
+    border-radius: 4px;
   }
 }
 

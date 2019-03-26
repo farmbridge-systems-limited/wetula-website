@@ -16,6 +16,7 @@ Route::get('/about', 'SiteController@getAboutPage');
 Route::get('/sector', 'SiteController@getSectorPage');
 Route::get('/product', 'SiteController@getProductPage');
 Route::get('/contact-us', 'SiteController@getContactPage');
+Route::get('/join-us', 'SiteController@getCarreersPage');
 
 Route::get('/customers/farmers', 'SiteController@getFarmersSegmentPage');
 Route::get('/customers/input-suppliers', 'SiteController@getInputSuppliersSegmentPage');
