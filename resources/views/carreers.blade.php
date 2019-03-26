@@ -34,7 +34,7 @@
 
     <div id="carreer">
         <div class="jobs container">
-            <a class="card c-pointer no-user-select">
+            <a href="{{url('/job-detail')}}" class="card no-decor c-pointer no-user-select">
                 <div class="card-header">
                     <div class="simple-description">
                         <h2>Web Developer</h2>
@@ -49,7 +49,7 @@
                     <p><span class="mif-history"></span> 2 days ago</p>
                 </div>
             </a>
-            <a class="card c-pointer no-user-select">
+            <a href="{{url('/job-detail')}}" class="card no-decor c-pointer no-user-select">
                 <div class="card-header">
                     <div class="simple-description">
                         <h2>Web Developer</h2>
@@ -64,7 +64,7 @@
                     <p><span class="mif-history"></span> 2 days ago</p>
                 </div>
             </a>
-            <a class="card c-pointer no-user-select">
+            <a href="{{url('/job-detail')}}" class="card no-decor c-pointer no-user-select">
                 <div class="card-header">
                     <div class="simple-description">
                         <h2>Web Developer</h2>
@@ -79,7 +79,7 @@
                     <p><span class="mif-history"></span> 2 days ago</p>
                 </div>
             </a>
-            <a class="card c-pointer no-user-select">
+            <a href="{{url('/job-detail')}}" class="card no-decor c-pointer no-user-select">
                 <div class="card-header">
                     <div class="simple-description">
                         <h2>Web Developer</h2>
@@ -94,7 +94,7 @@
                     <p><span class="mif-history"></span> 2 days ago</p>
                 </div>
             </a>
-            <a class="card c-pointer no-user-select">
+            <a href="{{url('/job-detail')}}" class="card no-decor c-pointer no-user-select">
                 <div class="card-header">
                     <div class="simple-description">
                         <h2>Web Developer</h2>
@@ -109,7 +109,7 @@
                     <p><span class="mif-history"></span> 2 days ago</p>
                 </div>
             </a>
-            <a class="card c-pointer no-user-select">
+            <a href="{{url('/job-detail')}}" class="card no-decor c-pointer no-user-select">
                 <div class="card-header">
                     <div class="simple-description">
                         <h2>Web Developer</h2>

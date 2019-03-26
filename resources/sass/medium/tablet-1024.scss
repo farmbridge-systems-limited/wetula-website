@@ -847,3 +847,95 @@ div#partners{
         }
     }
 }
+
+
+/**
+  JOB DETAIL
+ */
+div#job-detail{
+    padding-top: 200px;
+    padding-bottom: 100px;
+    background: #f1f1f3;
+    color: #111111;
+
+
+    div#job-summary{
+        background: #fff;
+        padding: 20px;
+
+        h3{
+            font-size: 1.8rem;
+            line-height: 4rem;
+        }
+        p.text-leader2{
+            color: #c90c73;
+        }
+        div.dates{
+            margin-top: 24px;
+            display: flex;
+            p{
+                margin-right: 20px;
+
+                .highlight{
+                    color: $green;
+
+                }
+            }
+        }
+    }
+
+    div#job-description {
+        margin-top: 20px;
+        background: #fff;
+        padding: 20px;
+
+        p.text-leader2{
+            color: #7c7c7c;
+        }
+
+        p.description{
+            margin-top: 10px;
+            line-height: 2rem;
+        }
+
+        p.bullet-point{
+            span{
+                color: $green;
+                line-height: 2.5rem;
+                margin-right: 20px;
+            }
+        }
+    }
+
+    div#job-apply {
+        background: #fff;
+        padding: 20px;
+
+        button{
+            font-size: 1.2rem;
+            width: 100%;
+            border-width: 2px;
+            line-height: 4rem;
+            height: 80px;
+            margin-bottom: 20px;
+        }
+
+        div.job-widget{
+            padding-top: 10px;
+            padding-bottom: 10px;
+            display: flex;
+
+            p.item-icon{
+                color: $green;
+                margin-right: 20px;
+            }
+
+            p.job-widget-title{
+                color: #7c7c7c;
+                margin-bottom: 8px;
+            }
+        }
+
+
+    }
+}

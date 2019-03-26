@@ -76,4 +76,8 @@ class SiteController extends Controller
     public function getPartnersPage(){
         return view('partners');
     }
+
+    public function getJobDetailPage(){
+        return view('job-detail');
+    }
 }

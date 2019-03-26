@@ -5,7 +5,7 @@
     <meta name="metro4:init" content="false">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>Wetula | Partners</title>
+    <title>Wetula | Our Partners</title>
     <link rel="favicon" href="{{asset('favicon.png?v2')}}">
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
 </head>
