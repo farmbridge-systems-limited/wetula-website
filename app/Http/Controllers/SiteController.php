@@ -83,6 +83,10 @@ class SiteController extends Controller
 
     public function getTermsofServicePage()
     {
-        return view('components.terms-of-service');
+        return view('legal.terms-of-service');
+    }
+
+    public function getPrivacyPolicyPage(){
+        return view('legal.privacy-policy');
     }
 }
