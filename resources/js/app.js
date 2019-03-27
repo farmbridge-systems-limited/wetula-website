@@ -15,6 +15,7 @@ Vue.component('header-component', require('./components/HeaderComponent.vue').de
 Vue.component('customer-segment-nav-component', require('./components/CustomerSegmentNavComponent.vue').default);
 Vue.component('term-of-service-nav', require('./components/TermOfServiceNav.vue').default);
 Vue.component('privacy-policy-nav', require('./components/PrivacyPolicyNav.vue').default);
+Vue.component('corporate-assurance-nav', require('./components/CorporateAssuranceNav.vue').default);
 
 
 const app = new Vue({
