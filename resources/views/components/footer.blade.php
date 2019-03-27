@@ -226,9 +226,9 @@
                 <a class="no-decor fg-orange-hover fg-white" href="{{url('/legal/terms-of-service')}}">Terms of
                     Service</a> |
                 <a class="no-decor fg-orange-hover fg-white" href="{{url('/legal/privacy-policy')}}"> Privacy Policy</a> |
-                <a class="no-decor fg-orange-hover fg-white" href="#">Disclaimer & Waiver of Liability</a> |
-                <a class="no-decor fg-orange-hover fg-white" href="#">Data Protection Policy</a> |
-                <a class="no-decor fg-orange-hover fg-white" href="#">Corporate Assurance</a>
+                <a class="no-decor fg-orange-hover fg-white" href="{{url('/legal/disclaimer')}}">Disclaimer & Waiver of Liability</a> |
+                <a class="no-decor fg-orange-hover fg-white" href="{{url('/legal/data-protection-policy')}}">Data Protection Policy</a> |
+                <a class="no-decor fg-orange-hover fg-white" href="{{url('/legal/corporate-assurance')}}">Corporate Assurance</a>
             </p>
             <p class="fg-lightGray text-center">Copyright &copy; 2019 FarmBridge Systems Limited. All rights Reserved. |
                 <span class="fg-gray text-center">Developed by <a class="fg-gray text-bold"

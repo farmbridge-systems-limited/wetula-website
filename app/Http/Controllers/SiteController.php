@@ -89,4 +89,12 @@ class SiteController extends Controller
     public function getPrivacyPolicyPage(){
         return view('legal.privacy-policy');
     }
+
+    public function getDataProtectionPage(){
+        return view('legal.data-protection');
+    }
+
+    public function getCorporateAssurancePage(){
+        return view('legal.corporate-assurance');
+    }
 }
