@@ -20,6 +20,8 @@ Route::get('/join-us', 'SiteController@getCarreersPage');
 Route::get('/job-detail', 'SiteController@getJobDetailPage');
 Route::get('/partners', 'SiteController@getPartnersPage');
 
+Route::get('/legal/terms-of-service', 'SiteController@getTermsofServicePage');
+
 Route::get('/customers/farmers', 'SiteController@getFarmersSegmentPage');
 Route::get('/customers/input-suppliers', 'SiteController@getInputSuppliersSegmentPage');
 Route::get('/customers/financial-services', 'SiteController@getFinancialServicesSegmentPage');

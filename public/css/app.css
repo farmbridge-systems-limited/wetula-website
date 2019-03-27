@@ -875,6 +875,57 @@
     display: flex;
     flex-direction: column;
   }
+
+  /**
+      TERM OF SERVICE
+   */
+
+  div#terms-of-service.content-wrapper {
+    padding-top: 164px;
+  }
+
+  div#terms-of-service.content-wrapper h4 {
+    margin-top: 30px;
+    color: #6E44B8;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  div#terms-of-service.content-wrapper ol {
+    counter-reset: section;
+    list-style-type: none;
+    list-style-position: outside;
+    margin-top: 10px;
+  }
+
+  div#terms-of-service.content-wrapper li:before {
+    counter-increment: section;
+    content: counters(section, ".") ".  " "  ";
+    font-weight: bold;
+    color: #F66F0E;
+    font-size: 1.3rem;
+  }
+
+  div#terms-of-service.content-wrapper ol li {
+    font-size: 1.2rem;
+    color: #6C6C6C;
+    font-weight: 400;
+    margin-bottom: 24px;
+  }
+
+  div#terms-of-service.content-wrapper ol li a {
+    line-height: 2.2rem;
+  }
+
+  div#terms-of-service.content-wrapper .legal-h1 {
+    font-size: 1.7rem;
+    font-weight: 600;
+  }
+
+  div#terms-of-service.content-wrapper h3 {
+    padding-top: 80px;
+    color: #F66F0E;
+  }
 }
 
 @media only screen and (min-width: 380px) {

@@ -80,4 +80,9 @@ class SiteController extends Controller
     public function getJobDetailPage(){
         return view('job-detail');
     }
+
+    public function getTermsofServicePage()
+    {
+        return view('components.terms-of-service');
+    }
 }

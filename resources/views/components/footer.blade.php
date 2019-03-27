@@ -223,7 +223,8 @@
     <div class="pt-2 pb-2 bg-darkGreen">
         <div class="container">
             <p class="text-center small fg-gray">
-                <a class="no-decor fg-orange-hover fg-white" href="#">Terms of Service</a> |
+                <a class="no-decor fg-orange-hover fg-white" href="{{url('/legal/terms-of-service')}}">Terms of
+                    Service</a> |
                 <a class="no-decor fg-orange-hover fg-white" href="#"> Privacy Policy</a> |
                 <a class="no-decor fg-orange-hover fg-white" href="#">Disclaimer & Waiver of Liability</a> |
                 <a class="no-decor fg-orange-hover fg-white" href="#">Data Protection Policy</a> |
