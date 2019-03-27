@@ -21,6 +21,10 @@ Route::get('/job-detail', 'SiteController@getJobDetailPage');
 Route::get('/partners', 'SiteController@getPartnersPage');
 
 Route::get('/legal/terms-of-service', 'SiteController@getTermsofServicePage');
+Route::get('/legal/privacy-policy', 'SiteController@getTermsofServicePage');
+Route::get('/legal/disclaimer', 'SiteController@getTermsofServicePage');
+Route::get('/legal/data-protection-policy', 'SiteController@getTermsofServicePage');
+Route::get('/legal/corporate-assurance', 'SiteController@getTermsofServicePage');
 
 Route::get('/customers/farmers', 'SiteController@getFarmersSegmentPage');
 Route::get('/customers/input-suppliers', 'SiteController@getInputSuppliersSegmentPage');

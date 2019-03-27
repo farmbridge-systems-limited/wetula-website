@@ -884,6 +884,19 @@
     padding-top: 164px;
   }
 
+  div#terms-of-service.content-wrapper #toc-normal-flow {
+    display: block;
+  }
+
+  div#terms-of-service.content-wrapper aside {
+    display: none;
+    width: 350px;
+  }
+
+  div#terms-of-service.content-wrapper main {
+    width: 100%;
+  }
+
   div#terms-of-service.content-wrapper h4 {
     margin-top: 30px;
     color: #6E44B8;
@@ -925,6 +938,45 @@
   div#terms-of-service.content-wrapper h3 {
     padding-top: 80px;
     color: #F66F0E;
+  }
+
+  div#terms-of-service.content-wrapper nav {
+    padding-top: 40px;
+    display: block;
+    min-height: 80px;
+    display: none;
+  }
+
+  div#terms-of-service.content-wrapper nav ul#legal-nav li:before {
+    counter-increment: section;
+    content: counters(section, ".") ".  " "  ";
+    font-weight: bold;
+    color: #F66F0E;
+    display: none;
+  }
+
+  div#terms-of-service.content-wrapper nav ul#legal-nav li {
+    margin-left: 2px;
+    border-bottom: 5px solid #BFBFBF;
+    transition: border-bottom-color 0.2s ease-in;
+  }
+
+  div#terms-of-service.content-wrapper nav ul#legal-nav li a {
+    background: white;
+    color: #474747;
+    font-size: 1.1rem;
+    font-weight: 400;
+    transition: color 0.2s ease-in;
+  }
+
+  div#terms-of-service.content-wrapper nav ul#legal-nav li:hover,
+  div#terms-of-service.content-wrapper nav ul#legal-nav li.active {
+    border-bottom: 5px solid #F66F0E;
+  }
+
+  div#terms-of-service.content-wrapper nav ul#legal-nav li:hover a,
+  div#terms-of-service.content-wrapper nav ul#legal-nav li.active a {
+    color: #60A917;
   }
 }
 
@@ -3389,6 +3441,111 @@
 
   div.content-wrapper.customer-segment-page div#sector-content .container .sector-pricing .pricing-container .price-table {
     width: 30%;
+  }
+
+  /**
+      TERM OF SERVICE
+   */
+
+  div#terms-of-service.content-wrapper {
+    padding-top: 164px;
+  }
+
+  div#terms-of-service.content-wrapper #toc-normal-flow {
+    display: none;
+  }
+
+  div#terms-of-service.content-wrapper main {
+    width: 65%;
+  }
+
+  div#terms-of-service.content-wrapper aside {
+    display: block;
+  }
+
+  div#terms-of-service.content-wrapper div#legal-container {
+    display: flex;
+  }
+
+  div#terms-of-service.content-wrapper h4 {
+    margin-top: 30px;
+    color: #6E44B8;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  div#terms-of-service.content-wrapper ol {
+    counter-reset: section;
+    list-style-type: none;
+    list-style-position: outside;
+    margin-top: 10px;
+  }
+
+  div#terms-of-service.content-wrapper li:before {
+    counter-increment: section;
+    content: counters(section, ".") ".  " "  ";
+    font-weight: bold;
+    color: #F66F0E;
+    font-size: 1.3rem;
+  }
+
+  div#terms-of-service.content-wrapper ol li {
+    font-size: 1.2rem;
+    color: #6C6C6C;
+    font-weight: 400;
+    margin-bottom: 24px;
+  }
+
+  div#terms-of-service.content-wrapper ol li a {
+    line-height: 2.2rem;
+  }
+
+  div#terms-of-service.content-wrapper .legal-h1 {
+    font-size: 1.7rem;
+    font-weight: 600;
+  }
+
+  div#terms-of-service.content-wrapper h3 {
+    padding-top: 80px;
+    color: #F66F0E;
+  }
+
+  div#terms-of-service.content-wrapper nav {
+    padding-top: 40px;
+    display: block;
+    min-height: 80px;
+  }
+
+  div#terms-of-service.content-wrapper nav ul#legal-nav li:before {
+    counter-increment: section;
+    content: counters(section, ".") ".  " "  ";
+    font-weight: bold;
+    color: #F66F0E;
+    display: none;
+  }
+
+  div#terms-of-service.content-wrapper nav ul#legal-nav li {
+    margin-left: 2px;
+    border-bottom: 5px solid #BFBFBF;
+    transition: border-bottom-color 0.2s ease-in;
+  }
+
+  div#terms-of-service.content-wrapper nav ul#legal-nav li a {
+    background: white;
+    color: #474747;
+    font-size: 1.1rem;
+    font-weight: 400;
+    transition: color 0.2s ease-in;
+  }
+
+  div#terms-of-service.content-wrapper nav ul#legal-nav li:hover,
+  div#terms-of-service.content-wrapper nav ul#legal-nav li.active {
+    border-bottom: 5px solid #F66F0E;
+  }
+
+  div#terms-of-service.content-wrapper nav ul#legal-nav li:hover a,
+  div#terms-of-service.content-wrapper nav ul#legal-nav li.active a {
+    color: #60A917;
   }
 }
 

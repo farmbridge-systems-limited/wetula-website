@@ -13,6 +13,7 @@ Vue.use(VueGoogleMaps, {
 Vue.component('map-component', require('./components/MapComponent.vue').default);
 Vue.component('header-component', require('./components/HeaderComponent.vue').default);
 Vue.component('customer-segment-nav-component', require('./components/CustomerSegmentNavComponent.vue').default);
+Vue.component('term-of-service-nav', require('./components/TermOfServiceNav.vue').default);
 
 
 const app = new Vue({

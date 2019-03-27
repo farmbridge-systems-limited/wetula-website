@@ -975,6 +975,18 @@ div#partners{
 div#terms-of-service.content-wrapper {
     padding-top: 164px;
 
+    #toc-normal-flow{
+        display: block;
+    }
+    aside{
+        display: none;
+        width: 350px;
+    }
+
+    main{
+        width: 100%;
+    }
+
     h4 {
         margin-top: 30px;
         color: $pink;
@@ -1019,5 +1031,46 @@ div#terms-of-service.content-wrapper {
     h3 {
         padding-top: 80px;
         color: $orange;
+    }
+
+    nav {
+        padding-top: 40px;
+        display: block;
+        min-height: 80px;
+        display: none;
+
+        ul#legal-nav {
+
+            li:before {
+                counter-increment: section;
+                content: counters(section, ".") ".  " "  ";
+                font-weight: bold;
+                color: $orange;
+                //font-size: 1.3rem;
+                display: none;
+            }
+
+            li {
+                margin-left: 2px;
+                border-bottom: 5px solid $lightGray;
+                transition: border-bottom-color 0.2s ease-in;
+
+                a {
+                    background: white;
+                    color: $darkGray;
+                    font-size: 1.1rem;
+                    font-weight: 400;
+                    transition: color 0.2s ease-in;
+                }
+            }
+
+            li:hover, li.active {
+                border-bottom: 5px solid $orange;
+
+                a {
+                    color: $green;
+                }
+            }
+        }
     }
 }

@@ -305,3 +305,115 @@ div.content-wrapper.customer-segment-page {
     }
 }
 
+
+/**
+    TERM OF SERVICE
+ */
+div#terms-of-service.content-wrapper {
+    padding-top: 164px;
+
+    #toc-normal-flow{
+        display: none;
+    }
+
+
+    main{
+        width: 65%;
+    }
+    aside{
+        display: block;
+    }
+
+    div#legal-container{
+        display: flex;
+    }
+
+
+
+
+    h4 {
+        margin-top: 30px;
+        color: $pink;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    ol {
+        counter-reset: section;
+        list-style-type: none;
+        list-style-position: outside;
+        margin-top: 10px;
+    }
+
+    li:before {
+        counter-increment: section;
+        content: counters(section, ".") ".  " "  ";
+        font-weight: bold;
+        color: $orange;
+        font-size: 1.3rem;
+    }
+
+
+    ol {
+        li {
+            font-size: 1.2rem;
+            color: #6C6C6C;
+            font-weight: 400;
+            margin-bottom: 24px;
+
+            a {
+                line-height: 2.2rem;
+            }
+        }
+    }
+
+    .legal-h1 {
+        font-size: 1.7rem;
+        font-weight: 600;
+    }
+
+    h3 {
+        padding-top: 80px;
+        color: $orange;
+    }
+
+    nav {
+        padding-top: 40px;
+        display: block;
+        min-height: 80px;
+
+        ul#legal-nav {
+
+            li:before {
+                counter-increment: section;
+                content: counters(section, ".") ".  " "  ";
+                font-weight: bold;
+                color: $orange;
+                //font-size: 1.3rem;
+                display: none;
+            }
+
+            li {
+                margin-left: 2px;
+                border-bottom: 5px solid $lightGray;
+                transition: border-bottom-color 0.2s ease-in;
+
+                a {
+                    background: white;
+                    color: $darkGray;
+                    font-size: 1.1rem;
+                    font-weight: 400;
+                    transition: color 0.2s ease-in;
+                }
+            }
+
+            li:hover, li.active {
+                border-bottom: 5px solid $orange;
+
+                a {
+                    color: $green;
+                }
+            }
+        }
+    }
+}
