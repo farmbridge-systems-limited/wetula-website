@@ -54,13 +54,13 @@
                         </p>
                     </div>
                     <div id="toc-normal-flow" class="bg-lightGray drop-shadow mt-10 p-8 rounded">
-                        <term-of-service-nav></term-of-service-nav>
+                       <privacy-policy-nav></privacy-policy-nav>
                     </div>
                     <ol id="legal-content-list" class="mt-20">
 
 
                         <li>
-                            <span id="provisions-of-service" class="legal-h1 fg-green">COLLECTION OF INFORMATION</span>
+                            <span id="collection-of-information" class="legal-h1 fg-green">COLLECTION OF INFORMATION</span>
 
                             <ol>
                                 <li>
@@ -98,7 +98,7 @@
                         </li>
 
                         <li>
-                            <span id="users-generally" class="legal-h1 fg-green">USE OF PERSONAL DATA</span>
+                            <span id="use-of-personal-data" class="legal-h1 fg-green">USE OF PERSONAL DATA</span>
 
                             <br>
                             <p class="pl-8">
@@ -145,7 +145,7 @@
                         </li>
 
                         <li>
-                            <span id="member-accounts" class="legal-h1 fg-green">DISCLOSURE OF PERSONAL DATA</span>
+                            <span id="disclosure-of-personal-data" class="legal-h1 fg-green">DISCLOSURE OF PERSONAL DATA</span>
 
                             <ol>
                                 <li>
@@ -183,7 +183,7 @@
                         </li>
 
                         <li>
-                            <span id="member-responsibilities" class="legal-h1 fg-green">RIGHT TO ACCESS/CORRECT PERSONAL DATA</span>
+                            <span id="right-to-access" class="legal-h1 fg-green">RIGHT TO ACCESS/CORRECT PERSONAL DATA</span>
 
                             <p class="pl-8">Under the applicable laws, you have the right of access to personal information held by us and to request correction of the information.</p>
 
@@ -203,7 +203,7 @@
                         </li>
 
                         <li>
-                            <span id="breaches-by-members" class="legal-h1 fg-green">COOKIES</span>
+                            <span id="cookies" class="legal-h1 fg-green">COOKIES</span>
 
                             <p class="pl-8">
                                 We use "cookies" to store specific information about you and track your visits to the Sites. It is not uncommon for websites to use cookies to enhance i-dentification of their users.
@@ -223,7 +223,7 @@
                         </li>
 
                         <li>
-                            <span id="transactions-between-buyers-sellers" class="legal-h1 fg-green">MINORS</span>
+                            <span id="minors" class="legal-h1 fg-green">MINORS</span>
 
                             <p class="pl-8">
                                 The Sites and their contents are not targeted to minors (those under the age of 18) and we do not intend to sell any of our products or services to minors. However, we have no way of distinguishing the age of individuals who access our Site. If a minor has provided us with personal information without parental or guardian consent, the parent or guardian should contact our Legal Department at the address set out in paragraph D above to remove the information.
@@ -249,7 +249,7 @@
                         </li>
 
                         <li>
-                            <span id="force-majeure" class="legal-h1 fg-green">CHANGES TO THIS PRIVACY POLICY</span>
+                            <span id="changes" class="legal-h1 fg-green">CHANGES TO THIS PRIVACY POLICY</span>
 
                             <p class="pl-8">
                                 Any changes to this Privacy Policy will be communicated by us posting an amended and restated Privacy Policy on the Sites. Once posted on the Sites the new Privacy Policy will be effective immediately. You agree that any information we hold about you (as described in this Privacy Policy and whether or not collected prior to or after the new Privacy Policy became effective) will be governed by the latest version of the Privacy Policy.
@@ -257,7 +257,7 @@
                         </li>
 
                         <li>
-                            <span id="intellectual-property-rights" class="legal-h1 fg-green">YOUR FEEDBACK</span>
+                            <span id="feedback" class="legal-h1 fg-green">YOUR FEEDBACK</span>
 
                             <p class="pl-8">
                                 We welcome your input regarding our Privacy Policy and any comments on the services we provide to you. You may send us your comments and responses by post to: Room 26, Bishop Arthur Center, St Cyprian’s Anglican Cathedral, Fante Newtown-Kumasi, Ghana West Africa.
@@ -267,7 +267,7 @@
                 </main>
                 <aside>
                     <div id="toc-side-flow" class="bg-lightGray drop-shadow mt-10 p-8 rounded">
-                        <term-of-service-nav></term-of-service-nav>
+                        <privacy-policy-nav></privacy-policy-nav>
                     </div>
                 </aside>
 
