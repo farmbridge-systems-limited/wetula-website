@@ -73,7 +73,7 @@
         </div>
         <div id="brand-container">
             <div class="container">
-                <div class="logo-container">
+                <div v-on:click="goHome" class="logo-container c-pointer">
                     <img alt="Wetula Logo" src="../../sass/images/wetula_logo.png">
                 </div>
                 <div class="p-6" id="wetula_info">
@@ -180,6 +180,9 @@
 
         },
         methods: {
+            goHome: function(){
+              location.href = "/";
+            },
             toggleGeoSettingsPanel: function () {
 
             }

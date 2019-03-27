@@ -22,7 +22,7 @@ Route::get('/partners', 'SiteController@getPartnersPage');
 
 Route::get('/legal/terms-of-service', 'SiteController@getTermsofServicePage');
 Route::get('/legal/privacy-policy', 'SiteController@getPrivacyPolicyPage');
-Route::get('/legal/disclaimer', 'SiteController@getTermsofServicePage');
+Route::get('/legal/disclaimer', 'SiteController@getDisclaimerPage');
 Route::get('/legal/data-protection-policy', 'SiteController@getDataProtectionPage');
 Route::get('/legal/corporate-assurance', 'SiteController@getCorporateAssurancePage');
 

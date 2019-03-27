@@ -97,4 +97,8 @@ class SiteController extends Controller
     public function getCorporateAssurancePage(){
         return view('legal.corporate-assurance');
     }
+
+    public function getDisclaimerPage(){
+        return view('legal.disclaimer');
+    }
 }

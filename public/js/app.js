@@ -2045,6 +2045,9 @@ __webpack_require__.r(__webpack_exports__);
   },
   mounted: function mounted() {},
   methods: {
+    goHome: function goHome() {
+      location.href = "/";
+    },
     toggleGeoSettingsPanel: function toggleGeoSettingsPanel() {}
   }
 });
@@ -57013,484 +57016,480 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("header", { staticClass: " bg-white" }, [
-      _c("div", { attrs: { id: "app-bar-container" } }, [
-        _c("div", { staticClass: "mobile-tab-app-bar z-absolute container" }, [
-          _c("div", { staticClass: "geo-container p-1" }, [
-            _c(
-              "button",
-              {
-                staticClass: "button bg-white",
-                attrs: {
-                  id: "geoSettingsToggleBtn",
-                  onclick: "$('#geosettings-sidepanel').data('charms').toggle()"
-                }
-              },
-              [
-                _c("span", { staticClass: "mif-equalizer mif-2x" }),
-                _vm._v(" "),
-                _c(
-                  "span",
-                  {
-                    staticStyle: { "margin-top": "-4px" },
-                    attrs: { id: "btnText" }
-                  },
-                  [_vm._v("Geo Settings")]
-                )
-              ]
-            ),
-            _vm._v(" "),
-            _c(
-              "a",
-              { staticClass: "button bg-white", attrs: { id: "language" } },
-              [
-                _c("span", { staticClass: "mif-language fg-green" }),
-                _vm._v(" "),
-                _c("small", [_vm._v("English")])
-              ]
-            ),
-            _vm._v(" "),
-            _c(
-              "a",
-              { staticClass: " button bg-white", attrs: { id: "continent" } },
-              [
-                _c("span", { staticClass: "mif-earth fg-green" }),
-                _vm._v(" "),
-                _c("small", [_vm._v("Africa")])
-              ]
-            ),
-            _vm._v(" "),
-            _c(
-              "a",
-              {
-                staticClass: "button bg-white",
-                attrs: { id: "appbar_contact" }
-              },
-              [
-                _c("span", { staticClass: "mif-phone fg-green" }),
-                _vm._v(" "),
-                _c("small", [_vm._v("Contact Us")])
-              ]
-            )
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "auth-container pt-2 p-1" }, [
-            _c("a", { staticClass: "ml-2 mr-2 " }, [
-              _c("span", { staticClass: "mif-security" }),
-              _vm._v(" Client Login")
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "menu-container p-1" }, [
-            _c(
-              "a",
-              {
-                staticClass:
-                  "button rounded border border-2 bd-white place-right",
-                attrs: { id: "menuToggleBtn" }
-              },
-              [
-                _c("span", { staticClass: "mif-menu " }),
-                _vm._v(" "),
-                _c("span", { staticClass: "btnText" }, [_vm._v(" Menu")])
-              ]
-            ),
-            _vm._v(" "),
-            _c(
-              "div",
-              {
-                staticClass: "pos-absolute  pos-top-right",
-                attrs: { id: "mobileNavList" }
-              },
-              [
-                _c(
-                  "div",
-                  {
-                    staticClass: "bg-red fg-white",
-                    attrs: {
-                      "data-role": "dropdown",
-                      "data-toggle-element": "#menuToggleBtn"
-                    }
-                  },
-                  [
-                    _c("ul", { staticClass: "sidenav-m3 pl-1 bg-orange" }, [
-                      _c("li", { staticClass: "active" }, [
-                        _c("a", { attrs: { href: "/home" } }, [_vm._v("Home")])
-                      ]),
-                      _vm._v(" "),
-                      _c("li", { staticClass: "bg-darkGreen" }, [
-                        _c(
-                          "a",
-                          {
-                            staticClass: "dropdown-toggle",
-                            attrs: { href: "/about" }
-                          },
-                          [_vm._v("About Us")]
-                        ),
-                        _vm._v(" "),
-                        _c(
-                          "ul",
-                          {
-                            staticClass: "d-menu",
-                            staticStyle: { display: "none" },
-                            attrs: { "data-role": "dropdown" }
-                          },
-                          [
-                            _c("li", [
-                              _c("a", { attrs: { href: "/sector" } }, [
-                                _vm._v("Customer Segments")
-                              ])
-                            ]),
-                            _vm._v(" "),
-                            _c("li", [
-                              _c("a", { attrs: { href: "/company" } }, [
-                                _vm._v("Our Company")
-                              ])
-                            ]),
-                            _vm._v(" "),
-                            _c("li", [
-                              _c("a", { attrs: { href: "/team" } }, [
-                                _vm._v("Our Team")
-                              ])
-                            ])
-                          ]
-                        )
-                      ]),
-                      _vm._v(" "),
-                      _c("li", { staticClass: "bg-darkGreen" }, [
-                        _c(
-                          "a",
-                          {
-                            staticClass: "dropdown-toggle",
-                            attrs: { href: "#" }
-                          },
-                          [_vm._v("Operation Sectors")]
-                        ),
-                        _vm._v(" "),
-                        _c(
-                          "ul",
-                          {
-                            staticClass: "d-menu",
-                            staticStyle: { display: "none" },
-                            attrs: { "data-role": "dropdown" }
-                          },
-                          [
-                            _c("li", [
-                              _c("a", { attrs: { href: "" } }, [
-                                _vm._v("Tree Crops")
-                              ])
-                            ]),
-                            _vm._v(" "),
-                            _c("li", [
-                              _c("a", { attrs: { href: "" } }, [
-                                _vm._v("Tree Crops")
-                              ])
-                            ]),
-                            _vm._v(" "),
-                            _c("li", [
-                              _c("a", { attrs: { href: "" } }, [
-                                _vm._v("Tree Crops")
-                              ])
-                            ])
-                          ]
-                        )
-                      ]),
-                      _vm._v(" "),
-                      _c("li", {}, [
-                        _c("a", { attrs: { href: "#/products" } }, [
-                          _vm._v("Products")
-                        ])
-                      ]),
-                      _vm._v(" "),
-                      _c("li", {}, [
-                        _c("a", { attrs: { href: "/join-us" } }, [
-                          _vm._v("Join Us")
-                        ])
-                      ]),
-                      _vm._v(" "),
-                      _c("li", {}, [
-                        _c("a", { attrs: { href: "/contact" } }, [
-                          _vm._v("Contact Us")
-                        ])
-                      ])
-                    ])
-                  ]
-                )
-              ]
-            ),
-            _vm._v(" "),
-            _c("button", { staticClass: "button", attrs: { id: "joinBtn" } }, [
-              _c("span", { staticClass: "mif-user-plus" }),
-              _vm._v(" Register")
-            ])
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "desktop-app-bar container" })
-      ]),
-      _vm._v(" "),
-      _c("div", { attrs: { id: "brand-container" } }, [
-        _c("div", { staticClass: "container" }, [
-          _c("div", { staticClass: "logo-container" }, [
+  return _c("header", { staticClass: " bg-white" }, [
+    _vm._m(0),
+    _vm._v(" "),
+    _c("div", { attrs: { id: "brand-container" } }, [
+      _c("div", { staticClass: "container" }, [
+        _c(
+          "div",
+          {
+            staticClass: "logo-container c-pointer",
+            on: { click: _vm.goHome }
+          },
+          [
             _c("img", {
               attrs: {
                 alt: "Wetula Logo",
                 src: __webpack_require__(/*! ../../sass/images/wetula_logo.png */ "./resources/sass/images/wetula_logo.png")
               }
             })
-          ]),
+          ]
+        ),
+        _vm._v(" "),
+        _vm._m(1)
+      ])
+    ]),
+    _vm._v(" "),
+    _vm._m(2),
+    _vm._v(" "),
+    _vm._m(3)
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { attrs: { id: "app-bar-container" } }, [
+      _c("div", { staticClass: "mobile-tab-app-bar z-absolute container" }, [
+        _c("div", { staticClass: "geo-container p-1" }, [
+          _c(
+            "button",
+            {
+              staticClass: "button bg-white",
+              attrs: {
+                id: "geoSettingsToggleBtn",
+                onclick: "$('#geosettings-sidepanel').data('charms').toggle()"
+              }
+            },
+            [
+              _c("span", { staticClass: "mif-equalizer mif-2x" }),
+              _vm._v(" "),
+              _c(
+                "span",
+                {
+                  staticStyle: { "margin-top": "-4px" },
+                  attrs: { id: "btnText" }
+                },
+                [_vm._v("Geo Settings")]
+              )
+            ]
+          ),
           _vm._v(" "),
-          _c("div", { staticClass: "p-6", attrs: { id: "wetula_info" } }, [
-            _c("div", { staticClass: "d-flex flex-justify-end" }, [
-              _c("div", { staticClass: "pos-relative" }, [
-                _c("a", { staticClass: "button link dropdown-toggle" }, [
-                  _c("span", {
-                    staticClass: "mif-language mif-2x mr-4 fg-green"
-                  }),
-                  _vm._v(" English(UK)")
-                ]),
-                _vm._v(" "),
-                _c(
-                  "ul",
-                  { staticClass: "d-menu", attrs: { "data-role": "dropdown" } },
-                  [
-                    _c("li", [
-                      _c("a", { attrs: { href: "#" } }, [
-                        _vm._v("English (UK)")
+          _c(
+            "a",
+            { staticClass: "button bg-white", attrs: { id: "language" } },
+            [
+              _c("span", { staticClass: "mif-language fg-green" }),
+              _vm._v(" "),
+              _c("small", [_vm._v("English")])
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "a",
+            { staticClass: " button bg-white", attrs: { id: "continent" } },
+            [
+              _c("span", { staticClass: "mif-earth fg-green" }),
+              _vm._v(" "),
+              _c("small", [_vm._v("Africa")])
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "a",
+            { staticClass: "button bg-white", attrs: { id: "appbar_contact" } },
+            [
+              _c("span", { staticClass: "mif-phone fg-green" }),
+              _vm._v(" "),
+              _c("small", [_vm._v("Contact Us")])
+            ]
+          )
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "auth-container pt-2 p-1" }, [
+          _c("a", { staticClass: "ml-2 mr-2 " }, [
+            _c("span", { staticClass: "mif-security" }),
+            _vm._v(" Client Login")
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "menu-container p-1" }, [
+          _c(
+            "a",
+            {
+              staticClass:
+                "button rounded border border-2 bd-white place-right",
+              attrs: { id: "menuToggleBtn" }
+            },
+            [
+              _c("span", { staticClass: "mif-menu " }),
+              _vm._v(" "),
+              _c("span", { staticClass: "btnText" }, [_vm._v(" Menu")])
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass: "pos-absolute  pos-top-right",
+              attrs: { id: "mobileNavList" }
+            },
+            [
+              _c(
+                "div",
+                {
+                  staticClass: "bg-red fg-white",
+                  attrs: {
+                    "data-role": "dropdown",
+                    "data-toggle-element": "#menuToggleBtn"
+                  }
+                },
+                [
+                  _c("ul", { staticClass: "sidenav-m3 pl-1 bg-orange" }, [
+                    _c("li", { staticClass: "active" }, [
+                      _c("a", { attrs: { href: "/home" } }, [_vm._v("Home")])
+                    ]),
+                    _vm._v(" "),
+                    _c("li", { staticClass: "bg-darkGreen" }, [
+                      _c(
+                        "a",
+                        {
+                          staticClass: "dropdown-toggle",
+                          attrs: { href: "/about" }
+                        },
+                        [_vm._v("About Us")]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "ul",
+                        {
+                          staticClass: "d-menu",
+                          staticStyle: { display: "none" },
+                          attrs: { "data-role": "dropdown" }
+                        },
+                        [
+                          _c("li", [
+                            _c("a", { attrs: { href: "/sector" } }, [
+                              _vm._v("Customer Segments")
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("li", [
+                            _c("a", { attrs: { href: "/company" } }, [
+                              _vm._v("Our Company")
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("li", [
+                            _c("a", { attrs: { href: "/team" } }, [
+                              _vm._v("Our Team")
+                            ])
+                          ])
+                        ]
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("li", { staticClass: "bg-darkGreen" }, [
+                      _c(
+                        "a",
+                        {
+                          staticClass: "dropdown-toggle",
+                          attrs: { href: "#" }
+                        },
+                        [_vm._v("Operation Sectors")]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "ul",
+                        {
+                          staticClass: "d-menu",
+                          staticStyle: { display: "none" },
+                          attrs: { "data-role": "dropdown" }
+                        },
+                        [
+                          _c("li", [
+                            _c("a", { attrs: { href: "" } }, [
+                              _vm._v("Tree Crops")
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("li", [
+                            _c("a", { attrs: { href: "" } }, [
+                              _vm._v("Tree Crops")
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("li", [
+                            _c("a", { attrs: { href: "" } }, [
+                              _vm._v("Tree Crops")
+                            ])
+                          ])
+                        ]
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("li", {}, [
+                      _c("a", { attrs: { href: "#/products" } }, [
+                        _vm._v("Products")
                       ])
                     ]),
                     _vm._v(" "),
-                    _c("li", [
-                      _c("a", { attrs: { href: "#" } }, [_vm._v("French")])
+                    _c("li", {}, [
+                      _c("a", { attrs: { href: "/join-us" } }, [
+                        _vm._v("Join Us")
+                      ])
                     ]),
                     _vm._v(" "),
-                    _c("li", [
-                      _c("a", { attrs: { href: "#" } }, [_vm._v("Espanol")])
+                    _c("li", {}, [
+                      _c("a", { attrs: { href: "/contact" } }, [
+                        _vm._v("Contact Us")
+                      ])
                     ])
-                  ]
-                )
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "pos-relative" }, [
-                _c("a", { staticClass: "button link dropdown-toggle" }, [
-                  _c("span", { staticClass: "mif-earth mif-2x mr-4 fg-green" }),
-                  _vm._v("\n                            Ghana")
-                ]),
-                _vm._v(" "),
-                _c(
-                  "ul",
-                  { staticClass: "d-menu", attrs: { "data-role": "dropdown" } },
-                  [
-                    _c("li", [
-                      _c("a", { attrs: { href: "#" } }, [_vm._v("Africa")])
-                    ]),
-                    _vm._v(" "),
-                    _c("li", [
-                      _c("a", { attrs: { href: "#" } }, [_vm._v("Asia")])
-                    ])
-                  ]
-                )
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "d-flex mt-2 flex-justify-end" }, [
-              _c("p", { staticClass: "pl-2" }, [
-                _c("span", { staticClass: "mif-mail fg-orange" }),
-                _vm._v(" "),
-                _c("small", [_vm._v("support@wetula.com")]),
-                _vm._v(" "),
-                _c("span", { staticClass: "mif-phone fg-orange" }),
-                _vm._v(" "),
-                _c("small", [_vm._v("+233(0) 245 4855 531")])
-              ])
-            ])
+                  ])
+                ]
+              )
+            ]
+          ),
+          _vm._v(" "),
+          _c("button", { staticClass: "button", attrs: { id: "joinBtn" } }, [
+            _c("span", { staticClass: "mif-user-plus" }),
+            _vm._v(" Register")
           ])
         ])
       ]),
       _vm._v(" "),
-      _c(
-        "div",
-        { staticClass: "drop-shadow", attrs: { id: "nav-container" } },
-        [
-          _c("div", { staticClass: "container" }, [
-            _c(
-              "ul",
-              {
-                staticClass: "h-menu fg-white",
-                staticStyle: { background: "transparent" }
-              },
-              [
-                _c("li", { staticClass: " pt-1 pb-1" }, [
-                  _c("a", { attrs: { href: "/" } }, [_vm._v("Home")])
-                ]),
+      _c("div", { staticClass: "desktop-app-bar container" })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "p-6", attrs: { id: "wetula_info" } }, [
+      _c("div", { staticClass: "d-flex flex-justify-end" }, [
+        _c("div", { staticClass: "pos-relative" }, [
+          _c("a", { staticClass: "button link dropdown-toggle" }, [
+            _c("span", { staticClass: "mif-language mif-2x mr-4 fg-green" }),
+            _vm._v(" English(UK)")
+          ]),
+          _vm._v(" "),
+          _c(
+            "ul",
+            { staticClass: "d-menu", attrs: { "data-role": "dropdown" } },
+            [
+              _c("li", [
+                _c("a", { attrs: { href: "#" } }, [_vm._v("English (UK)")])
+              ]),
+              _vm._v(" "),
+              _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v("French")])]),
+              _vm._v(" "),
+              _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v("Espanol")])])
+            ]
+          )
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "pos-relative" }, [
+          _c("a", { staticClass: "button link dropdown-toggle" }, [
+            _c("span", { staticClass: "mif-earth mif-2x mr-4 fg-green" }),
+            _vm._v("\n                            Ghana")
+          ]),
+          _vm._v(" "),
+          _c(
+            "ul",
+            { staticClass: "d-menu", attrs: { "data-role": "dropdown" } },
+            [
+              _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v("Africa")])]),
+              _vm._v(" "),
+              _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v("Asia")])])
+            ]
+          )
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "d-flex mt-2 flex-justify-end" }, [
+        _c("p", { staticClass: "pl-2" }, [
+          _c("span", { staticClass: "mif-mail fg-orange" }),
+          _vm._v(" "),
+          _c("small", [_vm._v("support@wetula.com")]),
+          _vm._v(" "),
+          _c("span", { staticClass: "mif-phone fg-orange" }),
+          _vm._v(" "),
+          _c("small", [_vm._v("+233(0) 245 4855 531")])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      { staticClass: "drop-shadow", attrs: { id: "nav-container" } },
+      [
+        _c("div", { staticClass: "container" }, [
+          _c(
+            "ul",
+            {
+              staticClass: "h-menu fg-white",
+              staticStyle: { background: "transparent" }
+            },
+            [
+              _c("li", { staticClass: " pt-1 pb-1" }, [
+                _c("a", { attrs: { href: "/" } }, [_vm._v("Home")])
+              ]),
+              _vm._v(" "),
+              _c("li", { staticClass: "pt-1 pb-1" }, [
+                _c("a", { attrs: { href: "/about" } }, [
+                  _vm._v("About "),
+                  _c("span", [_vm._v("Us")])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("li", { staticClass: "pt-1 pb-1" }, [
+                _c(
+                  "a",
+                  { staticClass: "dropdown-toggle", attrs: { href: "#" } },
+                  [_vm._v("Sectors")]
+                ),
                 _vm._v(" "),
-                _c("li", { staticClass: "pt-1 pb-1" }, [
-                  _c("a", { attrs: { href: "/about" } }, [
-                    _vm._v("About "),
-                    _c("span", [_vm._v("Us")])
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("li", { staticClass: "pt-1 pb-1" }, [
-                  _c(
-                    "a",
-                    { staticClass: "dropdown-toggle", attrs: { href: "#" } },
-                    [_vm._v("Sectors")]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "ul",
-                    {
-                      staticClass: "d-menu",
-                      attrs: { "data-role": "dropdown" }
-                    },
-                    [
-                      _c("li", [
-                        _c("a", { attrs: { href: "/sector" } }, [
-                          _vm._v("Cocoa")
-                        ])
-                      ]),
-                      _vm._v(" "),
-                      _c("li", [
-                        _c("a", { attrs: { href: "/sector" } }, [
-                          _vm._v("Cashew")
-                        ])
-                      ]),
-                      _vm._v(" "),
-                      _c("li", { staticClass: "divider" }),
-                      _vm._v(" "),
-                      _c("li", [
-                        _c("a", { attrs: { href: "/sector" } }, [
-                          _vm._v("Maize")
-                        ])
+                _c(
+                  "ul",
+                  { staticClass: "d-menu", attrs: { "data-role": "dropdown" } },
+                  [
+                    _c("li", [
+                      _c("a", { attrs: { href: "/sector" } }, [_vm._v("Cocoa")])
+                    ]),
+                    _vm._v(" "),
+                    _c("li", [
+                      _c("a", { attrs: { href: "/sector" } }, [
+                        _vm._v("Cashew")
                       ])
-                    ]
-                  )
-                ]),
-                _vm._v(" "),
-                _c("li", { staticClass: "pt-1 pb-1" }, [
-                  _c("a", { attrs: { href: "/product" } }, [_vm._v("Products")])
-                ]),
-                _vm._v(" "),
-                _c("li", { staticClass: "pt-1 pb-1" }, [
-                  _c("a", { attrs: { href: "/contact-us" } }, [
-                    _vm._v("Contact "),
-                    _c("span", [_vm._v("Us")])
-                  ])
-                ]),
-                _vm._v(" "),
-                _c(
-                  "li",
-                  { staticClass: "pt-1 pb-1", attrs: { id: "join-nav-item" } },
-                  [
-                    _c("a", { attrs: { href: "/join-us" } }, [
-                      _vm._v("Join Us")
-                    ])
-                  ]
-                ),
-                _vm._v(" "),
-                _c(
-                  "li",
-                  {
-                    staticClass: "pt-1 pb-1 place-right",
-                    attrs: { id: "login-nav-item" }
-                  },
-                  [
-                    _c(
-                      "a",
-                      {
-                        staticClass: "text-upper text-bold",
-                        attrs: { href: "/login" }
-                      },
-                      [
-                        _c("span", { staticClass: "mif-user" }),
-                        _vm._v(" Client Login")
-                      ]
-                    )
-                  ]
-                ),
-                _vm._v(" "),
-                _c(
-                  "li",
-                  {
-                    staticClass: "pt-1 pb-1 place-right",
-                    attrs: { id: "register-nav-item" }
-                  },
-                  [
-                    _c("a", { attrs: { href: "/register" } }, [
-                      _c("span", { staticClass: "mif-user-plus" }),
-                      _vm._v(" Create an Account")
+                    ]),
+                    _vm._v(" "),
+                    _c("li", { staticClass: "divider" }),
+                    _vm._v(" "),
+                    _c("li", [
+                      _c("a", { attrs: { href: "/sector" } }, [_vm._v("Maize")])
                     ])
                   ]
                 )
-              ]
+              ]),
+              _vm._v(" "),
+              _c("li", { staticClass: "pt-1 pb-1" }, [
+                _c("a", { attrs: { href: "/product" } }, [_vm._v("Products")])
+              ]),
+              _vm._v(" "),
+              _c("li", { staticClass: "pt-1 pb-1" }, [
+                _c("a", { attrs: { href: "/contact-us" } }, [
+                  _vm._v("Contact "),
+                  _c("span", [_vm._v("Us")])
+                ])
+              ]),
+              _vm._v(" "),
+              _c(
+                "li",
+                { staticClass: "pt-1 pb-1", attrs: { id: "join-nav-item" } },
+                [_c("a", { attrs: { href: "/join-us" } }, [_vm._v("Join Us")])]
+              ),
+              _vm._v(" "),
+              _c(
+                "li",
+                {
+                  staticClass: "pt-1 pb-1 place-right",
+                  attrs: { id: "login-nav-item" }
+                },
+                [
+                  _c(
+                    "a",
+                    {
+                      staticClass: "text-upper text-bold",
+                      attrs: { href: "/login" }
+                    },
+                    [
+                      _c("span", { staticClass: "mif-user" }),
+                      _vm._v(" Client Login")
+                    ]
+                  )
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "li",
+                {
+                  staticClass: "pt-1 pb-1 place-right",
+                  attrs: { id: "register-nav-item" }
+                },
+                [
+                  _c("a", { attrs: { href: "/register" } }, [
+                    _c("span", { staticClass: "mif-user-plus" }),
+                    _vm._v(" Create an Account")
+                  ])
+                ]
+              )
+            ]
+          )
+        ])
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass: "bg-green w-75 pt-10",
+        attrs: {
+          "data-position": "left",
+          "data-role": "charms",
+          id: "geosettings-sidepanel"
+        }
+      },
+      [
+        _c("h4", [
+          _vm._v(" GeoSettings Panel\n            "),
+          _c("small", { staticClass: "place-right" }, [
+            _c(
+              "a",
+              {
+                attrs: {
+                  onclick: "$('#geosettings-sidepanel').data('charms').toggle()"
+                }
+              },
+              [_c("span", { staticClass: "mif-cross fg-white" })]
             )
           ])
-        ]
-      ),
-      _vm._v(" "),
-      _c(
-        "div",
-        {
-          staticClass: "bg-green w-75 pt-10",
-          attrs: {
-            "data-position": "left",
-            "data-role": "charms",
-            id: "geosettings-sidepanel"
-          }
-        },
-        [
-          _c("h4", [
-            _vm._v(" GeoSettings Panel\n            "),
-            _c("small", { staticClass: "place-right" }, [
-              _c(
-                "a",
-                {
-                  attrs: {
-                    onclick:
-                      "$('#geosettings-sidepanel').data('charms').toggle()"
-                  }
-                },
-                [_c("span", { staticClass: "mif-cross fg-white" })]
-              )
+        ]),
+        _vm._v(" "),
+        _c("form", { staticClass: "pt-10" }, [
+          _c("div", { staticClass: "form-group" }, [
+            _c("p", { staticClass: "text-leader mb-2" }, [
+              _c("span", { staticClass: "mif-earth2" }),
+              _vm._v(" Select Region")
+            ]),
+            _vm._v(" "),
+            _c("select", [
+              _c("option", { staticClass: "fg-cyan" }, [_vm._v("Ghana")])
             ])
           ]),
           _vm._v(" "),
-          _c("form", { staticClass: "pt-10" }, [
-            _c("div", { staticClass: "form-group" }, [
-              _c("p", { staticClass: "text-leader mb-2" }, [
-                _c("span", { staticClass: "mif-earth2" }),
-                _vm._v(" Select Region")
-              ]),
-              _vm._v(" "),
-              _c("select", [
-                _c("option", { staticClass: "fg-cyan" }, [_vm._v("Ghana")])
-              ])
+          _c("div", { staticClass: "form-group mt-10" }, [
+            _c("p", { staticClass: "text-leader mb-2" }, [
+              _c("span", { staticClass: "mif-language" }),
+              _vm._v(" Select Language")
             ]),
             _vm._v(" "),
-            _c("div", { staticClass: "form-group mt-10" }, [
-              _c("p", { staticClass: "text-leader mb-2" }, [
-                _c("span", { staticClass: "mif-language" }),
-                _vm._v(" Select Language")
-              ]),
-              _vm._v(" "),
-              _c("select", [
-                _c("option", { staticClass: "fg-cyan" }, [
-                  _vm._v("English (UK)")
-                ])
-              ])
+            _c("select", [
+              _c("option", { staticClass: "fg-cyan" }, [_vm._v("English (UK)")])
             ])
           ])
-        ]
-      )
-    ])
+        ])
+      ]
+    )
   }
 ]
 render._withStripped = true
