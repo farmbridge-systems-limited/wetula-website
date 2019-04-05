@@ -306,7 +306,7 @@
                             It's likely you might have some questions or might need to clarify certain things . <br>
                             Feel free to contact our support team for immediate assistance
                             <br>
-                            <button class="button mt-10 large rounded fg-white text-upper">Contact Us Today</button>
+                            <a href="{{url('/contact-us')}}" class="button mt-10 large rounded bg-orange fg-white text-upper">Contact Us Today</a>
                         </p>
 
 
